@@ -1,7 +1,5 @@
 # Cloud Foundry CLI Cheat Sheet
 
-[Home](../readme.md) > Cloud Foundry > [Cloud Foundry CLI cheatsheet](./cloudfoundry-cli-cheatsheet.md)
-
 `cf version`
 
 `cf --version`
