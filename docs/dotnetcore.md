@@ -7,6 +7,7 @@
 - [sln](#sln-command)
 - [run](#run-command)
 - [publish](#publish-command)
+- [test](#test-command)
 
 ## New command
 
