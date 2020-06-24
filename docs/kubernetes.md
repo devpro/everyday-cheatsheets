@@ -1,10 +1,34 @@
 # Kubernetes Cheat Sheet
 
-[Reference](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+[Overview](https://kubernetes.io/docs/reference/kubectl/overview/), [Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/), [Reference](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
+## General information
+
+```bash
+# display version
+kubectl version
+
+# display cluster information
+kubectl cluster-info
+
+# display cluster configuration
+kubectl config get-clusters
+
+# display context configuration
+kubectl config get-contexts
+
+# change context
+kubectl config use-context <cluster-name>
+```
 
 ## Resources
 
 ### Nodes
+
+```bash
+# list nodes
+kubectl get nodes
+```
 
 ### Pods
 
@@ -23,6 +47,12 @@ kubectl logs
 
 # get pod yaml definition
 kubectl get pod -o yaml
+
+# watch pods
+watch kubectl get pod --all-namespaces
+
+# desribe a pod
+kubectl describe pod <pod-name> --namespace <namespace>
 ```
 
 ### ServiceAccounts
@@ -107,6 +137,13 @@ kubectl port-forward xxx 8080:80
 ```bash
 # delete what was deployed by a manifest file
 kubectl delete -f ./definition.json
+```
+
+## Proxy
+
+```bash
+# runs a proxy to the Kubernetes API Server
+kubectl proxy
 ```
 
 ## Service provider
