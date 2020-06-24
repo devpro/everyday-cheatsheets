@@ -2,6 +2,7 @@
 
 Clean and simple cheat sheets to ease everyday work.
 
-## Pages
+## Topics
 
-- [git](./git.md)
+- [Git](./git.md)
+- [Kubernetes](./kubernetes.md)
