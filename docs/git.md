@@ -5,6 +5,15 @@
 ## Commands
 
 ```bash
+# display Git client version
+git version
+
+# open the help for a given message (in the browser)
+git help <command>
+
+# see the current status of the local repository
+git status
+
 # know your reporistory origin URL
 git config --get remote.origin.url
 git remote -v
@@ -35,11 +44,14 @@ git checkout dev
 # switch upstream on an existing branch
 git branch --set-upstream-to=origin/dev dev
 
-# push a branch (master) on a specific remote (other)
+# push a branch (master) on a specific remote (other) by setting upstream to this remote
 git push -u other master
 
 # Navigate through the tags and branches
 git log --graph --decorate --oneline --all
+
+# Push on all remotes
+git remote | xargs -L1 git push --all
 ```
 
 ## Branches
