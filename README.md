@@ -10,5 +10,6 @@ Clean and simple cheat sheets to ease everyday work.
 - [.NET Core](./docs/dotnetcore.md)
 - [Git](./docs/git.md)
 - [Kubernetes](./docs/kubernetes.md)
+- [Linux](./docs/linux.md)
 - [MongoDB](./docs/mongodb.md)
 - [Puppet](./docs/puppet.md)
