@@ -3,10 +3,10 @@
 ## Distributions
 
 - Debian
-  - Ubuntu
+  - [Ubuntu](./ubuntu.md)
 - Fedora
   - Red Hat Enterprise Linux (RHEL)
-    - CentOS (Community Enterprise Operating System)
+    - [CentOS](./centos.md)
 - openSUSE
 
 ## Common utilities
