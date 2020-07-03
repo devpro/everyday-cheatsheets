@@ -9,7 +9,10 @@ Clean and simple cheat sheets to ease everyday work.
 - [Docker](./docs/docker.md)
 - [.NET Core](./docs/dotnetcore.md)
 - [Git](./docs/git.md)
-- [Kubernetes](./docs/kubernetes.md)
+- Kubernetes
+  - [Helm](./docs/helm.md)
+  - [Kubernetes](./docs/kubectl.md)
+  - [Minikube](./docs/minikube.md)
 - [Linux](./docs/linux.md)
 - [MongoDB](./docs/mongodb.md)
 - [Puppet](./docs/puppet.md)
