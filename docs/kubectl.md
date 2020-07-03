@@ -1,6 +1,10 @@
 # Kubernetes Cheat Sheet
 
-[Overview](https://kubernetes.io/docs/reference/kubectl/overview/), [Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/), [Reference](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+[Overview](https://kubernetes.io/docs/reference/kubectl/overview/), [Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/), [Reference](https://kubernetes.io/docs/reference/kubectl/cheatsheet/), [Source code](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubectl)
+
+# Configuration
+
+- `~/.kube/config`: configuration file (contains all the contexts, information about the clusters and user credentials)
 
 ## General information
 
@@ -156,6 +160,18 @@ az aks show --resource-group myrgname --name myaksname --query agentPoolProfiles
 
 # scale agent pool (2 nodes here)
 az aks scale --resource-group myrgname --name myaksname --node-count 2 --query properties.provisioningState
+```
+
+### Google Kubernetes Engine (GKE)
+
+```bash
+gcloud container clusters create mycluster
+
+gcloud container clusters list
+
+kubectl get nodes
+
+gcloud container clusters delete linuxfoundation
 ```
 
 ## Recipes
