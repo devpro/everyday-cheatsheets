@@ -24,7 +24,7 @@ Run `helm repo update` to update the repository.
 
 You can look at what is available with `helm search repo stable`.
 
-### First try with mysql
+### First try with MySQL
 
 Install the first chart with `helm install stable/mysql --generate-name`.
 
