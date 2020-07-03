@@ -14,5 +14,7 @@ Clean and simple cheat sheets to ease everyday work.
   - [Kubernetes](./docs/kubectl.md)
   - [Minikube](./docs/minikube.md)
 - [Linux](./docs/linux.md)
+  - [CentOS](./docs/centos.md)
+  - [Ubuntu](./docs/ubuntu.md)
 - [MongoDB](./docs/mongodb.md)
 - [Puppet](./docs/puppet.md)
