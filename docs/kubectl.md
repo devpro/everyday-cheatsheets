@@ -2,11 +2,19 @@
 
 [Overview](https://kubernetes.io/docs/reference/kubectl/overview/), [Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/), [Reference](https://kubernetes.io/docs/reference/kubectl/cheatsheet/), [Source code](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubectl)
 
-# Configuration
+## Local configuration
 
-- `~/.kube/config`: configuration file (contains all the contexts, information about the clusters and user credentials)
+`~/.kube/config` is the local configuration file (contains all the contexts, information about the clusters and user credentials)
 
-## General information
+```bash
+# display context configuration
+kubectl config get-contexts
+
+# change context
+kubectl config use-context <cluster-name>
+```
+
+## Cluster information
 
 ```bash
 # display version
@@ -18,21 +26,17 @@ kubectl cluster-info
 # display cluster configuration
 kubectl config get-clusters
 
-# display context configuration
-kubectl config get-contexts
+# get health information for the control plane components (the scheduler, the controller manager and etcd)
+kubectl get componentstatuses
 
-# change context
-kubectl config use-context <cluster-name>
-```
-
-## Resources
-
-### Nodes
-
-```bash
-# list nodes
+# list all the nodes in the cluster and report their status and Kubernetes version
 kubectl get nodes
+
+# show the CPU and memory capacity of each node, and how much of each is currently in use
+kubectl top pods
 ```
+
+## Objects
 
 ### Pods
 
