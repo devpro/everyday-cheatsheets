@@ -48,7 +48,18 @@ As usual, look at the progress with `kubectl get pods` ("STATUS" column).
 
 At the end, clean your cluster `helm uninstall mysql-xxxxxxx`.
 
-### CLI reference
+## Charts
+
+### Chart structure
+
+mychart
+├── Chart.yaml
+├── templates
+│ ├── deployment.yaml
+│ └── service.yaml
+└── values.yaml
+
+## CLI reference
 
 Command | Action
 ------- | ------
