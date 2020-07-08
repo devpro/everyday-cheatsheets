@@ -1,12 +1,20 @@
 # Kubernetes Cheat Sheet
 
-[Overview](https://kubernetes.io/docs/reference/kubectl/overview/), [Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/), [Reference](https://kubernetes.io/docs/reference/kubectl/cheatsheet/), [Source code](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubectl)
+## Documentation
+
+- [Overview](https://kubernetes.io/docs/reference/kubectl/overview/)
+- [Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- [Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Source code](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubectl)
 
 ## Local configuration
 
 `~/.kube/config` is the local configuration file (contains all the contexts, information about the clusters and user credentials)
 
 ```bash
+# get current context
+kubectl config current-context
+
 # display context configuration
 kubectl config get-contexts
 
@@ -36,6 +44,19 @@ kubectl get nodes
 kubectl top pods
 ```
 
+## Management
+
+```bash
+# create resources from a manifest file
+kubectl create -f <filename>
+
+# create or update resources from a manifest file
+kubectl update -f <filename>
+
+# delete resources from a manifest file
+kubectl delete -f <filename>
+```
+
 ## Objects
 
 ### Pods
@@ -61,6 +82,12 @@ watch kubectl get pod --all-namespaces
 
 # desribe a pod
 kubectl describe pod <pod-name> --namespace <namespace>
+
+# get pod logs
+kubectl logs <pod-name>
+
+# display metrics about a pod and its containers
+kubectl top pod <pod-name> --containers
 ```
 
 ### ServiceAccounts
@@ -138,13 +165,6 @@ kubectl scale
 
 ```bash
 kubectl port-forward xxx 8080:80
-```
-
-## Clean-up
-
-```bash
-# delete what was deployed by a manifest file
-kubectl delete -f ./definition.json
 ```
 
 ## Proxy
