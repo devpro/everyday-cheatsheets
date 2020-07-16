@@ -12,7 +12,7 @@ Clean and simple cheat sheets to ease everyday work.
 - [Git](./docs/git.md)
 - Kubernetes
   - [Helm](./docs/helm.md)
-  - [Kubernetes](./docs/kubectl.md)
+  - [Kubectl](./docs/kubectl.md)
   - [Minikube](./docs/minikube.md)
 - [Linux](./docs/linux.md)
   - [CentOS](./docs/centos.md)
