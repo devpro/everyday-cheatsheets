@@ -1,5 +1,11 @@
 # MongoDB cheat sheet
 
+## Releases
+
+Version | Date | More
+------- | ---- | ----
+`4.4` | _Jun 09 '20_ | [Announcing MongoDB 4.4 and MongoDB Cloud](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud)
+
 ## Client
 
 ### Command line
