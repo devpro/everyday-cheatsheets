@@ -9,6 +9,7 @@ Clean and simple cheat sheets to ease everyday work.
 - [Cloud Foundry](./docs/cloudfoundry.md)
 - [Docker](./docs/docker.md)
 - [.NET Core](./docs/dotnetcore.md)
+- [etcd](./docs/etcd.md)
 - [Git](./docs/git.md)
 - Kubernetes
   - [Helm](./docs/helm.md)
