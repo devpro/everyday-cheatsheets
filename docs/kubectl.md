@@ -1,4 +1,4 @@
-# Kubernetes Cheat Sheet
+# Kubectl (Kubernetes CLI) Cheat Sheet
 
 ## Documentation
 
@@ -42,6 +42,12 @@ kubectl get nodes
 
 # show the CPU and memory capacity of each node, and how much of each is currently in use
 kubectl top pods
+
+# list all namespaces
+kubectl get namespaces
+
+# view sereval resources at once
+kubectl get deploy,rs,po,svc,ep
 ```
 
 ## Management
