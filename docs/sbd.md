@@ -24,3 +24,37 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/ODROID)
   - Plug the SD card and flash it by selecting the downloade image
 - Insert the SD card in the board, plug a keyboard (USB) and a monitor (HDMI) then plug the power cable
   - After few seconds a login input will be needed (root/odroid)
+  - If needed, update keyboard layout
+  
+  ```bash
+  sudo vi /etc/default/keyboard
+  # update XKBLAYOUT to "fr" for a French keyboard
+  sudo reboot
+  ```
+
+  - Installing a Wifi adapter can be tricky, so we first plug an ethernet connection on USB (for example, by sharing the internet connection from a mobile phone with an USB cable)
+  
+  ```bash
+  lsusb
+  iwconfig
+  sudo apt install net-tools
+  ifconfig
+  sudo apt update
+  sudo apt upgrade
+  sudo apt dist-upgrade
+  sudo reboot
+  ```
+  
+  - Plug the Widi adapter, make sure it's up (light?) and connect it to your wiki network
+
+  ```bash
+  lsusb
+  
+  # review the output and look out for wlan0
+  iwconfig
+  
+  # edit the wifi configuration
+  wpa_passphrase your-ESSID your-wifi-passphrase | sudo tee /etc/wpa_supplicant.conf
+  
+  
+  ```
