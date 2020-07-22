@@ -9,9 +9,9 @@ Clean and simple cheat sheets to ease everyday work.
 - [Cloud Foundry](./docs/cloudfoundry.md)
 - [Docker](./docs/docker.md)
 - [.NET Core](./docs/dotnetcore.md)
-- [etcd](./docs/etcd.md)
 - [Git](./docs/git.md)
 - Kubernetes
+  - [etcd](./docs/etcd.md)
   - [Helm](./docs/helm.md)
   - [Kubectl](./docs/kubectl.md)
   - [Minikube](./docs/minikube.md)
@@ -20,3 +20,4 @@ Clean and simple cheat sheets to ease everyday work.
   - [Ubuntu](./docs/ubuntu.md)
 - [MongoDB](./docs/mongodb.md)
 - [Puppet](./docs/puppet.md)
+- [Single-board computers](./docs/sbd.md)
