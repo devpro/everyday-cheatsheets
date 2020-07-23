@@ -54,6 +54,9 @@ sudo apt update
 sudo apt upgrade
 sudo apt dist-upgrade
 sudo reboot
+
+# check processor information (Intel, AMD or ARM for instance)
+lscpu
 ```
 
 See [Debian Cheat Sheet](https://wiki.debian.org/systemd/CheatSheet)
