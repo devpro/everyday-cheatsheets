@@ -48,6 +48,12 @@ cd -
 
 # display network config (ip)
 ip addr show
+
+# update packages and distribution
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo reboot
 ```
 
 See [Debian Cheat Sheet](https://wiki.debian.org/systemd/CheatSheet)
