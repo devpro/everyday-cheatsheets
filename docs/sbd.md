@@ -37,17 +37,24 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/ODROID)
   - Installing a Wifi adapter can be tricky, so we first plug an ethernet connection on USB (for example, by sharing the internet connection from a mobile phone with an USB cable)
   
   ```bash
+  # Make sure the USB element is recoginzed
   lsusb
+  
+  # Review Wifi configuration
   iwconfig
+  
+  # Install ifconfig
   sudo apt install net-tools
   ifconfig
+  
+  # Update Ubuntu packages and distribution
   sudo apt update
   sudo apt upgrade
   sudo apt dist-upgrade
   sudo reboot
   ```
   
-  - Plug the Widi adapter, make sure it's up (light?)
+  - Plug the Widi adapter, make sure it's up (light on?)
   
   - Ubuntu now uses [Netplan](https://netplan.io/) (see [odroid forum topic](https://forum.odroid.com/viewtopic.php?t=30766) and [configserverfirewall post](https://www.configserverfirewall.com/ubuntu-linux/configure-ubuntu-server-static-ip-address/))
   
@@ -70,15 +77,27 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/ODROID)
               password: "mypassword"
     ```
   
-    - Check internet connection and enable SSH
+    - Check internet connection and enable SSH (see [2daygeek post](https://www.2daygeek.com/enable-disable-up-down-nic-network-interface-port-linux-using-ifconfig-ifdown-ifup-ip-nmcli-nmtui/))
     
     ```bash
     # Apply configuration change
     sudo netplan apply
     
     # Check IP
-    ip addr
+    ip a
     ping google.com
+    
+    # Look at available wifi networks
+    iwlist scan
+    
+    # Enable network (multiple solutions)
+    ip link set wlan0 up # doesn't work on my config
+    nmtui
+    
+    # If there are any issues, deactivate DHCP and enable it afterwards
+    
+    # Look at services
+    systemctl list-unit-files | grep enabled
     
     # Allow SSH in firewall
     sudo apt install openssh-server
