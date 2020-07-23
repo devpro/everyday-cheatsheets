@@ -33,6 +33,14 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/ODROID)
   # update XKBLAYOUT to "fr" for a French keyboard
   sudo reboot
   ```
+  
+  - Change server name (and add other server name resolution with their future IP 10.0.0.X)
+  
+  ```bash
+  sudo vi /etc/hostname
+  sudo vi /etc/hosts
+  sudo reboot
+  ```
 
   - Installing a Wifi adapter can be tricky, so we first plug an ethernet connection on USB (for example, by sharing the internet connection from a mobile phone with an USB cable)
   
@@ -64,8 +72,17 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/ODROID)
     network:
       version: 2
       renderer: networkd
+      ethernets:
+        eth0:
+          optional: true
+          dhcp4: no
+          addresses: [10.0.0.1/24]
+          gateway4: 10.0.0.1
+          nameservers:
+            addresses: [10.0.0.1, 8.8.8.8]
       wifis:
         wlan0:
+          optional: true
           dhcp4: no
           dhcp6: no
           addresses: [192.168.86.139/24]
