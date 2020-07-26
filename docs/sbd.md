@@ -8,9 +8,21 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer)
 
 #### Quick start
 
-- Prepare SD card
-  - Download [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/), available in [downloads](https://www.raspberrypi.org/downloads/)
-  - Follow the procedure described on [Ubuntu website](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi#1-overview).
+- Prepare SD card (see [Installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md))
+  - Download [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) from [Downloads](https://www.raspberrypi.org/downloads/)
+  - Look at available images on [Downloads](https://www.raspberrypi.org/downloads/)
+    - [Raspberry Pi OS (previously called Raspbian)](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
+    - Ubuntu: follow the procedure described on [Ubuntu website](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi#1-overview).
+  - Insert the SD card and run the Raspberry Pi Imager
+- Insert the SD card in the board, plug a keyboard (USB), a monitor (HDMI), a WIFI then plug the power cable
+  - After few seconds a login input will be needed (pi/raspberry)
+  - If needed, update keyboard layout
+  
+  ```bash
+  sudo vi /etc/default/keyboard
+  # update XKBLAYOUT to "fr" for a French keyboard
+  sudo reboot
+  ```
 
 ### Odroid
 
