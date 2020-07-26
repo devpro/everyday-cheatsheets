@@ -14,14 +14,63 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer)
     - [Raspberry Pi OS (previously called Raspbian)](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
     - Ubuntu: follow the procedure described on [Ubuntu website](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi#1-overview).
   - Insert the SD card and run the Raspberry Pi Imager
+  - Validated configurations
+  
+  Type | CPU | RAM | OS
+  ---- | --- | --- | --
+  Pi Model B Rev 2 | BCM2835 ARMv6 1176JZF-S 700 MHz | 512 Mo | Raspberry Pi OS Lite (32-bit)
+  Pi Model 2 B | BCM2836 ARMv7 Cortex-A7 Quad Core 900MHz | 1 Go | Ubuntu Server 20.04 LTS (32-bit)
+  
 - Insert the SD card in the board, plug a keyboard (USB), a monitor (HDMI), a WIFI then plug the power cable
-  - After few seconds a login input will be needed (pi/raspberry)
   - If needed, update keyboard layout
   
   ```bash
   sudo vi /etc/default/keyboard
   # update XKBLAYOUT to "fr" for a French keyboard
+  
+  # look at the OS information (for example Raspbian 10 buster = Debian for Raspberry Pi)
+  lsb_release -a
+  
   sudo reboot
+  ```
+  
+  - For Raspberry Pi OS (Debian 10 = Buster)
+  
+  ```bash
+  # login with pi/raspberry
+  
+  # the easy way: configure Wifi, update hostname, enable SSH, change password, (optional) keyboard configuration
+  raspi-config
+  
+  # (optional) set static ip address with the lines below
+  sudo nano /etc/dhcpcd.conf
+  
+  sudo reboot
+  ```
+  
+  ```ini
+  interface wlan0
+  static ip_address=192.168.86.145/24
+  static routers=192.168.86.1
+  static domain_name_servers=192.168.86.1 8.8.8.8 4.4.4.4
+  ```
+  
+  - For Ubuntu server
+  
+  ```bash
+  # login with ubuntu/ubuntu
+  
+  sudo dpkg-reconfigure keyboard-configuration
+  
+  ls /sys/class/net
+  sudo ip link set wlan0 up
+  sudo nano /etc/netplan/01-config.yaml
+  sudo netplan apply
+  sudo reboot
+  
+  ip a
+  sudo apt update
+  sudo apt upgrade
   ```
 
 ### Odroid
