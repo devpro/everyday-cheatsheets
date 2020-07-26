@@ -105,6 +105,18 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer)
   
   # add the two export lines in .bashrc so it will be permanent
   nano .bashrc
+  
+  cat << \EOF >> ~/.profile
+  
+  # add .NET Core SDK
+  export DOTNET_ROOT=$HOME/dotnet
+  export PATH=$PATH:$HOME/dotnet
+  
+  # add .NET Core SDK tools
+  export PATH="$PATH:$HOME/.dotnet/tools"
+  EOF
+  
+  logout
   ```
 
 ### Odroid
