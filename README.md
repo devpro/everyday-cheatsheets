@@ -21,5 +21,5 @@ Clean and simple cheat sheets to ease everyday work.
 * [MongoDB](./docs/mongodb.md)
 * [Puppet](./docs/puppet.md)
 * Single-board computers (SBC): [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer) 
-  * [Odroid](./docs/raspberrypi.md)
+  * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
