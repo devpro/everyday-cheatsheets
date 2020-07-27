@@ -8,15 +8,15 @@ Reference: [Wikipedia](https://en.wikipedia.org/wiki/ODROID)
 
 #### SD card preparation
 
-- Download and install a flash program, such as [Etcher](https://www.balena.io/etcher/) (for example `balenaEtcher-Setup-1.5.101.exe` on Windows 10)
-- Download an image of Ubuntu minimal, such as [20190910-minimal](https://wiki.odroid.com/odroid-xu4/os_images/linux/ubuntu_4.14/20190910-minimal) (for example `ubuntu-18.04.3-4.14-minimal-odroid-xu4-20190910.img`)
-- Plug the SD card and flash it by selecting the downloade image
+- Download and install a flash program: [Etcher](https://www.balena.io/etcher/) (for example `balenaEtcher-Setup-1.5.101.exe` on Windows 10)
+- Download an image of Ubuntu minimal: [20190910-minimal](https://wiki.odroid.com/odroid-xu4/os_images/linux/ubuntu_4.14/20190910-minimal) (for example `ubuntu-18.04.3-4.14-minimal-odroid-xu4-20190910.img`)
+- Plug the SD card in your computer and flash it by selecting the downloaded image
 
 #### Initial boot
 
 - Insert the SD card in the board, plug a keyboard (USB) and a monitor (HDMI) then plug the power cable
-- After few seconds a login input will be needed (root/odroid)
-- If needed, update keyboard layout
+- After few seconds a login input will be needed (`root`/`odroid`)
+- If needed, update the keyboard layout
 
 ```bash
 sudo vi /etc/default/keyboard
@@ -32,18 +32,11 @@ sudo vi /etc/hosts
 sudo reboot
 ```
 
-- Installing a Wifi adapter can be tricky, so we first plug an ethernet connection on USB (for example, by sharing the internet connection from a mobile phone with an USB cable)
+- Installing a Wifi adapter can be tricky, in case of issue you can first plug an ethernet connection on USB (by sharing for example the internet connection from a mobile phone with an USB cable)
 
 ```bash
 # Make sure the USB element is recognized
 lsusb
-
-# Review Wifi configuration
-iwconfig
-
-# Install ifconfig
-sudo apt install net-tools
-ifconfig
 
 # Update Ubuntu packages and distribution
 sudo apt update
@@ -56,7 +49,7 @@ sudo reboot
 
 - Create `/etc/netplan/config.yaml` (Ubuntu now uses [Netplan](https://netplan.io/), see [odroid forum topic](https://forum.odroid.com/viewtopic.php?t=30766) and [configserverfirewall post](https://www.configserverfirewall.com/ubuntu-linux/configure-ubuntu-server-static-ip-address/))
   
-```bash
+```ini
 network:
   version: 2
   renderer: networkd
@@ -85,12 +78,8 @@ network:
 - Check internet connection and enable SSH (see [2daygeek post](https://www.2daygeek.com/enable-disable-up-down-nic-network-interface-port-linux-using-ifconfig-ifdown-ifup-ip-nmcli-nmtui/))
 
 ```bash
-# Apply configuration change
-sudo netplan apply
-
-# Check IP
-ip a
-ping google.com
+# Review Wifi configuration
+iwconfig
 
 # Look at available wifi networks
 iwlist scan
@@ -99,7 +88,14 @@ iwlist scan
 ip link set wlan0 up # doesn't work on my config
 nmtui
 
-# If there are any issues, deactivate DHCP and enable it afterwards
+# Apply configuration change
+sudo netplan apply
+
+# Check IP
+ip a
+ping google.com
+
+# If there are any issues, enable DHCP and disable it afterwards
 
 # Look at services
 systemctl list-unit-files | grep enabled
