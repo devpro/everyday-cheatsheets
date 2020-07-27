@@ -38,9 +38,7 @@ systemctl stop firewalld
 systemctl disable firewalld
 ```
 
-
-<details>
-  <summary>Example of /etc/sysconfig/network-scripts/ifcfg-xxxx</summary>
+{% collapse title="Example of /etc/sysconfig/network-scripts/ifcfg-xxxx" %}
 
   ```ini
   TYPE=Ethernet
@@ -65,7 +63,7 @@ systemctl disable firewalld
   DOMAIN=mydomain.lan
   ```
   
-</details>
+{% endcollapse %}
 
 ### User
 
