@@ -38,29 +38,34 @@ systemctl stop firewalld
 systemctl disable firewalld
 ```
 
-```ini
-# example of /etc/sysconfig/network-scripts/ifcfg-xxxx
-TYPE=Ethernet
-PROXY_METHOD=none
-BROWSER_ONLY=no
-BOOTPROTO=static
-DEFROUTE=yes
-IPV4_FAILURE_FATAL=no
-IPV6INIT=yes
-IPV6_AUTOCONF=yes
-IPV6_DEFROUTE=yes
-IPV6_FAILURE_FATAL=no
-IPV6_ADDR_GEN_MODE=stable-privacy
-NAME=xxxx
-UUID=xxxx-xxxxx-xxxxxx
-DEVICE=xxxx
-ONBOOT=yes
-IPADDR=10.115.100.91
-PREFIX=24
-GATEWAY=10.115.100.254
-DNS1=10.115.100.1
-DOMAIN=mydomain.lan
-```
+
+<details>
+  <summary>Example of /etc/sysconfig/network-scripts/ifcfg-xxxx</summary>
+
+  ```ini
+  TYPE=Ethernet
+  PROXY_METHOD=none
+  BROWSER_ONLY=no
+  BOOTPROTO=static
+  DEFROUTE=yes
+  IPV4_FAILURE_FATAL=no
+  IPV6INIT=yes
+  IPV6_AUTOCONF=yes
+  IPV6_DEFROUTE=yes
+  IPV6_FAILURE_FATAL=no
+  IPV6_ADDR_GEN_MODE=stable-privacy
+  NAME=xxxx
+  UUID=xxxx-xxxxx-xxxxxx
+  DEVICE=xxxx
+  ONBOOT=yes
+  IPADDR=10.115.100.91
+  PREFIX=24
+  GATEWAY=10.115.100.254
+  DNS1=10.115.100.1
+  DOMAIN=mydomain.lan
+  ```
+  
+</details>
 
 ### User
 
