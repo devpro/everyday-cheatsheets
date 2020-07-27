@@ -21,4 +21,6 @@
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
-* [Single-board computers](./docs/sbd.md)
+* Single-board computers (SBC)
+  * [Odroid](./docs/raspberrypi.md)
+  * [Raspberry Pi](./docs/raspberrypi.md)
