@@ -2,12 +2,17 @@
 
 ## Build
 
-* [Angular](./docs/angular.md)
-* [Docker](./docs/docker.md)
-* [.NET Core](./docs/dotnetcore.md)
-* [Git](./docs/git.md)
-* [MongoDB](./docs/mongodb.md)
-* [Puppet](./docs/puppet.md)
+* Databases
+  * [MongoDB](./docs/mongodb.md)
+* Frameworks
+  * [Angular](./docs/angular.md)
+  * [.NET Core](./docs/dotnetcore.md)
+* Languages
+  * [Go](./docs/go.md)
+* Tools
+  * [Docker](./docs/docker.md)
+  * [Git](./docs/git.md)
+  * [Puppet](./docs/puppet.md)
 
 ## Run
 
