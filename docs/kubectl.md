@@ -43,9 +43,6 @@ kubectl get nodes
 # show the CPU and memory capacity of each node, and how much of each is currently in use
 kubectl top pods
 
-# list all namespaces
-kubectl get namespaces
-
 # view sereval resources at once
 kubectl get deploy,rs,po,svc,ep
 ```
@@ -64,6 +61,16 @@ kubectl delete -f <filename>
 ```
 
 ## Objects
+
+### Namespaces (ns)
+
+```bash
+# list all namespaces
+kubectl get namespaces
+
+# create a new namespace
+kubectl create ns hello-there
+```
 
 ### Pods
 
@@ -94,6 +101,13 @@ kubectl logs <pod-name>
 
 # display metrics about a pod and its containers
 kubectl top pod <pod-name> --containers
+
+# execute commands inside a pod (for investigation purpose)
+kubectl exec -it <pod-name> -n <namespace> -- /bin/bash
+
+# download or upload files from a container
+kubectl cp my-file.txt <namespace>/<pod-name>:my-file.txt
+kubectl cp <namespace>/<pod-name>:my-file.txt my-file.txt
 ```
 
 ### ServiceAccounts
@@ -126,6 +140,22 @@ kubectl get ServiceAccount -A
 ```bash
 # see all secrets in all namespaces
 kubectl get secrets -A
+```
+
+### CronJobs (cj)
+
+```bash
+# create a CronJob
+kubectl create cronjob my-cron --image=busybox --schedule="*/5 * * * *" -- echo hello
+
+# update a CronJob
+kubectl edit cronjob/my-cron
+
+# update a CronJob with a specific IDE
+KUBE_EDITOR="nano" kubectl edit cronjob/my-cron
+
+# delete a CronJob
+kubectl delete cronjob my-cron
 ```
 
 ### ConfigMap
