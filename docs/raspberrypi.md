@@ -131,3 +131,32 @@ logout
 
 ```bash
 ```
+
+This is a code block with tabs for each languages:
+
+{% codetabs name="ARMv8 32-bit", type="bash" -%}
+# TODO
+{%- language name="ARMv7 64-bit", type="bash" -%}
+# link taken by following download link from https://dotnet.microsoft.com/download/dotnet-core/3.1
+wget https://download.visualstudio.microsoft.com/download/pr/56691c4c-341a-4bca-9869-409803d23cf8/d872d7a0c27a6c5e9b812e889de89956/dotnet-sdk-3.1.302-linux-arm.tar.gz
+mkdir -p $HOME/dotnet
+tar -xvf dotnet-sdk-3.1.302-linux-arm.tar.gz -C $HOME/dotnet
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
+dotnet --version
+
+# add the two export lines in .bashrc so it will be permanent
+nano .bashrc
+
+cat << \EOF >> ~/.profile
+
+# add .NET Core SDK
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
+
+# add .NET Core SDK tools
+export PATH="$PATH:$HOME/.dotnet/tools"
+EOF
+
+logout
+{%- endcodetabs %}
