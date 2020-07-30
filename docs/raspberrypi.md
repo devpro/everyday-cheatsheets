@@ -15,8 +15,8 @@
 Type | CPU | RAM | OS
 ---- | --- | --- | --
 **Pi Model B Rev 2** | BCM2835 ARMv6 1176JZF-S 700 MHz | 512 Mo | Raspberry Pi OS Lite (32-bit)
-**Pi Model 2 B** | BCM2836 ARMv7 Cortex-A7 Quad Core 900MHz | 1 Go | Ubuntu Server 20.04 LTS (32-bit)
-**[Pi Model 4 B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)** | BCM2711 ARMv8 Quad core Cortex-A72 64-bit 1.5GHz | 4 Go LPDDR4-3200 | Ubuntu Server 20.04 LTS (64-bit)
+**Pi Model 2 B** | BCM2836 ARMv7 Cortex-A7 Quad Core 900MHz | 1 Go | Ubuntu Server 18.04 (32-bit), Ubuntu Server 20.04 LTS (32-bit)
+**[Pi Model 4 B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)** | BCM2711 ARMv8 Quad core Cortex-A72 64-bit 1.5GHz | 4 Go LPDDR4-3200 | Ubuntu Server 18.04 (64-bit), Ubuntu Server 20.04 LTS (64-bit)
 
 #### Known issues
 
@@ -25,9 +25,7 @@ Type | CPU | RAM | OS
 
 #### Key elements
 
-`/boot/config.txt`
-
-##### config.txt
+##### File /boot/config.txt
 
 Key | value | Detail | Comment
 --- | ----- | ------ | -------
@@ -37,16 +35,19 @@ Key | value | Detail | Comment
 `hdmi_mode` | 97 | CEA 3840×2160 16:9 60hz | Raspberry Pi 4 Only. To use this hdmi_enable_4kp60=1 must be set in /boot/config.txt.
 `hdmi_mode` | 82 | DMT 1920×1080 16:9 60hz |
 
-To review: hdmi_force_hotplug=1, hdmi_drive=2 // Configue
+To review: hdmi_force_hotplug=1, hdmi_drive=2
 
 #### SD card preparation
 
+- (Optional) Download a specific version from [ubuntu.com](https://ubuntu.com/download/raspberry-pi) (for instance the previous before the LTS if it's too new for a specific hardware) WARNING links have to be modified manually (typo in pi version number...)
 - Go to ([Downloads](https://www.raspberrypi.org/downloads/)
   - Download and install [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
   - Look at available images
     - [Raspberry Pi OS (previously called Raspbian)](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
     - [Ubuntu](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi#1-overview).
 - Insert the SD card and run the Raspberry Pi Imager
+- Eject and insert again the SD card
+  - Edit `network-config` at the root of the drive (eth0 and wlan0)
 
 ### Initial boot
 
@@ -67,7 +68,7 @@ cat /proc/cpuinfo
 ```bash
 # login with pi/raspberry
 
-# look at the system information (for example Raspbian 10 buster = Debian for Raspberry Pi)
+# review the operating system information (for example Raspbian 10 buster = Debian for Raspberry Pi)
 lsb_release -a
 
 # change the keyboard layout
@@ -94,15 +95,26 @@ static domain_name_servers=192.168.86.1 8.8.8.8 4.4.4.4
 
 - Install .NET Core doesn't work even by grabbing [Downloads](https://dotnet.microsoft.com/download/dotnet-core/3.1) > [ARM32 versions](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.302-linux-arm32-binaries) as [ARMv6 is not supported](https://github.com/dotnet/runtime/issues/7764)
 
-#### Ubuntu Server (20.04 LTS)
+#### Ubuntu Server (18.04)
 
 - System update
 
 ```bash
 # login with ubuntu/ubuntu (you'll be asked to provide a new password)
 
-# look at the processors
-cat /proc/cpuinfo
+# change the keyboard layout
+sudo dpkg-reconfigure keyboard-configuration
+sudo setupcon
+more /etc/default/keyboard
+sudo reboot
+```
+
+#### Ubuntu Server (20.04 LTS)
+
+- System update
+
+```bash
+# login with ubuntu/ubuntu (you'll be asked to provide a new password)
 
 # change the keyboard layout
 sudo dpkg-reconfigure keyboard-configuration
