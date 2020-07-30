@@ -18,6 +18,27 @@ Type | CPU | RAM | OS
 **Pi Model 2 B** | BCM2836 ARMv7 Cortex-A7 Quad Core 900MHz | 1 Go | Ubuntu Server 20.04 LTS (32-bit)
 **[Pi Model 4 B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)** | BCM2711 ARMv8 Quad core Cortex-A72 64-bit 1.5GHz | 4 Go LPDDR4-3200 | Ubuntu Server 20.04 LTS (64-bit)
 
+#### Known issues
+
+- **WIFI issues with Pi 4**: [tom'sHARDWARE](https://www.tomshardware.com/news/raspberry-pi-4-wi-fi-not-working), [Raspberry Pi 4 WiFi stops working at 2560x1440 screen resolution](https://www.enricozini.org/blog/2019/himblick/raspberry-pi-4-loses-wifi-at-2560x1440-screen-resolution/)
+- **Display stops working after a change in the config file**: try holding the SHIFT key during startup (using this key will make the Raspberry Pi ignore the boot configuration file and load up with the default settings).
+
+#### Key elements
+
+`/boot/config.txt`
+
+##### config.txt
+
+Key | value | Detail | Comment
+--- | ----- | ------ | -------
+`hdmi_group` | 1 | CEA (Consumer Electronics Association) is the display standard that is typically used on a TV |
+`hdmi_group` | 2 | DMT (Display Monitor Timings) is the standard that is typically used by monitors |
+`hdmi_mode` | 16 | CEA 1920×1080 16:9 60hz |
+`hdmi_mode` | 97 | CEA 3840×2160 16:9 60hz | Raspberry Pi 4 Only. To use this hdmi_enable_4kp60=1 must be set in /boot/config.txt.
+`hdmi_mode` | 82 | DMT 1920×1080 16:9 60hz |
+
+To review: hdmi_force_hotplug=1, hdmi_drive=2 // Configue
+
 #### SD card preparation
 
 - Go to ([Downloads](https://www.raspberrypi.org/downloads/)
@@ -30,6 +51,14 @@ Type | CPU | RAM | OS
 ### Initial boot
 
 - Insert the SD card in the board, plug a keyboard (USB), a monitor (HDMI) then plug the power cable
+
+### Hardware check
+
+Note: @since Kernel 4.9, BCM2835 will be displayed for the processor, even for BCM2836, BCM2837 and BCM2711. You should look instead at the [revision code](https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md), which is unique.
+
+```bash
+cat /proc/cpuinfo
+```
 
 #### Raspberry Pi OS (Debian 10 = Buster)
 
@@ -132,41 +161,43 @@ logout
 ```bash
 ```
 
-This is a code block with tabs for each languages:
+## Use cases
 
-{% codetabs name="Python", type="py" -%}
-msg = "Hello World"
-print msg
-{%- language name="JavaScript", type="js" -%}
-var msg = "Hello World";
-console.log(msg);
-{%- language name="HTML", type="html" -%}
-<b>Hello World</b>
-{%- endcodetabs %}
+### Retro gaming
 
-{% codetabs name="ARMv8 32-bit", type="bash" -%}
-# TODO
-{%- language name="ARMv7 64-bit", type="bash" -%}
-# link taken by following download link from https://dotnet.microsoft.com/download/dotnet-core/3.1
-wget https://download.visualstudio.microsoft.com/download/pr/56691c4c-341a-4bca-9869-409803d23cf8/d872d7a0c27a6c5e9b812e889de89956/dotnet-sdk-3.1.302-linux-arm.tar.gz
-mkdir -p $HOME/dotnet
-tar -xvf dotnet-sdk-3.1.302-linux-arm.tar.gz -C $HOME/dotnet
-export DOTNET_ROOT=$HOME/dotnet
-export PATH=$PATH:$HOME/dotnet
-dotnet --version
+#### retropie
 
-# add the two export lines in .bashrc so it will be permanent
-nano .bashrc
+Home: [retropie.org.uk](https://retropie.org.uk/), [GitHub](https://github.com/RetroPie)
 
-cat << \EOF >> ~/.profile
+Configuration:
+- Usability
+  - [HotKeys](https://retropie.org.uk/docs/Controller-Configuration/#hotkeys)
+- SSH
+  - Enable SSH in raspi-config: interfacing options > SSH > Enable > reboot your pi
+- [Amiga games](https://retropie.org.uk/docs/Amiga/)
+  - Install [Amiberry](https://github.com/midwan/amiberry) from the optional packages
+    - Follow the [guide](https://github.com/midwan/amiberry/wiki/Using-Amiberry-with-RetroPie---Installation-and-Setup)
+    - Copy Amiga games (.adf, .ipf, .zip) in `/home/pi/RetroPie/roms/amiga`
+    - Copy BIOS files (`kick13.rom`, `kick20.rom`, `kick31.rom`) in `/home/pi/RetroPie/BIOS`
+  - Make sure you have a keyboard and a mouse :)
 
-# add .NET Core SDK
-export DOTNET_ROOT=$HOME/dotnet
-export PATH=$PATH:$HOME/dotnet
+Known issues:
+- `Latest update lvl0: VolumeControl::init() - Failed to find mixer elements!`
+  - [How to configure sound for RetroPie EmulationStation](https://retropie.org.uk/docs/Sound-Issues/)
+  - `/opt/retropie/configs/all/emulationstation/es_settings.cfg`: AudioDevice=HDMI/Headphone
+  - [Latest Raspberry Pi OS update – May 2020](https://www.raspberrypi.org/blog/latest-raspberry-pi-os-update-may-2020/)
+  - [How-to: Use USB Audio in Retropie v3.7](https://sudomod.com/forum/viewtopic.php?t=144)
+- Screen resolution
+  - [Documentation > Configuration > Config-txt > Video](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md)
+  - `/boot/config.txt`: hdmi_group/hdmi_mode
+- Messed up configuration situation
+  -  SSH in (https://github.com/retropie/retropie-setup/wiki/ssh), run sudo ~/RetroPie-Setup/retropie_setup.sh and go to Emulation Station configuration via Manage Packages -> Core Packages -> emulationstation -> Configuration or Configuration / Tools -> emulationstation and choose the option to Clear/Reset Emulation Station input configuration (All packages with configuration appear in Configuration / Tools when installed)
 
-# add .NET Core SDK tools
-export PATH="$PATH:$HOME/.dotnet/tools"
-EOF
+#### Amibian
 
-logout
-{%- endcodetabs %}
+_Seems dead._
+
+- [gunkrist79.wixsite.com/amibian](https://gunkrist79.wixsite.com/amibian)
+- [Installing Amiga Workbench on Raspberry Pi with Amibian](https://stuffjasondoes.com/2018/07/18/installing-amiga-workbench-on-raspberry-pi-with-amibian/) - July 24, 2018
+- [How to Emulate the Commodore Amiga on a Raspberry Pi Using Amibian](https://www.makeuseof.com/tag/emulate-amiga-raspberry-pi/) - August 15, 2018
+- [Turn your Pi into an Amiga](https://magpi.raspberrypi.org/articles/turn-pi-amiga) - 2017
