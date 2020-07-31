@@ -1,14 +1,14 @@
 # Raspberry Pi
 
-<Icon id="home" /> [Raspberry Pi Foundation](https://www.raspberrypi.org/): [GitHub](https://github.com/raspberrypi), [Magazine](https://magpi.raspberrypi.org/)
+[Raspberry Pi Foundation](https://www.raspberrypi.org/): [GitHub](https://github.com/raspberrypi), [Magazine](https://magpi.raspberrypi.org/)
 
 ## Quick start
 
-:green_book: [Documentation](https://www.raspberrypi.org/documentation/)
+[Documentation](https://www.raspberrypi.org/documentation/)
 
 ### Operating system setup
 
-:eyes: [Installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+[Installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
 #### Validated configurations
   
