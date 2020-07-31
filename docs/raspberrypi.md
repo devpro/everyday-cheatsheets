@@ -28,14 +28,14 @@ Type | CPU | RAM | OS
 #### SD card preparation
 
 - (Optional) Download a specific version from [ubuntu.com](https://ubuntu.com/download/raspberry-pi) (for instance the previous before the LTS if it's too new for a specific hardware) WARNING links have to be modified manually (typo in pi version number...)
-- Go to ([Downloads](https://www.raspberrypi.org/downloads/)
-  - Download and install [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
-  - Look at available images
+- Go to the [Downloads page](https://www.raspberrypi.org/downloads/)
+  - Install [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
+  - (Optional) Look at available images
     - [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
-    - [Ubuntu](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi#1-overview).
+    - [Ubuntu](https://ubuntu.com/download/raspberry-pi) ([tutorial](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi), interesting to download a specific version, for instance to get a previous version if it's too new for a specific hardware, WARNING links have to be modified manually: there is a typo in pi version number...)
 - Insert the SD card and run the Raspberry Pi Imager
-- Eject and insert again the SD card
-  - (Optional) Edit `network-config` at the root of the drive (eth0 and wlan0)
+- (Optional) Eject and insert again the SD card
+  - Edit `network-config` at the root of the drive (with new eth0 and wlan0 parameters)
 
 ### Initial boot
 
@@ -43,7 +43,7 @@ Type | CPU | RAM | OS
 
 ### Hardware check
 
-Note: @since Kernel 4.9, BCM2835 will be displayed for the processor, even for BCM2836, BCM2837 and BCM2711. You should look instead at the [revision code](https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md), which is unique.
+_Note_: @since Kernel 4.9, BCM2835 will be displayed for the processor, even for BCM2836, BCM2837 and BCM2711. You should look instead at the [revision code](https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md), which is unique.
 
 ```bash
 cat /proc/cpuinfo
@@ -54,6 +54,12 @@ cat /proc/cpuinfo
 #### Wifi setup
 
 ```bash
+# list interfaces
+ls /sys/class/net
+
+# enable an interface
+sudo ip link set wlan0 up
+
 # see the wireless interface
 iwconfig
 
@@ -67,6 +73,7 @@ sudo iwlist wlan0 scan
 sudo nano /etc/netplan/50-cloud-init.yaml
 sudo netplan -d apply
 systemctl daemon-reload
+sudo reboot
 
 # look at services
 sudo systemctl status systemd-networkd.service
@@ -131,24 +138,15 @@ sudo reboot
 
 #### Raspberry Pi OS (aka Raspbian, Debian 10 = Buster)
 
-- System update
+- Login with `pi`/`raspberry`
+- Change keyboard layout
+- Configure the easy way: set Wifi parameters, update hostname, enable SSH, change password, (optional) change keyboard configuration
 
 ```bash
-# login with pi/raspberry
-
-# change keyboard layout
-
-# configure the easy way: configure Wifi, update hostname, enable SSH, change password, (optional) keyboard configuration
 raspi-config
-
-# (optional) set static ip address with the lines below
-sudo nano /etc/dhcpcd.conf
-sudo reboot
-
-# run updates
 ```
 
-- Network configuration (`/etc/dhcpcd.conf`)
+- (Optional] Configure a static ip by editing `/etc/dhcpcd.conf` (do a `sudo reboot` afterwards)
 
 ```ini
 interface wlan0
@@ -157,50 +155,40 @@ static routers=192.168.86.1
 static domain_name_servers=192.168.86.1 8.8.8.8 4.4.4.4
 ```
 
+- Run updates
+
 - Install .NET Core doesn't work even by grabbing [Downloads](https://dotnet.microsoft.com/download/dotnet-core/3.1) > [ARM32 versions](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.302-linux-arm32-binaries) as [ARMv6 is not supported](https://github.com/dotnet/runtime/issues/7764)
 
 #### Ubuntu Server (18.04)
 
+- Login with `ubuntu`/`ubuntu` (you'll be asked to provide a new password)
+- Change keyboard layout
+- (Optional) Review boot log
+
 ```bash
-# login with ubuntu/ubuntu (you'll be asked to provide a new password)
-
-# change keyboard layout
-
-# review boot log
 dmesg
+```
 
-# if there is an issue starting systemd-modules, look at the journal
+- If there is an issue starting systemd-modules, look at the journal and investigate the issue
+
+```bash
 sudo systemctl status systemd-modules-load.service
+
 # manual step needed on Raspberry Pi 2: comment is_iser (see https://askubuntu.com/questions/877245/systemd-modules-load-failed-to-start)
 sudo nano /lib/modules-load.d/open-iscsi.conf
+
 sudo systemctl start systemd-modules-load.service
-
-# configure wifi
-
-# run system updates
 ```
+
+- Configure Wifi
+- Run system updates
 
 #### Ubuntu Server (20.04 LTS)
 
-- System update
-
-```bash
-# login with ubuntu/ubuntu (you'll be asked to provide a new password)
-
-# change keyboard layout
-
-# configure Wifi
-ls /sys/class/net
-sudo ip link set wlan0 up
-sudo nano /etc/netplan/01-config.yaml
-sudo netplan apply
-sudo reboot
-
-# look at the ip address (SSH should be available)
-ip a
-
-# run system updates
-```
+- Login with `ubuntu`/`ubuntu` (you'll be asked to provide a new password)
+- Change keyboard layout
+- Configure Wifi
+- Run system updates
 
 - Install .NET Core on ARMv7 32-bit
 
