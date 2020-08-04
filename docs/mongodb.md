@@ -29,7 +29,7 @@ mongostat
 
 Reference: [docs.mongodb.com/program/mongo](https://docs.mongodb.com/manual/reference/program/mongo)
 
-### Mongo Shell
+### Mongo CLI
 
 ```javascript
 // display current db
@@ -65,3 +65,7 @@ db.startup_log.find().pretty()
 // exit the shell (or Ctrl+C)
 quit()
 ```
+
+### MongoDB Shell
+
+[Introducing the new MongoDB Shell](https://www.mongodb.com/blog/post/introducing-the-new-shell) - June 8, 2020
