@@ -30,7 +30,7 @@ Type | CPU | RAM | OS
 - (Optional) Download a specific version from [ubuntu.com](https://ubuntu.com/download/raspberry-pi) (for instance the previous before the LTS if it's too new for a specific hardware) WARNING links have to be modified manually (typo in pi version number...)
 - (Optional) Look at available systems
   - [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
-  - [Ubuntu](https://ubuntu.com/download/raspberry-pi) ([tutorial](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi), interesting to download a specific version, for instance to get a previous version if it's too new for a specific hardware, WARNING links have to be modified manually: there is a typo in pi version number...)
+  - [Ubuntu](https://ubuntu.com/download/raspberry-pi): follow the [tutorial](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi)
 - Install [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) from the [Downloads page](https://www.raspberrypi.org/downloads/)
 - Insert the SD card and run the Raspberry Pi Imager
 - (Optional) Eject and insert again the SD card
@@ -38,9 +38,9 @@ Type | CPU | RAM | OS
 
 ### Initial boot
 
-- Insert the SD card in the board, plug a keyboard (USB), a monitor (HDMI) then plug the power cable
+Insert the SD card in the board, plug a keyboard (USB), a monitor (HDMI) then plug the power cable
 
-### Hardware check
+#### Hardware check
 
 _Note_: @since Kernel 4.9, BCM2835 will be displayed for the processor, even for BCM2836, BCM2837 and BCM2711. You should look instead at the [revision code](https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md), which is unique.
 
@@ -53,8 +53,18 @@ cat /proc/cpuinfo
 #### Wifi setup
 
 ```bash
-# list interfaces
+# list interfaces (make sure wlan0 is displayed)
 ls /sys/class/net
+
+# edit or create a netplan yaml file and apply the change
+sudo nano /etc/netplan/50-cloud-init.yaml
+sudo netplan -d apply
+systemctl daemon-reload
+sudo reboot
+
+# make sure it's connected (with an IP)
+ip a
+ping google.com
 
 # enable an interface
 sudo ip link set wlan0 up
@@ -68,19 +78,9 @@ sudo ifconfig wlan0 up
 # scan available networks
 sudo iwlist wlan0 scan
 
-# edit or create a netplan yaml file and apply the change
-sudo nano /etc/netplan/50-cloud-init.yaml
-sudo netplan -d apply
-systemctl daemon-reload
-sudo reboot
-
 # look at services
 sudo systemctl status systemd-networkd.service
 sudo systemctl status netplan-wpa-wlan0.service
-
-# make sure it's connected (with an IP)
-ip a
-ping google.com
 
 # some Wifi USB adaptors may be incompatible with networkd, in this case fallback to NetworkManager
 # - just in case make sure the value is correct (2 letter iso country code)
@@ -156,8 +156,6 @@ static domain_name_servers=192.168.86.1 8.8.8.8 4.4.4.4
 
 - Run updates
 
-- Install .NET Core doesn't work even by grabbing [Downloads](https://dotnet.microsoft.com/download/dotnet-core/3.1) > [ARM32 versions](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.302-linux-arm32-binaries) as [ARMv6 is not supported](https://github.com/dotnet/runtime/issues/7764)
-
 #### Ubuntu Server (18.04)
 
 - Login with `ubuntu`/`ubuntu` (you'll be asked to provide a new password)
@@ -189,11 +187,19 @@ sudo systemctl start systemd-modules-load.service
 - Configure Wifi
 - Run system updates
 
-- Install .NET Core on ARMv7 32-bit
+## Recipes
+
+### .NET applications
+
+#### Install .NET Core on ARMv6 32-bit
+
+.NET Core is not compatible with ARMv6 (even with [ARM32 versions](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.302-linux-arm32-binaries): see [.NET Runtime issue #7764](https://github.com/dotnet/runtime/issues/7764)
+
+#### Install .NET Core on ARMv7 32-bit
+
+The [official procedure](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu) and workaround don't work.
 
 ```bash
-# official procedure doesn't work: https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
-
 # link taken by following download link from https://dotnet.microsoft.com/download/dotnet-core/3.1
 wget https://download.visualstudio.microsoft.com/download/pr/56691c4c-341a-4bca-9869-409803d23cf8/d872d7a0c27a6c5e9b812e889de89956/dotnet-sdk-3.1.302-linux-arm.tar.gz
 mkdir -p $HOME/dotnet
@@ -218,12 +224,10 @@ EOF
 logout
 ```
 
-- Install .NET Core on ARMv8 64-bit
+#### Install .NET Core on ARMv8 64-bit
 
 ```bash
 ```
-
-## Use cases
 
 ### Retro gaming
 
