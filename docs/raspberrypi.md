@@ -1,6 +1,6 @@
 # Raspberry Pi
 
-[Raspberry Pi Foundation](https://www.raspberrypi.org/): [GitHub](https://github.com/raspberrypi), [Magazine](https://magpi.raspberrypi.org/)
+[Raspberry Pi Foundation](https://www.raspberrypi.org/), [GitHub](https://github.com/raspberrypi), [Magazine](https://magpi.raspberrypi.org/)
 
 ## Quick start
 
