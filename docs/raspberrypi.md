@@ -28,11 +28,10 @@ Type | CPU | RAM | OS
 #### SD card preparation
 
 - (Optional) Download a specific version from [ubuntu.com](https://ubuntu.com/download/raspberry-pi) (for instance the previous before the LTS if it's too new for a specific hardware) WARNING links have to be modified manually (typo in pi version number...)
-- Go to the [Downloads page](https://www.raspberrypi.org/downloads/)
-  - Install [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/)
-  - (Optional) Look at available images
-    - [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
-    - [Ubuntu](https://ubuntu.com/download/raspberry-pi) ([tutorial](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi), interesting to download a specific version, for instance to get a previous version if it's too new for a specific hardware, WARNING links have to be modified manually: there is a typo in pi version number...)
+- (Optional) Look at available systems
+  - [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
+  - [Ubuntu](https://ubuntu.com/download/raspberry-pi) ([tutorial](https://ubuntu.com/tutorials/how-to-install-ubuntu-core-on-raspberry-pi), interesting to download a specific version, for instance to get a previous version if it's too new for a specific hardware, WARNING links have to be modified manually: there is a typo in pi version number...)
+- Install [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) from the [Downloads page](https://www.raspberrypi.org/downloads/)
 - Insert the SD card and run the Raspberry Pi Imager
 - (Optional) Eject and insert again the SD card
   - Edit `network-config` at the root of the drive (with new eth0 and wlan0 parameters)
