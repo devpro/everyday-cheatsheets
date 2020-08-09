@@ -4,7 +4,7 @@
 
 Version | Date | More
 ------- | ---- | ----
-`4.4` | _Jun 09 '20_ | [Announcing MongoDB 4.4 and MongoDB Cloud](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud)
+`4.4` | _Jun 09 '20_ | [Annoucement](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud), [Paper](https://webassets.mongodb.com/MongoDB_Whats_New_4.4.pdf)
 
 ## Client
 
