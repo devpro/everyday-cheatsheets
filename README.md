@@ -8,7 +8,9 @@ Clean and simple cheat sheets to ease everyday work.
 * [Azure](./docs/azure.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
 * [Docker](./docs/docker.md)
-* [.NET Core](./docs/dotnetcore.md)
+* .NET
+  * [.NET Core](./docs/dotnetcore.md)
+  * [.NET Events](./docs/dotnetevents.md)
 * [Git](./docs/git.md)
 * [Go](./docs/go.md)
 * Kubernetes
