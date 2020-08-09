@@ -6,10 +6,10 @@ Clean and simple cheat sheets to ease everyday work.
 
 * [Angular](./docs/angular.md)
 * [Azure](./docs/azure.md)
-* [Blazor](./docs/blazor.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
 * [Docker](./docs/docker.md)
 * .NET
+  * [Blazor](./docs/blazor.md)
   * [.NET Core](./docs/dotnetcore.md)
   * [.NET Events](./docs/dotnetevents.md)
 * [Git](./docs/git.md)
