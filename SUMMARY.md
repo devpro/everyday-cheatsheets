@@ -6,7 +6,9 @@
   * [MongoDB](./docs/mongodb.md)
 * Frameworks
   * [Angular](./docs/angular.md)
-  * [.NET Core](./docs/dotnetcore.md)
+  * .NET
+    * [.NET Core](./docs/dotnetcore.md)
+    * [.NET Events](./docs/dotnetevents.md)
 * Languages
   * [Go](./docs/go.md)
 * Tools
