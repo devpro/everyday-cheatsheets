@@ -7,6 +7,7 @@
 * Frameworks
   * [Angular](./docs/angular.md)
   * .NET
+    * [Blazor](./docs/blazor.md)
     * [.NET Core](./docs/dotnetcore.md)
     * [.NET Events](./docs/dotnetevents.md)
 * Languages
