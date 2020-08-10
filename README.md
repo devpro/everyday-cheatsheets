@@ -27,3 +27,5 @@ Clean and simple cheat sheets to ease everyday work.
 * Single-board computers (SBC): [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer) 
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
+* Windows
+  * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
