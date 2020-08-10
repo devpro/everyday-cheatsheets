@@ -2,7 +2,7 @@
 
 > Local Kubernetes, focused on application development & education
 
-[minikube.sigs.k8s.io](https://minikube.sigs.k8s.io/) [GitHub](https://github.com/kubernetes/minikube)
+[minikube.sigs.k8s.io](https://minikube.sigs.k8s.io/), [kubernetes/minikube](https://github.com/kubernetes/minikube)
 
 ## Quick start
 
@@ -12,17 +12,19 @@ Follow the instructions given in the [Getting Started page](https://minikube.sig
 
 More information on [Installing Kubernetes with Minikube page](https://kubernetes.io/docs/setup/learning-environment/minikube/).
 
-If you're on Windows, remember to open a command window as admin.
+Make sure Docker Desktop has allocated at least 3 Go of RAM.
 
 ### Run/stop
 
-If you're on Windows, make [Hyper-V driver](https://minikube.sigs.k8s.io/docs/reference/drivers/hyperv/) the default driver: `minikube config set vm-driver hyperv`.
+**Important**: If you're on Windows, open a command window as admin.
 
-Run `minikube start` to start the Kubernetes node and `minikube stop` to stop it.
+Run:
 
-### Clean-up
-
-Run `minikube delete` and, if needed, delete the `.kube` and `.minikube` folder in your home directory.
+- (Optional) `minikube config set vm-driver hyperv` to set the default driver (here [Hyper-V driver](https://minikube.sigs.k8s.io/docs/reference/drivers/hyperv/))
+- `minikube start` to start the Kubernetes node
+- `minikube status` to get the overall status
+- `minikube pause` to pause it
+- `minikube stop` to stop it
 
 ### Dashboard
 
@@ -34,7 +36,18 @@ Run `kubectl config use-context minikube` to be able to use kubectl on your loca
 
 ## CLI reference
 
+[Documentation](https://minikube.sigs.k8s.io/docs/commands/)
+
 Command | Action
 ------- | ------
+`minikube service hello-minikube` | Maunch a web browser on a service
 `minikube service xxx --url` | Display url for a given service (xxx)
-`minikube config set memory 4096` | Set memory value (2048 by default)
+`minikube config set memory 16384` | Update default memory limit (2048 by default)
+`minikube addons list` | Browse the catalog of easily installed Kubernetes services 
+`minikube tunnel` | Start a tunnel to create a routable IP for a "balanced" deployment
+`minikube start -p aged --kubernetes-version=v1.16.1` | Create another cluster running an older Kubernetes release
+`minikube ip` | Display Kubernetes IP
+
+### Clean-up
+
+Run `minikube delete` and, if needed, delete the `.kube` and `.minikube` folder in your home directory.
