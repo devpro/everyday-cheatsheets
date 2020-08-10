@@ -32,3 +32,5 @@
 * Single-board computers (SBC)
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
+* Windows
+  * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
