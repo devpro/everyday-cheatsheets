@@ -34,3 +34,7 @@
   * [Raspberry Pi](./docs/raspberrypi.md)
 * Windows
   * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
+
+## Learn
+
+* [Companies](./docs/companies.md)
