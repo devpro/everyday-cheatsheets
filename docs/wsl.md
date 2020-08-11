@@ -31,19 +31,17 @@ If your OS version is compatible, you should update to WSL 2:
 
 ## Recipes
 
-- [WSL+Docker: Kubernetes on the Windows Desktop](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) - May 21, 2020
+### Kubernetes
 
-#### Connect to Windows Docker
+- [WSL+Docker: Kubernetes on the Windows Desktop](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) - May 21, 2020
+  - Issues with Minikube and systemd (to be validated against Ubuntu 20.04): [forum.snapcraft.io](https://forum.snapcraft.io/t/running-snaps-on-wsl2-insiders-only-for-now/13033/39), [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script), [snapcraft.ninja](https://snapcraft.ninja/2020/08/06/starting-systemd-in-wsl-when-you-login-to-windows-youll-be-astounded-by-the-speed-improvement/)
+
+### Connect to Windows Docker (WSL 1)
 
 - In Docker settings, make sure to expose the daemon (in Settings > General > Expose daemon on tcp://localhost:2375 without TLS)
+- In Linux, make sure the DOCKER_HOST environment variable is set (`echo $DOCKER_HOST` => localhost:2375)
 
-- In Linux, make sure the DOCKER_HOST environment variable is set
-
-  > $ echo $DOCKER_HOST
-  >
-  > localhost:2375
-
-#### Theming
+### Theming
 
 - [Moving Your JavaScript Development To Bash On Windows](https://www.smashingmagazine.com/2019/09/moving-javascript-development-bash-windows/) - September 11, 2019
 - [spboyer/dotnetconf-wsl-theme](https://github.com/spboyer/dotnetconf-wsl-theme)
