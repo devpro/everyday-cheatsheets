@@ -29,12 +29,44 @@ If your OS version is compatible, you should update to WSL 2:
 - Access Linux files from Windows system: open `\\wsl$\Ubuntu\` in Windows Explorer (or `%LOCALAPPDATA%\Packages\CanonicalGroupLimited.UbuntuonWindows*\LocalState\rootfs`)
 - Access Windows files from Linux subsystem: go to `/mnt/c/users/<username>`
 
+## Known issues
+
+- Incorrect date (can lead to errors with Docker pull)
+
+```bash
+minikube ssh -- date
+minikube ssh
+date --set "12 Aug 2020 17:20:00"
+exit
+minikube ssh -- docker run -i --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date -u $(date -u +%m%d%H%M%Y)
+minikube ssh -- date
+```
+
 ## Recipes
 
 ### Kubernetes
 
 - [WSL+Docker: Kubernetes on the Windows Desktop](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/) - May 21, 2020
   - Issues with Minikube and systemd (to be validated against Ubuntu 20.04): [forum.snapcraft.io](https://forum.snapcraft.io/t/running-snaps-on-wsl2-insiders-only-for-now/13033/39), [DamionGans/ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script), [snapcraft.ninja](https://snapcraft.ninja/2020/08/06/starting-systemd-in-wsl-when-you-login-to-windows-youll-be-astounded-by-the-speed-improvement/)
+  
+### Connect to Windows Minikube
+
+- In Windows, look at the kube config
+
+```bash
+kubectl config view
+```
+
+- In Ubuntu, configure the kube context
+
+```bash
+kubectl config set-cluster minikube --server=https://127.0.0.1:<port> --certificate-authority=/mnt/c/Users/<username>/.minikube/ca.crt
+kubectl config set-credentials minikube --client-certificate=/mnt/c/Users/<username>/.minikube/profiles/minikube/client.crt --client-key=/mnt/c/Users/<username>/.minikube/profiles/minikube/client.key
+kubectl config set-context minikube --cluster=minikube --user=minikube
+kubectl config use-context minikube
+kubectl get nodes
+kubectl version
+```
 
 ### Connect to Windows Docker (WSL 1)
 
