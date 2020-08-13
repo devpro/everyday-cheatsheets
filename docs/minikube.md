@@ -51,3 +51,16 @@ Command | Action
 ### Clean-up
 
 Run `minikube delete` and, if needed, delete the `.kube` and `.minikube` folder in your home directory.
+
+## Known issues
+
+- Incorrect date (can lead to errors with Docker pull)
+
+```bash
+minikube ssh -- date
+minikube ssh
+date --set "12 Aug 2020 17:20:00"
+exit
+minikube ssh -- docker run -i --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date -u $(date -u +%m%d%H%M%Y)
+minikube ssh -- date
+```
