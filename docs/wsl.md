@@ -31,15 +31,11 @@ If your OS version is compatible, you should update to WSL 2:
 
 ## Known issues
 
-- Incorrect date (can lead to errors with Docker pull)
+- Incorrect date with WSL 2 (20200813): [issue #5324](https://github.com/microsoft/WSL/issues/5324) and [issue #4245](https://github.com/microsoft/WSL/issues/4245)
 
 ```bash
-minikube ssh -- date
-minikube ssh
-date --set "12 Aug 2020 17:20:00"
-exit
-minikube ssh -- docker run -i --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date -u $(date -u +%m%d%H%M%Y)
-minikube ssh -- date
+# temporary fix, to be run regularly
+sudo hwclock -s
 ```
 
 ## Recipes
