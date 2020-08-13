@@ -52,6 +52,14 @@ Command | Action
 
 Run `minikube delete` and, if needed, delete the `.kube` and `.minikube` folder in your home directory.
 
+## Extensions
+
+```bash
+# Enable metrics-server (https://github.com/kubernetes-sigs/metrics-server)
+minikube addons enable metrics-server
+kubectl get apiservices
+```
+
 ## Known issues
 
 - Incorrect date (can lead to errors with Docker pull)
