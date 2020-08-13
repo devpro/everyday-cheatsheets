@@ -85,6 +85,10 @@ On a Go file save, Visual Studio code will suggest installing additional tools.
 - [Codewalk: Share Memory By Communicating](https://golang.org/doc/codewalk/sharemem/)
 - [A Tour of Go](https://research.swtch.com/gotour)
 
+### Videos
+
+- [YouTube channel](https://www.youtube.com/watch?v=ytEkHepK08c&list=PLVgT4AuZGeoB85rHU6nc7DL7j90AmBZpV)
+
 ### Samples
 
 - [vmware-tanzu/velero](https://github.com/vmware-tanzu/velero)
