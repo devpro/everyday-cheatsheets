@@ -61,6 +61,7 @@ On a Go file save, Visual Studio code will suggest installing additional tools.
   - godef
   - goreturns
   - golint
+  - goimports
   
 </details>
 
@@ -80,12 +81,21 @@ On a Go file save, Visual Studio code will suggest installing additional tools.
 - [Effective Go](https://golang.org/doc/effective_go.html)
 - [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+- [Codewalk: Share Memory By Communicating](https://golang.org/doc/codewalk/sharemem/)
+- [A Tour of Go](https://research.swtch.com/gotour)
+
+### Samples
+
+- [vmware-tanzu/velero](https://github.com/vmware-tanzu/velero)
 
 ## CLI
+
+[Command Documentation](https://golang.org/doc/cmd)
 
 Command line | Action
 ------------ | ------
 `go mod init github.com/<username>/<repository>` | Creates go.mod file
+`go install github.com/<username>/<repository>` | Builds and installs the program with the go tool (in $HOME/go/bin/hello or %USERPROFILE%\go\bin\hello.exe)
 
 ### Tools
 
