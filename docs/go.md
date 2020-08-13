@@ -2,7 +2,7 @@
 
 > Build fast, reliable, and efficient software at scale
 
-[go.dev](https://go.dev/), [Documentation](https://golang.org/doc/), [Packages](https://pkg.go.dev/)
+[go.dev](https://go.dev/), [golang.org](https://golang.org/) [Project](https://golang.org/project/), [Documentation](https://golang.org/doc/), [Packages](https://pkg.go.dev/), [Blog](https://blog.golang.org/), [golang/go](https://github.com/golang/go)
 
 ## Quick start
 
@@ -28,13 +28,6 @@
 #### Multipe Go versions
 
 - Once Go has been installed, you can install other versions with for example `go get golang.org/dl/go1.10.7` and specify it afterwards `go1.10.7 version`
-
-### Getting started
-
-#### Tutorials
-
-- [A Tour of Go](https://tour.golang.org/welcome/1)
-- [The Go Playground](https://play.golang.org/)
 
 #### Visual Studio Code
 
@@ -63,3 +56,22 @@ On a Go file save, Visual Studio code will suggest installing the following tool
 ## Learn
 
 [Learn](https://learn.go.dev/)
+
+### Getting started
+
+- [A Tour of Go](https://tour.golang.org/welcome/1)
+- [The Go Playground](https://play.golang.org/)
+
+### References
+
+- [Effective Go](https://golang.org/doc/effective_go.html)
+- [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+- [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+
+### Tools
+
+#### Commands
+
+Name | Action
+---- | ------
+[Gofmt](https://golang.org/cmd/gofmt/) | Formats Go programs. It uses tabs for indentation and blanks for alignment. Alignment assumes that an editor is using a fixed-width font. 
