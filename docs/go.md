@@ -2,7 +2,9 @@
 
 > Build fast, reliable, and efficient software at scale
 
-[go.dev](https://go.dev/), [golang.org](https://golang.org/) [Project](https://golang.org/project/), [Documentation](https://golang.org/doc/), [Packages](https://pkg.go.dev/), [Blog](https://blog.golang.org/), [golang/go](https://github.com/golang/go)
+[go.dev](https://go.dev/), [golang.org](https://golang.org/), [golang/go](https://github.com/golang/go)
+
+-> [Project](https://golang.org/project/), [Documentation](https://golang.org/doc/), [Packages](https://pkg.go.dev/), [Blog](https://blog.golang.org/)
 
 ## Quick start
 
@@ -78,6 +80,12 @@ On a Go file save, Visual Studio code will suggest installing additional tools.
 - [Effective Go](https://golang.org/doc/effective_go.html)
 - [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+
+## CLI
+
+Command line | Action
+------------ | ------
+`go mod init github.com/<username>/<repository>` | Creates go.mod file
 
 ### Tools
 
