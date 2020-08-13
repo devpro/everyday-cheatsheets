@@ -10,20 +10,22 @@
 
 [Installation](https://golang.org/doc/install) > [Downloads](https://golang.org/dl/)
 
-#### Installation on Windows 10
-
-- Download and execute MSI file (for example `go1.15.windows-amd64.msi`)
-  - _Note: The installer will update the environment variables (need to restart any open command prompts for the change to take effect)_
+<details>
+  <summary>Installation on Windows 10</summary>
+   
+  - Download and execute MSI file (for example `go1.15.windows-amd64.msi`)
+    - _Note: The installer will update the environment variables (need to restart any open command prompts for the change to take effect)_
   
-  Variable Name | Variable Value | Variable Type
-  ------------- | -------------- | -------------
-  `GOPATH` | `%USERPROFILE%\go` | User
-  `Path` | `%USERPROFILE%\go\bin` | User
-  `Path` | Go installation directory + "\bin" (by default "C:\Go\bin") | System
+    Variable Name | Variable Value | Variable Type
+    ------------- | -------------- | -------------
+    `GOPATH` | `%USERPROFILE%\go` | User
+    `Path` | `%USERPROFILE%\go\bin` | User
+    `Path` | Go installation directory + "\bin" (by default "C:\Go\bin") | System
   
-- Uninstallation steps
-  - Remove remove an existing Go installation from your system delete the go directory (C:\Go by default in Windows).
-  - Remove Go bin directory from the `Path` System and User environment variable and the `GOPATH` User environment variable.
+  - Uninstallation steps
+    - Remove remove an existing Go installation from your system delete the go directory (C:\Go by default in Windows).
+    - Remove Go bin directory from the `Path` System and User environment variable and the `GOPATH` User environment variable.
+</details>
 
 #### Multipe Go versions
 
@@ -33,25 +35,32 @@
 
 As soon as a Go file is opened, Visual Studio Code will suggest to install Go extension.
 
-On a Go file save, Visual Studio code will suggest installing the following tools at C:\Users\<username>\go\bin in module mode.
+On a Go file save, Visual Studio code will suggest installing additional tools.
 
-- gocode
-- gopkgs
-- go-outline
-- go-symbols
-- guru
-- gorename
-- gotests
-- gomodifytags
-- impl
-- fillstruct
-- goplay
-- godoctor
-- dlv
-- gocode-gomod
-- godef
-- goreturns
-- golint
+<details>
+  <summary>Additional tools installed by Visual Studio Code</summary>
+
+  Installed at C:\Users\<username>\go\bin in module mode:
+
+  - gocode
+  - gopkgs
+  - go-outline
+  - go-symbols
+  - guru
+  - gorename
+  - gotests
+  - gomodifytags
+  - impl
+  - fillstruct
+  - goplay
+  - godoctor
+  - dlv
+  - gocode-gomod
+  - godef
+  - goreturns
+  - golint
+  
+</details>
 
 ## Learn
 
@@ -61,12 +70,14 @@ On a Go file save, Visual Studio code will suggest installing the following tool
 
 - [A Tour of Go](https://tour.golang.org/welcome/1)
 - [The Go Playground](https://play.golang.org/)
+- [How to Write Go Code](https://golang.org/doc/code.html)
 
-### References
+### Additional readings
 
+- [The Go Programming Language Specification](https://golang.org/ref/spec)
 - [Effective Go](https://golang.org/doc/effective_go.html)
-- [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
 - [Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
 
 ### Tools
 
