@@ -2,12 +2,64 @@
 
 > Build fast, reliable, and efficient software at scale
 
-[go.dev](https://go.dev/)
+[go.dev](https://go.dev/), [Documentation](https://golang.org/doc/), [Packages](https://pkg.go.dev/)
 
 ## Quick start
 
-[Downloads](https://golang.org/dl/) > [Installation](https://golang.org/doc/install)
+### Installation
+
+[Installation](https://golang.org/doc/install) > [Downloads](https://golang.org/dl/)
+
+#### Installation on Windows 10
+
+- Download and execute MSI file (for example `go1.15.windows-amd64.msi`)
+  - _Note: The installer will update the environment variables (need to restart any open command prompts for the change to take effect)_
+  
+  Variable Name | Variable Value | Variable Type
+  ------------- | -------------- | -------------
+  `GOPATH` | `%USERPROFILE%\go` | User
+  `Path` | `%USERPROFILE%\go\bin` | User
+  `Path` | Go installation directory + "\bin" (by default "C:\Go\bin") | System
+  
+- Uninstallation steps
+  - Remove remove an existing Go installation from your system delete the go directory (C:\Go by default in Windows).
+  - Remove Go bin directory from the `Path` System and User environment variable and the `GOPATH` User environment variable.
+
+#### Multipe Go versions
+
+- Once Go has been installed, you can install other versions with for example `go get golang.org/dl/go1.10.7` and specify it afterwards `go1.10.7 version`
+
+### Getting started
+
+#### Tutorials
+
+- [A Tour of Go](https://tour.golang.org/welcome/1)
+- [The Go Playground](https://play.golang.org/)
+
+#### Visual Studio Code
+
+As soon as a Go file is opened, Visual Studio Code will suggest to install Go extension.
+
+On a Go file save, Visual Studio code will suggest installing the following tools at C:\Users\<username>\go\bin in module mode.
+
+- gocode
+- gopkgs
+- go-outline
+- go-symbols
+- guru
+- gorename
+- gotests
+- gomodifytags
+- impl
+- fillstruct
+- goplay
+- godoctor
+- dlv
+- gocode-gomod
+- godef
+- goreturns
+- golint
 
 ## Learn
 
-[Getting Started](https://learn.go.dev/)
+[Learn](https://learn.go.dev/)
