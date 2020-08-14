@@ -85,6 +85,13 @@ On a Go file save, Visual Studio code will suggest installing additional tools.
 - [Codewalk: Share Memory By Communicating](https://golang.org/doc/codewalk/sharemem/)
 - [A Tour of Go](https://research.swtch.com/gotour)
 
+### Presentations
+
+- [Go Talks](https://talks.golang.org/)
+  - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
+  - [Advanced Go Concurrency Patterns](https://talks.golang.org/2013/advconc.slide#1)
+  - [Go: a simple programming environment](https://talks.golang.org/2012/simple.slide#1)
+
 ### Videos
 
 - [YouTube channel](https://www.youtube.com/watch?v=ytEkHepK08c&list=PLVgT4AuZGeoB85rHU6nc7DL7j90AmBZpV)
