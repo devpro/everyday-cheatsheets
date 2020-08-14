@@ -100,6 +100,13 @@ On a Go file save, Visual Studio code will suggest installing additional tools.
 
 - [vmware-tanzu/velero](https://github.com/vmware-tanzu/velero)
 
+### Recipes
+
+#### Create a REST API
+
+- Fiber: [gofiber.io](https://gofiber.io/) ([gofiber/fiber](https://github.com/gofiber/fiber))
+  - [Building a Basic REST API in Go using Fiber](https://tutorialedge.net/golang/basic-rest-api-go-fiber/)
+
 ## CLI
 
 [Command Documentation](https://golang.org/doc/cmd)
@@ -109,10 +116,10 @@ Command line | Action
 `go mod init github.com/<username>/<repository>` | Creates go.mod file
 `go install github.com/<username>/<repository>` | Builds and installs the program with the go tool (in $HOME/go/bin/hello or %USERPROFILE%\go\bin\hello.exe)
 
-### Tools
+## Tools
 
-#### Commands
+### Commands
 
 Name | Action
 ---- | ------
-[Gofmt](https://golang.org/cmd/gofmt/) | Formats Go programs. It uses tabs for indentation and blanks for alignment. Alignment assumes that an editor is using a fixed-width font. 
+[Gofmt](https://golang.org/cmd/gofmt/) | Formats Go programs. It uses tabs for indentation and blanks for alignment. Alignment assumes that an editor is using a fixed-width font.
