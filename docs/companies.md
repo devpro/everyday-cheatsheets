@@ -8,6 +8,8 @@
 
 ## HashiCorp
 
+[HashiCorp Learn](https://learn.hashicorp.com/)
+
 ### HashiConf Digital 2020 (June 22-24, 2020)
 
 [On-Demand sessions](https://hashiconf.com/digital-june/watch/)
