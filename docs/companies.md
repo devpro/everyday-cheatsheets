@@ -2,6 +2,8 @@
 
 ## Microsoft
 
+[Open source projects](https://opensource.microsoft.com/projects)
+
 ### Build 2020
 
 [On-demand sessions](https://mybuild.microsoft.com/sessions?t=%257B%2522from%2522%253A%25222020-05-19T00%253A00%253A00%252B02%253A00%2522%252C%2522to%2522%253A%25222020-05-21T23%253A59%253A00%252B02%253A00%2522%257D&g=%255B%2522on-demand%2522%255D)
