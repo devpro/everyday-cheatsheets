@@ -1,14 +1,16 @@
 # Docker Cheat Sheet
 
-Links: [Documentation](https://docs.docker.com/)
+[docker.com](https://www.docker.com/) > [docs](https://docs.docker.com/)
 
-## Installation
+## Docker Desktop
 
-### On Windows
+[Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+### Installation on Windows
 
 [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/#start-docker-for-windows)
 
-#### With Ubuntu subsystem
+### Installation on WSL 1 (Ubuntu)
 
 [Installing the Docker client on Windows Subsystem for Linux (Ubuntu)](https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4)
 
@@ -24,11 +26,11 @@ $ docker -H localhost:2375 images
 #ubuntu              latest              f975c5035748        4 weeks ago         112MB
 ```
 
-### On Ubuntu
+### Installation on Ubuntu
 
 [Get Docker CE for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
 
-## Usual commands
+## Docker CLI
 
 Command | Action
 ------- | ------
@@ -54,21 +56,33 @@ See [Docker Cheat Sheet from Will Sargent](https://github.com/wsargent/docker-ch
 
 Reference: [Child commands](https://docs.docker.com/engine/reference/commandline/docker/#child-commands)
 
-## First steps
+## Quickstart
 
-```dos
-REM display hello world
+[Get Started](https://docs.docker.com/get-started/)
+
+### Playground
+
+- [Play with Docker (PWD)](https://labs.play-with-docker.com/)
+
+### Tutorials
+
+- [Docker 101 Tutorial](https://www.docker.com/101-tutorial)
+
+- Hello world (will display "Hello from Docker!")
+
+```bash
 docker run hello-world
 ```
 
+- Ubuntu bash
+
 ```dos
-REM run ubuntu
 docker run -it ubuntu bash
 apt-get update
+apt-get upgrade
+apt-get install apt-utils
 apt-get install traceroute
 traceroute www.google.fr
 apt-get install wget
 wget --spider http://example.com
 ```
-
-Reference: [Get Started](https://docs.docker.com/get-started/)
