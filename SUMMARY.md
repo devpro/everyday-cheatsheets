@@ -8,6 +8,7 @@
   * [Angular](./docs/angular.md)
   * .NET
     * [Blazor](./docs/blazor.md)
+    * [.NET 5.0](./docs/dotnet50.md)
     * [.NET Core](./docs/dotnetcore.md)
     * [.NET Events](./docs/dotnetevents.md)
 * Languages
