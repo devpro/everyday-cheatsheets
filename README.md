@@ -10,6 +10,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [Docker](./docs/docker.md)
 * .NET
   * [Blazor](./docs/blazor.md)
+  * [.NET 5.0](./docs/dotnet50.md)
   * [.NET Core](./docs/dotnetcore.md)
   * [.NET Events](./docs/dotnetevents.md)
 * [Git](./docs/git.md)
