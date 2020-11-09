@@ -20,6 +20,12 @@ All this questions will help decide:
 
 [Procedure](https://docs.microsoft.com/en-us/azure/devops/server/install/single-server?view=azure-devops-2019)
 
+Requirements:
+
 - Minimal hardware specification: 4 Go RAM, dual processor, SSD
 - Operating system (Windows Server 2019)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (SQL Server 2019)
+
+Steps:
+
+- Download Azure DevOps Server from the [Download page](https://visualstudio.microsoft.com/en/downloads/)
