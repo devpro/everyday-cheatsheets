@@ -17,6 +17,13 @@ Command | Action
 `az account set --subscription "xxxxx-xxxx-xxxx-xxxx-xxxxxx"` | Set the current context to a specific subscription
 `az account show` | Display the current context
 
+## AKS commands
+
+Command | Action
+------- | ------
+`az aks get-credentials --resource-group rg-xxx --name aks-xxx`| Get Kubernetes credentials for a specific cluster
+`az aks browse --resource-group rg-xxx --name aks-xxx` | Open Kubernetes dashboard (will open a browser)
+
 ## Recipes
 
 -  [Configure registry credentials in web app](https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image#configure-registry-credentials-in-web-app)
