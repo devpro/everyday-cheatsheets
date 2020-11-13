@@ -97,7 +97,7 @@ watch kubectl get pod --all-namespaces
 kubectl describe pod <pod-name> --namespace <namespace>
 
 # get pod logs
-kubectl logs <pod-name>
+kubectl logs [--tail=20] [--since=1h] <pod-name>
 
 # display metrics about a pod and its containers
 kubectl top pod <pod-name> --containers
