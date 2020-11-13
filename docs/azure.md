@@ -21,7 +21,7 @@ Command | Action
 
 Command | Action
 ------- | ------
-`az aks get-credentials --resource-group rg-xxx --name aks-xxx`| Get Kubernetes credentials for a specific cluster
+`az aks get-credentials --resource-group rg-xxx --name aks-xxx [--admin]`| Get Kubernetes credentials for a specific cluster
 `az aks browse --resource-group rg-xxx --name aks-xxx` | Open Kubernetes dashboard (will open a browser)
 
 ## Recipes
