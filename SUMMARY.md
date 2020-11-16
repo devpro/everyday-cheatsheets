@@ -19,6 +19,7 @@
   * [Docker](./docs/docker.md)
   * [Git](./docs/git.md)
   * [Puppet](./docs/puppet.md)
+  * [Terraform](./docs/terraform.md)
 
 ## Run
 
