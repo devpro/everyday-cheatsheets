@@ -6,9 +6,11 @@ See [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/d
 
 ## Quick start
 
+- [Downloads](https://www.terraform.io/downloads.html)
 - [Introduction](https://www.terraform.io/intro/index.html)
 - [Lean](https://learn.hashicorp.com/terraform)
   - [Getting started (Azure)](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/azure-get-started)
+- Samples: [devpro/terraform-samples](https://github.com/devpro/terraform-samples)
 
 ## Documentation
 
