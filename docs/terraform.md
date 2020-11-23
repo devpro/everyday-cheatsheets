@@ -16,6 +16,8 @@ See [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/d
 
 ### HashiCorp Configuration Language (HCL)
 
+- [Configuration Syntax ](https://www.terraform.io/docs/configuration/syntax.html) ([hashicorp/hcl](https://github.com/hashicorp/hcl))
+
 ### Providers
 
 - [MongoDB Atlas](https://github.com/terraform-providers/terraform-provider-mongodbatlas)
