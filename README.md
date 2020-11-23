@@ -5,7 +5,8 @@ Clean and simple cheat sheets to ease everyday work.
 ## Topics
 
 * [Angular](./docs/angular.md)
-* [Azure](./docs/azure.md)
+* Azure
+  * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
 * [Docker](./docs/docker.md)
 * .NET
