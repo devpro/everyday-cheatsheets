@@ -23,7 +23,8 @@
 
 ## Run
 
-* [Azure](./docs/azure.md)
+* Azure
+  * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
 * Kubernetes
   * [etcd](./docs/etcd.md)
