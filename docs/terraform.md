@@ -12,6 +12,17 @@ See [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/d
   - [Getting started (Azure)](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/azure-get-started)
 - Samples: [devpro/terraform-samples](https://github.com/devpro/terraform-samples)
 
+## Command Line Interface (CLI)
+
+Command | Action
+------- | ------
+`terraform --help` | Display information on how to use the CLI
+`terraform --version` | Display CLI version
+`terraform init` | 
+`terraform plan` | 
+`terraform apply` | 
+`terraform destroy` | 
+
 ## Documentation
 
 ### HashiCorp Configuration Language (HCL)
