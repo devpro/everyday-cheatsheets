@@ -10,6 +10,8 @@
 
 [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/#start-docker-for-windows)
 
+See [WSL cheat sheet](https://github.com/devpro/everyday-cheatsheets/blob/master/docs/wsl.md).
+
 ### Installation on WSL 1 (Ubuntu)
 
 [Installing the Docker client on Windows Subsystem for Linux (Ubuntu)](https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4)
