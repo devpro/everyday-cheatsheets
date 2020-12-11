@@ -41,6 +41,10 @@ sudo hwclock -s
 - Memory issue
   - [Memory Reclaim in the Windows Subsystem for Linux 2](https://devblogs.microsoft.com/commandline/memory-reclaim-in-the-windows-subsystem-for-linux-2/) - October 30th, 2019
   - [Taking Back Memory From Vmmem/WSL](https://blog.simonpeterdebbarma.com/2020-04-memory-and-wsl/) - April 07, 2020
+  
+```bash
+wsl --shutdown
+```
 
 ## Recipes
 
