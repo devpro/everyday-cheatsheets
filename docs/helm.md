@@ -18,7 +18,7 @@ Make sure helm is available from the command line: `helm version`.
 
 Then follow the [quickstart guide](https://helm.sh/docs/intro/quickstart/).
 
-Add at least one repository, for instance `helm repo add stable https://kubernetes-charts.storage.googleapis.com/`.
+Add at least one repository (`helm repo ls`), for instance `helm repo add stable https://charts.helm.sh/stable`.
 
 Run `helm repo update` to update the repository.
 
