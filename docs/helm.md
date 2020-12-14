@@ -2,7 +2,7 @@
 
 > Helm 3: The package manager for Kubernetes. It is the best way to find, share, and use software built for Kubernetes.
 
-[helm.sh](https://helm.sh/) [GitHub](https://github.com/helm/helm) [docs](https://helm.sh/docs/)
+[helm.sh](https://helm.sh/): [code](https://github.com/helm/helm), [docs](https://helm.sh/docs/)
 
 ## Quick start
 
