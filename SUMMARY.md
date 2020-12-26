@@ -13,6 +13,7 @@
     * [.NET 5.0](./docs/dotnet50.md)
     * [.NET Core](./docs/dotnetcore.md)
     * [.NET Events](./docs/dotnetevents.md)
+  * [gRPC](./docs/grpc.md)
 * Languages
   * [Go](./docs/go.md)
 * Tools
