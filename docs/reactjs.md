@@ -6,7 +6,7 @@ Reference: [reactjs.org](https://reactjs.org/)
 
 ## Quickstart
 
-- [Create React App](https://create-react-app.dev/)
+- [Create React App](https://create-react-app.dev/) ([Getting Started](https://create-react-app.dev/docs/getting-started))
 
 ```bash
 # create the application and launch it (starts the development server)
@@ -34,10 +34,16 @@ npm run eject
 ## Testing
 
 - [Testing Overview](https://reactjs.org/docs/testing.html)
+- [Testing Recipes](https://reactjs.org/docs/testing-recipes.html)
+- [Test Utilities](https://reactjs.org/docs/test-utils.html)
 
 ### Jest
 
-- Install dev dependancies: [testing-library/react](https://github.com/testing-library/react-testing-library), [testing-library/jest-dom](https://github.com/testing-library/jest-dom/)
+> Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+Reference: [jestjs.io](https://jestjs.io/en/) ([Testing React Apps](https://jestjs.io/docs/en/tutorial-react))
+
+Install dev dependancies: [testing-library/react](https://github.com/testing-library/react-testing-library), [testing-library/jest-dom](https://github.com/testing-library/jest-dom/)
 
 ```bash
 npm install --save-dev @testing-library/react @testing-library/jest-dom
