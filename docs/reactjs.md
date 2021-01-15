@@ -34,3 +34,11 @@ npm run eject
 ## Testing
 
 - [Testing Overview](https://reactjs.org/docs/testing.html)
+
+### Jest
+
+- Install dev dependancies: [testing-library/react](https://github.com/testing-library/react-testing-library), [testing-library/jest-dom](https://github.com/testing-library/jest-dom/)
+
+```bash
+npm install --save-dev @testing-library/react @testing-library/jest-dom
+```
