@@ -14,9 +14,11 @@
     * [.NET Core](./docs/dotnetcore.md)
     * [.NET Events](./docs/dotnetevents.md)
   * [gRPC](./docs/grpc.md)
+  * [React](./docs/reactjs.md)
 * Languages
   * [Go](./docs/go.md)
 * Tools
+  * [Ansible](./docs/ansible.md)
   * [Docker](./docs/docker.md)
   * [Git](./docs/git.md)
   * [Puppet](./docs/puppet.md)
