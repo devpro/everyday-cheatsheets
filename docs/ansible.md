@@ -2,16 +2,39 @@
 
 > Simple, agentless IT automation that anyone can use. Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button.
 
-Reference: [ansible.com](https://www.ansible.com/)
+References: [ansible.com](https://www.ansible.com/), [github.com](https://github.com/ansible/ansible)
 
 ## Learn
 
 Reference: [docs.ansible.com](https://docs.ansible.com/ansible/latest/index.html)
 
-Free resources: [What is Ansible by TechWorld with Nana (Youtube)](https://www.youtube.com/watch?v=1id6ERvfozo)
+### Introduction videos
 
-### Components
+* [What is Ansible by TechWorld with Nana (Youtube)](https://www.youtube.com/watch?v=1id6ERvfozo)
 
-#### Modules
+### Modules
 
-Reference: [Docs > User Guide > Working With Modules](https://docs.ansible.com/ansible/latest/user_guide/modules.html)
+* [Working With Modules](https://docs.ansible.com/ansible/latest/user_guide/modules.html)
+* [All modules](https://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html)
+
+### Playbooks
+
+- [Introduction](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html)
+- [Examples](https://github.com/ansible/ansible-examples)
+
+### Roles
+
+### Galaxy
+
+- [`ansible-galaxy` CLI](https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html) performs various Role and Collection related operations
+- [galaxy.ansible.com](https://galaxy.ansible.com/) is a free website for finding, downloading, and sharing community developed roles
+
+### Getting started
+
+* [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
+
+## Recipes
+
+### Ansible on Azure
+
+* [docs.microsoft.com](https://docs.microsoft.com/en-us/azure/developer/ansible/)
