@@ -4,7 +4,7 @@ Clean and simple cheat sheets to ease everyday work.
 
 ## Topics
 
-* [Angular](./docs/angular.md)
+* [Ansible](./docs/ansible.md)
 * Azure
   * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
@@ -18,6 +18,9 @@ Clean and simple cheat sheets to ease everyday work.
 * [git](./docs/git.md)
 * [Go](./docs/go.md)
 * [gRPC](./docs/grpc.md)
+* JavaScript
+  * [Angular](./docs/angular.md)
+  * [React](./docs/reactjs.md)
 * Kubernetes
   * [etcd](./docs/etcd.md)
   * [Helm](./docs/helm.md)
@@ -28,10 +31,10 @@ Clean and simple cheat sheets to ease everyday work.
   * [Ubuntu](./docs/ubuntu.md)
 * [MongoDB](./docs/mongodb.md)
 * [Puppet](./docs/puppet.md)
-* Single-board computers (SBC): [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer) 
+* Single-board computers [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer)
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
-* [Terraform](./docs/terraform.md)
+* [Terraform](./docs/terraform.md)  
 * Windows
   * [Windows Server](./docs/windows-server.md)
   * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
