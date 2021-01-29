@@ -34,17 +34,42 @@
 * [`ansible-galaxy` CLI](https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html) performs various Role and Collection related operations
 * [galaxy.ansible.com](https://galaxy.ansible.com/) is a free website for finding, downloading, and sharing community developed roles
 
-### Command line interface (CLI)
+### Command line tools
+
+#### Ansible CLI
 
 ```bash
-ansible
+# install on Ubuntu 20.04
+sudo apt install ansible
 
+# display version
+ansible --version
+```
+
+&rarr; [docs.ansible.com](https://docs.ansible.com/ansible/latest/cli/ansible.html)
+
+#### Ansible Playbook CLI
+
+```bash
 ansible-playbook
 ```
 
+#### Ansible Lint CLI
+
+
+```bash
+ansible-lint verify-apache.yml
+```
+
+&rarr; [docs.ansible.com](https://docs.ansible.com/ansible-lint/index.html)
+ 
 ### Getting started
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
+
+### Playgrounds
+
+* [KataCoda](https://www.katacoda.com/courses/ansible/playground) (with [Courses](https://www.katacoda.com/courses/ansible))
 
 ## Recipes
 
