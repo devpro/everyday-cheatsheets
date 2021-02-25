@@ -4,7 +4,7 @@
 >
 > Blazor is a feature of ASP.NET, the popular web development framework that extends the .NET developer platform with tools and libraries for building web apps.
 
-[source](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+→ [source](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 
 ## Learn
 
