@@ -30,7 +30,9 @@
 ### Authentication
 
 * [ASP.NET Core Blazor authentication and authorization](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/)
+  * [Secure ASP.NET Core Blazor WebAssembly](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/webassembly/)
 * [Blazor Google Auth Sample](https://github.com/javiercn/BlazorGoogleAuthSample)
+* [Awesome resources by AdrienTorris](https://github.com/AdrienTorris/awesome-blazor)
 
 ## Events
 
