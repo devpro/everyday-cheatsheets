@@ -1,6 +1,9 @@
 # Git Cheat Sheet
 
-[git-scm.com](https://git-scm.com/)
+## Links
+
+* [git-scm.com](https://git-scm.com/)
+* [guides.github.com/introduction/flow](https://guides.github.com/introduction/flow/)
 
 ## Commands
 
@@ -54,11 +57,16 @@ git log --graph --decorate --oneline --all
 git remote | xargs -L1 git push --all
 ```
 
-## Branches
+## Recipes
 
-- Rename your `master` branch to `main` (original idea from [hanselman.com](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx))
+* Rename your `master` branch to `main` (original idea from [hanselman.com](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx))
 
 ```bash
 git branch -m master main
 git push -u origin main
 ```
+
+## Tools
+
+* [GitKraken](https://www.gitkraken.com/): legendary Git GUI client for Windows, Mac & Linux
+* [pre-commit](https://pre-commit.com/): a framework for managing and maintaining multi-language pre-commit hooks
