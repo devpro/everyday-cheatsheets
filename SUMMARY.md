@@ -10,17 +10,19 @@
   * [Angular](./docs/angular.md)
   * .NET
     * [Blazor](./docs/blazor.md)
-    * [C#](./docs/csharp.md)
-      * [C# 8.0](./docs/csharp80.md)
     * [.NET 5.0](./docs/dotnet50.md)
     * [.NET Core](./docs/dotnetcore.md)
     * [.NET Events](./docs/dotnetevents.md)
   * [gRPC](./docs/grpc.md)
   * [React](./docs/reactjs.md)
 * Languages
+  * [C#](./docs/csharp.md)
+    * [C# 8.0](./docs/csharp80.md)
   * [Go](./docs/go.md)
 * Tools
   * [Ansible](./docs/ansible.md)
+  * [Concourse](./docs/concourse.md)
+    * [fly CLI](./docs/fly-cli.md)
   * [Docker](./docs/docker.md)
   * [Git](./docs/git.md)
   * [Puppet](./docs/puppet.md)
@@ -29,7 +31,7 @@
 ## Run
 
 * Azure
-  * [Azure CLI (`az`)](./docs/azure-cli.md)
+  * [Azure CLI](./docs/azure-cli.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
 * Kubernetes
   * [etcd](./docs/etcd.md)
@@ -39,12 +41,12 @@
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
-* Single-board computers (SBC)
+* Single-board computers
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
 * Windows
   * [Windows Server](./docs/windows-server.md)
-  * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
+  * [Windows Subsystem for Linux](./docs/wsl.md)
 
 ## Learn
 
