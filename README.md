@@ -25,7 +25,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [React](./docs/reactjs.md)
 * CNCF
   * [Falco](./docs/falco.md)
-  * Kubernetes
+  * [Kubernetes](./docs/kubernetes.md)
     * [etcd](./docs/etcd.md)
     * [Helm](./docs/helm.md)
     * [Kubectl](./docs/kubectl.md)
