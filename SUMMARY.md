@@ -8,7 +8,7 @@
   * [MongoDB](./docs/mongodb.md)
 * Frameworks
   * [Angular](./docs/angular.md)
-  * .NET
+  * [.NET](./docs/dotnet.md)
     * [Blazor](./docs/blazor.md)
     * [.NET 5.0](./docs/dotnet50.md)
     * [.NET Core](./docs/dotnetcore.md)
