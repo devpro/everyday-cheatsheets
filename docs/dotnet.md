@@ -7,3 +7,4 @@
 ## Libraries
 
 * [dotnet/sourcelink](https://github.com/dotnet/sourcelink)
+* [spectreconsole/spectre.console](https://github.com/spectreconsole/spectre.console)
