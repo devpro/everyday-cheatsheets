@@ -5,6 +5,9 @@ Clean and simple cheat sheets to ease everyday work.
 ## Topics
 
 * [Ansible](./docs/ansible.md)
+* Architecture
+  * [Cloud Native](./docs/cloud-native.md)
+  * [Design Patterns](./docs/design-patterns.md)
 * [Azure](./docs/azure.md)
   * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Concourse](./docs/concourse.md)
