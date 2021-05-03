@@ -1,5 +1,7 @@
 # Cloud Foundry CLI Cheat Sheet
 
+## Command line
+
 `cf version`
 
 `cf --version`
@@ -27,3 +29,9 @@
 `cf create-service cleardb spark tracker-database`
 
 `cf bind-service pal-tracker tracker-database`
+
+## Recipes
+
+### Integration with Kubernetes
+
+* [CF for k8s](https://cf-for-k8s.io/)
