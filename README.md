@@ -24,6 +24,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [Angular](./docs/angular.md)
   * [React](./docs/reactjs.md)
 * CNCF
+  * [Argo](./docs/argo.md)
   * [Falco](./docs/falco.md)
   * [Kubernetes](./docs/kubernetes.md)
     * [etcd](./docs/etcd.md)
