@@ -5,7 +5,7 @@ Clean and simple cheat sheets to ease everyday work.
 ## Topics
 
 * [Ansible](./docs/ansible.md)
-* Azure
+* [Azure](./docs/azure.md)
   * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Concourse](./docs/concourse.md)
   * [fly CLI](./docs/fly-cli.md)
