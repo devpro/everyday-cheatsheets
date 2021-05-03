@@ -44,6 +44,8 @@
     * [Helm](./docs/helm.md)
     * [Kubectl](./docs/kubectl.md)
     * [Minikube](./docs/minikube.md)
+* Data collection & analytics
+  * [Splunk](./docs/splunk.md)
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
