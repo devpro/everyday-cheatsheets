@@ -23,15 +23,21 @@ Command | Action
 `terraform apply` | 
 `terraform destroy` | 
 
-## Documentation
+## Learn
 
 ### HashiCorp Configuration Language (HCL)
 
-- [Configuration Syntax ](https://www.terraform.io/docs/configuration/syntax.html) ([hashicorp/hcl](https://github.com/hashicorp/hcl))
+- [Configuration Syntax](https://www.terraform.io/docs/configuration/syntax.html) ([hashicorp/hcl](https://github.com/hashicorp/hcl))
 
 ### Providers
 
 - [MongoDB Atlas](https://github.com/terraform-providers/terraform-provider-mongodbatlas)
+
+## Releases
+
+### 0.15
+
+- [Announcing HashiCorp Terraform 0.15 General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability) - April 14, 2021
 
 ## Recipes
 
