@@ -4,6 +4,9 @@
 
 * ALM
   * [Tuleap](./docs/tuleap.md)
+* Architecture
+  * [Cloud Native](./docs/cloud-native.md)
+  * [Design Patterns](./docs/design-patterns.md)
 * Databases
   * [MongoDB](./docs/mongodb.md)
 * Frameworks
@@ -51,6 +54,6 @@
   * [Windows Server](./docs/windows-server.md)
   * [Windows Subsystem for Linux](./docs/wsl.md)
 
-## Learn
+## Join
 
 * [Companies](./docs/companies.md)
