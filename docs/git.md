@@ -1,9 +1,11 @@
 # Git Cheat Sheet
 
-## Links
+→ [git-scm.com](https://git-scm.com/)
 
-* [git-scm.com](https://git-scm.com/)
-* [guides.github.com/introduction/flow](https://guides.github.com/introduction/flow/)
+## Learn
+
+* [GitHub Guides > GitFlow](https://guides.github.com/introduction/flow/)
+* [GitKraken > Learn Git](https://www.gitkraken.com/learn/git)
 
 ## Commands
 
