@@ -23,7 +23,7 @@ Clean and simple cheat sheets to ease everyday work.
 * JavaScript
   * [Angular](./docs/angular.md)
   * [React](./docs/reactjs.md)
-* CNCF
+* [CNCF](./docs/cncf.md)
   * [Argo](./docs/argo.md)
   * [Falco](./docs/falco.md)
   * [Kubernetes](./docs/kubernetes.md)
