@@ -13,12 +13,14 @@
 * [Get started with ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started)
 * [What is Blazor and what is Razor Components?](https://www.hanselman.com/blog/WhatIsBlazorAndWhatIsRazorComponents.aspx) - Mar 19, 2019.
 * [Blazor workshop](https://github.com/dotnet-presentations/blazor-workshop)
+* [Tutorial - Build a Blazor todo list app](https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app)
 
 ### Fundamentals
 
 * [Configuration](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/configuration)
 * [Debug](https://docs.microsoft.com/en-us/aspnet/core/blazor/debug)
 * [State management](https://docs.microsoft.com/en-us/aspnet/core/blazor/state-management)
+* [Security](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/)
 
 ### Additional readings
 
