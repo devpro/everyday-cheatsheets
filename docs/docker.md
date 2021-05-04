@@ -19,11 +19,13 @@ See [WSL cheat sheet](https://github.com/devpro/everyday-cheatsheets/blob/master
 Once docker is installed on Ubuntu, configure Docker on Windows to expose port 2375 and run:
 
 ```bash
-$ docker images
+docker images
 #Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
-$ docker -H localhost:2375 images
+
+docker -H localhost:2375 images
 #Cannot connect to the Docker daemon at tcp://localhost:2375. Is the docker daemon running?
-$ docker -H localhost:2375 images
+
+docker -H localhost:2375 images
 #REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 #ubuntu              latest              f975c5035748        4 weeks ago         112MB
 ```
@@ -88,3 +90,7 @@ traceroute www.google.fr
 apt-get install wget
 wget --spider http://example.com
 ```
+
+## Security
+
+- [snykblog - Docker security scanning cheatsheet 2021](https://snyk.io/blog/docker-security-scanning-cheatsheet-2021/) - January 19, 2021
