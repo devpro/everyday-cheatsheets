@@ -26,7 +26,7 @@ Clean and simple cheat sheets to ease everyday work.
 * JavaScript
   * [Angular](./docs/angular.md)
   * [React](./docs/reactjs.md)
-* [CF Foundation](https://cd.foundation/)
+* [CF Foundation](./docs/cd-foundation.md)
   * [Tekton](./docs/tekton.md)
 * [CNCF](./docs/cncf.md)
   * [Argo](./docs/argo.md)
