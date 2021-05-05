@@ -4,9 +4,13 @@
 
 → [splunk.com](https://www.splunk.com/)
 
+## Learn
+
+- [meritis - Comment fonctionne Splunk ? [FR]](https://meritis.fr/comment-fonctionne-splunk/)
+
 ## Getting started
 
-### Local run with Docker
+### Run locally with Docker
 
 - Retrieve a specific [docker-Splunk](https://github.com/Splunk/docker-Splunk) image ([documentation](https://splunk.github.io/docker-splunk/)) and run a new container
 
