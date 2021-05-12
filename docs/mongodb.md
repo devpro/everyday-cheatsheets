@@ -81,3 +81,7 @@ Articles:
 - [Evergreen Continuous Integration: Why We Reinvented The Wheel](https://engineering.mongodb.com/post/evergreen-continuous-integration-why-we-reinvented-the-wheel/) - July 27, 2016
 - [Testing Linearizability with Jepsen and Evergreen: “Call Me Continuously!”](https://engineering.mongodb.com/post/testing-linearizability-with-jepsen-and-evergreen-call-me-continuously/) - February 16, 2017
 - [How We Test MongoDB: Evergreen](https://www.mongodb.com/presentations/how-we-test-mongodb-evergreen) - June 1, 2015
+
+## Deployment typologies
+
+- [FR - OVHcloud et MongoDB s’allient pour proposer une solution facilitant l’innovation des données dans le cloud](https://www.developpez.net/forums/d2109067/logiciels/solutions-d-entreprise/cloud-computing/ovhcloud-mongodb-s-allient-proposer-solution-facilitant-l-innovation-donnees-cloud/) - May 28, 2021
