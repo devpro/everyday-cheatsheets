@@ -1,5 +1,7 @@
 # Angular CLI
 
+→ [cli.angular.io](https://cli.angular.io/), [GitHub](https://github.com/angular/angular-cli)
+
 ## Releases
 
 Version | Date | More
