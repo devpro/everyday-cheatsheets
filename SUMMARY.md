@@ -11,6 +11,7 @@
   * [MongoDB](./docs/mongodb.md)
 * Frameworks
   * [Angular](./docs/angular.md)
+    * [Angular CLI](./docs/angular-cli.md)
   * [.NET](./docs/dotnet.md)
     * [Blazor](./docs/blazor.md)
     * [.NET 5.0](./docs/dotnet50.md)
