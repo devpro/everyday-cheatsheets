@@ -25,6 +25,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [gRPC](./docs/grpc.md)
 * JavaScript
   * [Angular](./docs/angular.md)
+    * [Angular CLI](./docs/angular-cli.md)
   * [React](./docs/reactjs.md)
 * [CF Foundation](./docs/cd-foundation.md)
   * [Tekton](./docs/tekton.md)
