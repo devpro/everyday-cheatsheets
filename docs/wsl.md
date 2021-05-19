@@ -1,20 +1,18 @@
 # Windows Subsystem for Linux (WSL)
 
-[Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
+→ [docs.microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/)
 
 ## Installation
 
-[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+→ [Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 ### WSL 2
 
-If your OS version is compatible, you should update to WSL 2:
-
-- [Updating the WSL 2 Linux kernel](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel)
+If your OS version is compatible, you should update to WSL 2: [Updating the WSL 2 Linux kernel](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel)
 
 ## Learn
 
-[Microsoft learn > Get started with Windows Subsystem for Linux](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/)
+→ [Microsoft learn > Get started](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/)
 
 ### Readings
 
@@ -31,7 +29,7 @@ If your OS version is compatible, you should update to WSL 2:
 
 ## Known issues
 
-- Incorrect date with WSL 2 (20200813): [issue #5324](https://github.com/microsoft/WSL/issues/5324) and [issue #4245](https://github.com/microsoft/WSL/issues/4245)
+- Incorrect date with WSL 2: [issue #5324](https://github.com/microsoft/WSL/issues/5324), [issue #4245](https://github.com/microsoft/WSL/issues/4245)
 
 ```bash
 # temporary fix, to be run regularly
@@ -45,6 +43,8 @@ sudo hwclock -s
 ```bash
 wsl --shutdown
 ```
+
+- Docker compose error: [issue #7899](https://github.com/docker/compose/issues/7899)
 
 ## Recipes
 
