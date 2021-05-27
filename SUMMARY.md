@@ -47,6 +47,7 @@
     * [Helm](./docs/helm.md)
     * [Kubectl](./docs/kubectl.md)
     * [Minikube](./docs/minikube.md)
+  * [OpenTelemetry](./docs/opentelemetry.md)
 * Data collection & analytics
   * [Splunk](./docs/splunk.md)
 * [Linux](./docs/linux.md)
