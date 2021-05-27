@@ -37,6 +37,7 @@ Clean and simple cheat sheets to ease everyday work.
     * [Helm](./docs/helm.md)
     * [Kubectl](./docs/kubectl.md)
     * [Minikube](./docs/minikube.md)
+  * [OpenTelemetry](./docs/opentelemetry.md)
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
