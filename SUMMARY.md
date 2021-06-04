@@ -2,7 +2,10 @@
 
 ## Build
 
-* ALM
+* Application Lifecycle Manangement
+  * [Concourse](./docs/concourse.md)
+    * [fly CLI](./docs/fly-cli.md)
+  * [Git](./docs/git.md)
   * [Tuleap](./docs/tuleap.md)
 * Architecture
   * [Cloud Native](./docs/cloud-native.md)
@@ -23,12 +26,12 @@
   * [C#](./docs/csharp.md)
     * [C# 8.0](./docs/csharp80.md)
   * [Go](./docs/go.md)
-* Tools
-  * [Ansible](./docs/ansible.md)
-  * [Concourse](./docs/concourse.md)
-    * [fly CLI](./docs/fly-cli.md)
+* Quality
+  * [Sonar](./docs/sonar.md)
+* Containerization
   * [Docker](./docs/docker.md)
-  * [Git](./docs/git.md)
+* Infrastructure as Code
+  * [Ansible](./docs/ansible.md)
   * [Puppet](./docs/puppet.md)
   * [Terraform](./docs/terraform.md)
 
