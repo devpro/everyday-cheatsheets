@@ -27,7 +27,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
   * [React](./docs/reactjs.md)
-* [CF Foundation](./docs/cd-foundation.md)
+* [CD Foundation](./docs/cd-foundation.md)
   * [Tekton](./docs/tekton.md)
 * [CNCF](./docs/cncf.md)
   * [Argo](./docs/argo.md)
