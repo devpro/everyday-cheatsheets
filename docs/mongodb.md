@@ -10,14 +10,25 @@ Version | Date | More
 ------- | ---- | ----
 `4.4` | _June 09, 2020_ | [Annoucement](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud), [Paper](https://webassets.mongodb.com/MongoDB_Whats_New_4.4.pdf)
 
+## Server
+
+### Start with Docker
+
+```bash
+docker run --name mongodb -d -p 27017:27017 mongo:4.4.6
+```
+
+### Start from the command line
+
+```bash
+mongod --dbpath "C:\my\path" --port 27017
+```
+
 ## Client
 
 ### Command line
 
 ```bash
-# start a new mongo server (daemon)
-mongod --dbpath "C:\my\path" --port 27017
-
 # start a mongo shell and be on mycollection
 mongo --port 27017 mycollection
 
@@ -84,7 +95,7 @@ mongosh <connection_string>
 
 ### Evergreen
 
-[evergreen-ci/evergreen](https://github.com/evergreen-ci/evergreen), [evergreen.mongodb.com](https://evergreen.mongodb.com/waterfall/mongodb-mongo-master)
+→ [evergreen-ci/evergreen](https://github.com/evergreen-ci/evergreen), [evergreen.mongodb.com](https://evergreen.mongodb.com/waterfall/mongodb-mongo-master)
 
 Articles:
 
@@ -93,5 +104,7 @@ Articles:
 - [How We Test MongoDB: Evergreen](https://www.mongodb.com/presentations/how-we-test-mongodb-evergreen) - June 1, 2015
 
 ## Deployment typologies
+
+### MongoDB & OVH
 
 - [FR - OVHcloud et MongoDB s’allient pour proposer une solution facilitant l’innovation des données dans le cloud](https://www.developpez.net/forums/d2109067/logiciels/solutions-d-entreprise/cloud-computing/ovhcloud-mongodb-s-allient-proposer-solution-facilitant-l-innovation-donnees-cloud/) - May 28, 2021
