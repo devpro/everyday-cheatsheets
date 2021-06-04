@@ -1,5 +1,9 @@
 # MongoDB cheat sheet
 
+> MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
+
+→ [mongodb.com](https://www.mongodb.com/), [Github](https://github.com/mongodb), [Twitter](https://twitter.com/MongoDB), [developer.mongodb.com](https://developer.mongodb.com)
+
 ## Releases
 
 Version | Date | More
