@@ -1,13 +1,16 @@
 # .NET Framework
 
-## .NET Foundation
+## Ecosystem
+
+### .NET Foundation
 
 → [dotnetfoundation.org](https://dotnetfoundation.org/)
 
-## Libraries
+### Open source libraries & tools
 
 * [dotnet/sourcelink](https://github.com/dotnet/sourcelink)
 * [spectreconsole/spectre.console](https://github.com/spectreconsole/spectre.console)
+* [nuke-build/nuke](https://github.com/nuke-build/nuke)
 
 ## Additional readings
 
