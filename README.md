@@ -40,6 +40,7 @@ Clean and simple cheat sheets to ease everyday work.
     * [Kubectl](./docs/kubectl.md)
     * [Minikube](./docs/minikube.md)
   * [OpenTelemetry](./docs/opentelemetry.md)
+* [Firebase](./docs/firebase.md)
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
