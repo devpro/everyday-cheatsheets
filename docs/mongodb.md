@@ -27,7 +27,7 @@ mongotop
 mongostat
 ```
 
-Reference: [docs.mongodb.com/program/mongo](https://docs.mongodb.com/manual/reference/program/mongo)
+→ [docs.mongodb.com/program/mongo](https://docs.mongodb.com/manual/reference/program/mongo)
 
 ### Mongo CLI
 
@@ -66,9 +66,15 @@ db.startup_log.find().pretty()
 quit()
 ```
 
-### MongoDB Shell
+### MongoDB Shell (mongosh)
 
-[Introducing the new MongoDB Shell](https://www.mongodb.com/blog/post/introducing-the-new-shell) - June 8, 2020
+Introduced in June 2020, avalable as a standalone package, it provides a fully functional JavaScript/Node.js environment for interacting with MongoDB deployments. It can be used to test queries and operations directly with one database.
+
+→ [Documentation](https://docs.mongodb.com/mongodb-shell/), [Download](https://www.mongodb.com/try/download/shell), [GitHub](https://github.com/mongodb-js/mongosh), [Introduction](https://www.mongodb.com/blog/post/introducing-the-new-shell)
+
+```bash
+mongosh <connection_string>
+```
 
 ## Tools
 
