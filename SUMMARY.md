@@ -37,7 +37,7 @@
 * [Azure](./docs/azure.md)
   * [Azure CLI](./docs/azure-cli.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
-* [CF Foundation](./docs/cd-foundation.md)
+* [CD Foundation](./docs/cd-foundation.md)
   * [Tekton](./docs/tekton.md)
 * [CNCF](./docs/cncf.md)
   * [Argo](./docs/argo.md) 
