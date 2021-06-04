@@ -31,6 +31,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [Tekton](./docs/tekton.md)
 * [CNCF](./docs/cncf.md)
   * [Argo](./docs/argo.md)
+  * [containerd](./docs/containerd.md)
   * [Falco](./docs/falco.md)
   * [Kubernetes](./docs/kubernetes.md)
     * [etcd](./docs/etcd.md)
