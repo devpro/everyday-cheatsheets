@@ -49,6 +49,7 @@ Clean and simple cheat sheets to ease everyday work.
 * Single-board computers [Wikipedia](https://en.wikipedia.org/wiki/Single-board_computer)
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
+* [Sonar](./docs/sonar.md)
 * [Splunk](./docs/splunk.md)
 * [Terraform](./docs/terraform.md)
 * [Tuleap](./docs/tuleap.md)
