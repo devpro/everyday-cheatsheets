@@ -21,6 +21,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [.NET 5.0](./docs/dotnet50.md)
   * [.NET Core](./docs/dotnetcore.md)
   * [.NET Events](./docs/dotnetevents.md)
+  * [WPF](./docs/wpf.md)
 * [git](./docs/git.md)
 * [Go](./docs/go.md)
 * [gRPC](./docs/grpc.md)
