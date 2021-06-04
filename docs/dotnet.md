@@ -8,3 +8,9 @@
 
 * [dotnet/sourcelink](https://github.com/dotnet/sourcelink)
 * [spectreconsole/spectre.console](https://github.com/spectreconsole/spectre.console)
+
+## Additional readings
+
+### Blogs
+
+* [meziantou.net](https://www.meziantou.net/)
