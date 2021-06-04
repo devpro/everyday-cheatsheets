@@ -51,6 +51,7 @@
   * [OpenTelemetry](./docs/opentelemetry.md)
 * Data collection & analytics
   * [Splunk](./docs/splunk.md)
+* [Firebase](./docs/firebase.md)
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
