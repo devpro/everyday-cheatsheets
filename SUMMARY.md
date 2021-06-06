@@ -2,7 +2,7 @@
 
 ## Build
 
-* ALM (Application Lifecycle Manangement)
+* Application Lifecycle Manangement
   * [Azure DevOps](./docs/azure-devops.md)
   * [Concourse](./docs/concourse.md)
     * [fly CLI](./docs/fly-cli.md)
@@ -41,7 +41,7 @@
     * React Native
   * Symfony
   * Xamarin
-* IaC (Infrastructure as Code)
+* Infrastructure as Code
   * [Ansible](./docs/ansible.md)
   * Azure Resource Manager
   * [Puppet](./docs/puppet.md)
