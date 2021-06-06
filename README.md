@@ -2,6 +2,8 @@
 
 Clean and simple cheat sheets to ease everyday work.
 
+→ [everyday-cheatsheets.docs.devpro.fr](https://everyday-cheatsheets.docs.devpro.fr/)
+
 ## Topics
 
 * [Ansible](./docs/ansible.md)
