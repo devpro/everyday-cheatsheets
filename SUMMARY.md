@@ -2,16 +2,31 @@
 
 ## Build
 
-* Application Lifecycle Manangement
+* ALM (Application Lifecycle Manangement)
+  * [Azure DevOps](./docs/azure-devops.md)
   * [Concourse](./docs/concourse.md)
     * [fly CLI](./docs/fly-cli.md)
   * [Git](./docs/git.md)
+  * GitHub
+  * GitLab
+  * Jenkins
   * [Tuleap](./docs/tuleap.md)
 * Architecture
   * [Cloud Native](./docs/cloud-native.md)
   * [Design Patterns](./docs/design-patterns.md)
+* Code analysis
+  * [Sonar](./docs/sonar.md)
+* Containerization
+  * [Docker](./docs/docker.md)
 * Databases
+  * Redis
+  * MySQL
   * [MongoDB](./docs/mongodb.md)
+    * .NET MongoDB driver
+    * Realm
+  * Oracle
+  * SQL Server
+  * PostgreSQL
 * Frameworks
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
@@ -23,48 +38,74 @@
     * [WPF](./docs/wpf.md)
   * [gRPC](./docs/grpc.md)
   * [React](./docs/reactjs.md)
+    * React Native
+  * Symfony
+  * Xamarin
+* IaC (Infrastructure as Code)
+  * [Ansible](./docs/ansible.md)
+  * Azure Resource Manager
+  * [Puppet](./docs/puppet.md)
+  * [Terraform](./docs/terraform.md)
 * Languages
   * [C#](./docs/csharp.md)
     * [C# 8.0](./docs/csharp80.md)
   * [Go](./docs/go.md)
-* Quality
-  * [Sonar](./docs/sonar.md)
-* Containerization
-  * [Docker](./docs/docker.md)
-* Infrastructure as Code
-  * [Ansible](./docs/ansible.md)
-  * [Puppet](./docs/puppet.md)
-  * [Terraform](./docs/terraform.md)
+  * [GraphQL](./docs/graphql.md)
+  * JavaScript
+  * PHP
+  * Swagger
+  * TypeScript
+* Message brokers
+  * Apache Kafka
+  * RabbitMQ
+* Testing
+  * [Cypress](./docs/cypress.md)
+  * [Selenium](./docs/selenium.md)
 
 ## Run
 
-* [Azure](./docs/azure.md)
-  * [Azure CLI](./docs/azure-cli.md)
-* [Cloud Foundry](./docs/cloudfoundry.md)
-* [CD Foundation](./docs/cd-foundation.md)
-  * [Tekton](./docs/tekton.md)
-* [CNCF](./docs/cncf.md)
-  * [Argo](./docs/argo.md)
-  * [containerd](./docs/containerd.md)
-  * [Falco](./docs/falco.md)
-  * [Kubernetes](./docs/kubernetes.md)
-    * [etcd](./docs/etcd.md)
-    * [Helm](./docs/helm.md)
-    * [Kubectl](./docs/kubectl.md)
-    * [Minikube](./docs/minikube.md)
-  * [OpenTelemetry](./docs/opentelemetry.md)
+* Cloud computing
+  * Alibaba
+  * AWS
+  * [Azure](./docs/azure.md)
+    * [Azure CLI](./docs/azure-cli.md)
+  * GCP
+  * [Firebase](./docs/firebase.md)
+  * OVH
+* Cloud native & foundations
+  * Cloud Foundry Foundation
+    * [Cloud Foundry](./docs/cloudfoundry.md)
+  * [CD Foundation](./docs/cd-foundation.md)
+    * [Tekton](./docs/tekton.md)
+  * [CNCF](./docs/cncf.md)
+    * [Argo](./docs/argo.md)
+    * [containerd](./docs/containerd.md)
+    * [Falco](./docs/falco.md)
+    * [Kubernetes](./docs/kubernetes.md)
+      * [etcd](./docs/etcd.md)
+      * [Helm](./docs/helm.md)
+      * [Kubectl](./docs/kubectl.md)
+      * [Minikube](./docs/minikube.md)
+    * [OpenTelemetry](./docs/opentelemetry.md)
+    * [Prometheus](./docs/prometheus.md)
 * Data collection & analytics
+  * [Elastic Stack](./docs/elastic-stack.md)
+  * [Grafana](./docs/grafana.md)
   * [Splunk](./docs/splunk.md)
-* [Firebase](./docs/firebase.md)
-* [Linux](./docs/linux.md)
-  * [CentOS](./docs/centos.md)
-  * [Ubuntu](./docs/ubuntu.md)
-* Single-board computers
-  * [Odroid](./docs/odroid.md)
-  * [Raspberry Pi](./docs/raspberrypi.md)
-* Windows
-  * [Windows Server](./docs/windows-server.md)
-  * [Windows Subsystem for Linux](./docs/wsl.md)
+* Hardware
+  * Single-board computers
+    * [Odroid](./docs/odroid.md)
+    * [Raspberry Pi](./docs/raspberrypi.md)
+* Operating systems
+  * [Linux](./docs/linux.md)
+    * [CentOS](./docs/centos.md)
+    * [Ubuntu](./docs/ubuntu.md)
+  * Windows
+    * [Windows Server](./docs/windows-server.md)
+    * [Windows Subsystem for Linux](./docs/wsl.md)
+* Virtualization
+  * VMware
+    * Tanzu
 
 ## Join
 
