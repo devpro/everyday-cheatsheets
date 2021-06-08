@@ -44,6 +44,13 @@ sudo hwclock -s
 wsl --shutdown
 ```
 
+- Zombie process
+
+```bash
+ps axo stat,ppid,pid,comm | grep -w defunct
+sudo kill -9 <pid>
+```
+
 - Docker compose error: [issue #7899](https://github.com/docker/compose/issues/7899)
 
 ## Recipes
