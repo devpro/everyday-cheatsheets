@@ -41,6 +41,8 @@
     * React Native
   * Symfony
   * Xamarin
+* IDE
+  * [Visual Studio Code](./docs/vs-code.md)
 * Infrastructure as Code
   * [Ansible](./docs/ansible.md)
   * Azure Resource Manager
