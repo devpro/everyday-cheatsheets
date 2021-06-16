@@ -55,6 +55,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
 * [MongoDB](./docs/mongodb.md)
+  * [MongoDB design](./docs/mongodb-design.md)
 * [Puppet](./docs/puppet.md)
 * [Selenium](./docs/selenium.md)
 * Single-board computers
