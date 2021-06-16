@@ -23,6 +23,7 @@
   * MySQL
   * [MongoDB](./docs/mongodb.md)
     * .NET MongoDB driver
+    * [MongoDB design](./docs/mongodb-design.md)
     * Realm
   * Oracle
   * SQL Server
