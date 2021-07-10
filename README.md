@@ -32,6 +32,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [Go](./docs/go.md)
 * [Grafana](./docs/grafana.md)
 * [gRPC](./docs/grpc.md)
+* [IoT](./docs/iot.md)
 * JavaScript
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
