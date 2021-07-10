@@ -14,6 +14,7 @@
 * Architecture
   * [Cloud Native](./docs/cloud-native.md)
   * [Design Patterns](./docs/design-patterns.md)
+  * [IoT](./docs/iot.md)
 * Code analysis
   * [Sonar](./docs/sonar.md)
 * Containerization
