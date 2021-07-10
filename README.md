@@ -69,3 +69,7 @@ Clean and simple cheat sheets to ease everyday work.
 * Windows
   * [Windows Server](./docs/windows-server.md)
   * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
+
+## Other resources
+
+* [wiki-tech.io](https://wiki-tech.io/): wiki in French
