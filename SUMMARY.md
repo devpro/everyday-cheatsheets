@@ -112,6 +112,10 @@
   * VMware
     * Tanzu
 
+## Optimize
+
+* [DevOps](./docs/devops.md)
+
 ## Join
 
 * [Companies](./docs/companies.md)
