@@ -17,6 +17,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [fly CLI](./docs/fly-cli.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
 * [Cypress](./docs/cypress.md)
+* [DevOps](./docs/devops.md)
 * [Docker](./docs/docker.md)
 * [.NET](./docs/dotnet.md)
   * [Blazor](./docs/blazor.md)
