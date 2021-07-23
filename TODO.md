@@ -14,3 +14,7 @@
 ### Kubernetes
 
 - [ITNEXT - Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572) - July 07, 2021
+
+### Pipelines
+
+- [JFrog - How to Accelerate Software Delivery with Hybrid Cloud CI/CD](https://jfrog.com/blog/how-to-accelerate-software-delivery-with-hybrid-cloud-ci-cd/) - July 19, 2021
