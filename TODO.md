@@ -21,7 +21,13 @@
 - [Accelerate your business with Azure](https://partner.microsoft.com/en-us/azureskills)
 - [Microsoft Cloud Skills Challenge - 30 Days to Learn It](https://developer.microsoft.com/en-us/offers/30-days-to-learn-it)
   - Microsoft 365 Developer
+- [Azure Front Door](https://azure.microsoft.com/en-us/services/frontdoor/)
 
 ### Pipelines
 
 - [JFrog - How to Accelerate Software Delivery with Hybrid Cloud CI/CD](https://jfrog.com/blog/how-to-accelerate-software-delivery-with-hybrid-cloud-ci-cd/) - July 19, 2021
+
+### API Authentication / gateway
+
+- [Microsoft - Using API gateways in microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway)
+- [Kong](https://konghq.com/kong/)
