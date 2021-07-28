@@ -6,6 +6,10 @@
 
 - [microsoft/azure-devops-extension-yeoman-generator](https://github.com/microsoft/azure-devops-extension-yeoman-generator)
 
+### Companies
+
+- [r2devops.io](https://r2devops.io/)
+
 ### Game development
 
 - [Microsoft/Win2D](https://github.com/Microsoft/Win2D)
