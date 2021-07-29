@@ -29,13 +29,13 @@
 
 * Open Systems Interconnection (OSI) model
 
-  * 1. Physical Layer
-  * 2. Data Link Layer
-  * 3. Network Layer
-  * 4. Transport Layer
-  * 5. Session Layer
-  * 6. Presentation Layer
-  * 7. Application Layer
+  * (1) Physical Layer
+  * (2) Data Link Layer
+  * (3) Network Layer
+  * (4) Transport Layer
+  * (5) Session Layer
+  * (6) Presentation Layer
+  * (7) Application Layer
 
   → [7 layers diagram](https://cdn-images-1.medium.com/max/1200/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg)
 
