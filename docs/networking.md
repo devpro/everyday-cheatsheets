@@ -9,6 +9,13 @@
 
 ### Key elements
 
+* Computer network types
+  * Local Area Network (LAN)
+  * Storage Area Network (SAN)
+  * Virtual Private Network (VPN)
+  * Wide Area Network (WAN)
+  * Wireless Local Area Network (WLAN)
+
 * Content Delivery Network (CDN)
 
 * Distributed Denial of Service (DDoS)
@@ -23,12 +30,9 @@
 
 * Load balancers
 
-* Local Area Network (LAN)
-
 * Network Address Translation (NAT)
 
 * Open Systems Interconnection (OSI) model
-
   * (1) Physical Layer
   * (2) Data Link Layer
   * (3) Network Layer
@@ -44,7 +48,3 @@
   * Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports
 
   ![DNS in TCP/IP](https://docs.microsoft.com/en-us/windows-server/networking/media/domain-name-system--dns-/dns_in_tcpip.jpg)
-
-* Virtual Private Networking (VPN)
-
-* Wide-Area Network (WAN)
