@@ -9,6 +9,7 @@
 ## Documentation
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/latest/index.html)
+  * [Network Getting Started](https://docs.ansible.com/ansible/latest/network/getting_started/index.html)
 
 ### Introduction videos
 
