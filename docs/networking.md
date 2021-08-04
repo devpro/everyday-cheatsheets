@@ -8,6 +8,7 @@
 * [Azure Networking](https://azure.microsoft.com/en-us/product-categories/networking/)
 * [IBM Cloud Learn Hub The Fundamentals of Networking > Networking](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
 * [Software Testing Help > Computer Networking Tutorial: The Ultimate Guide](https://www.softwaretestinghelp.com/computer-networking-basics/)
+* [Blog Stéphane Bortzmeyer](https://www.bortzmeyer.org/)
 
 ### Key elements
 
