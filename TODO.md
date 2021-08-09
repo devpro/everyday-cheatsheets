@@ -2,6 +2,10 @@
 
 ## Pages to review
 
+### Azure
+
+- [github.com/Azure-Samples](https://github.com/Azure-Samples)
+
 ### Azure DevOps
 
 - [microsoft/azure-devops-extension-yeoman-generator](https://github.com/microsoft/azure-devops-extension-yeoman-generator)
