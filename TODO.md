@@ -39,3 +39,7 @@
 
 - [Microsoft - Using API gateways in microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway)
 - [Kong](https://konghq.com/kong/)
+
+### XBox
+
+- [Reddit - Xbox Insiders](https://www.reddit.com/r/xboxinsiders/wiki/xgspreview/gettingstarted#wiki_xbox_cloud_gaming_verified_devices)
