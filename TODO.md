@@ -2,6 +2,10 @@
 
 ## Pages to review
 
+### ASP.NET
+
+- [CodeBurst - Load Balancing an ASP.NET Core Web App using Nginx and Docker](https://codeburst.io/load-balancing-an-asp-net-core-web-app-using-nginx-and-docker-66753eb08204)
+
 ### Azure
 
 - [github.com/Azure-Samples](https://github.com/Azure-Samples)
