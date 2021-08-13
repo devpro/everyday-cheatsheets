@@ -48,6 +48,7 @@
 * [Infrastructure as Code](./docs/iac.md)
   * [Ansible](./docs/ansible.md)
   * Azure Resource Manager
+  * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)
   * [Terraform](./docs/terraform.md)
 * Languages

@@ -43,4 +43,5 @@ Command | Action
 
 ### Azure
 
+- [Microsoft - Terraform on Azure documentation](https://docs.microsoft.com/en-us/azure/developer/terraform/)
 - [Cellenza - Déployer un process Serverless avec Terraform et Azure DevOps](https://blog.cellenza.com/devops/deployer-un-process-serverless-avec-terraform-et-azure-devops/) - September 4, 2019
