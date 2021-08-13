@@ -45,7 +45,7 @@
   * Xamarin
 * IDE
   * [Visual Studio Code](./docs/vs-code.md)
-* Infrastructure as Code
+* [Infrastructure as Code](./docs/iac.md)
   * [Ansible](./docs/ansible.md)
   * Azure Resource Manager
   * [Puppet](./docs/puppet.md)
