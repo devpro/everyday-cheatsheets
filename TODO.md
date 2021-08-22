@@ -26,6 +26,7 @@
 ### Kubernetes
 
 - [ITNEXT - Kubernetes Essential Tools: 2021](https://itnext.io/kubernetes-essential-tools-2021-def12e84c572) - July 07, 2021
+- [Kubernetes CI/CD with Tekton and ArgoCD](https://piotrminkowski.com/2021/08/05/kubernetes-ci-cd-with-tekton-and-argocd/) - August 5, 2021
 
 ### Microsoft
 
