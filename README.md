@@ -57,6 +57,8 @@ Clean and simple cheat sheets to ease everyday work.
 * [Linux](./docs/linux.md)
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
+* Microsoft 365
+  * [Microsoft Graph](./docs/microsoft-graph.md)
 * [MongoDB](./docs/mongodb.md)
   * [MongoDB design](./docs/mongodb-design.md)
 * [Pulumi](./docs/pulumi.md)

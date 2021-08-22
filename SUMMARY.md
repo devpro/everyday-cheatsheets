@@ -96,6 +96,9 @@
       * [Minikube](./docs/minikube.md)
     * [OpenTelemetry](./docs/opentelemetry.md)
     * [Prometheus](./docs/prometheus.md)
+* Collaboration
+  * Microsoft 365
+    * [Microsoft Graph](./docs/microsoft-graph.md)
 * Data collection & analytics
   * [Elastic Stack](./docs/elastic-stack.md)
   * [Grafana](./docs/grafana.md)
