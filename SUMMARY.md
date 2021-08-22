@@ -41,6 +41,8 @@
   * [gRPC](./docs/grpc.md)
   * [React](./docs/reactjs.md)
     * React Native
+  * [SharePoint Framework](./docs/spfx.md)
+    * [SharePoint Framework UI components](./docs/spfx-ui-components.md)
   * Symfony
   * Xamarin
 * IDE

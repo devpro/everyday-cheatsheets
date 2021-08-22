@@ -62,6 +62,8 @@ Clean and simple cheat sheets to ease everyday work.
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
 * [Selenium](./docs/selenium.md)
+* [SharePoint Framework](./docs/spfx.md)
+  * [SharePoint Framework UI components](./docs/spfx-ui-components.md)
 * Single-board computers
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
