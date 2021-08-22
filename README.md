@@ -71,6 +71,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [Splunk](./docs/splunk.md)
 * [Terraform](./docs/terraform.md)
 * [Tuleap](./docs/tuleap.md)
+* [TypeScript](./docs/typescript.md)
 * [Visual Studio Code](./docs/vs-code.md)
 * Windows
   * [Windows Server](./docs/windows-server.md)

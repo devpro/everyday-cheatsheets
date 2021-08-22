@@ -2,7 +2,7 @@
 
 ## React
 
-* [JSX](https://reactjs.org/docs/introducing-jsx.html) is a syntax extension to JavaScript. It is recommended to use it with React to describe what the UI should look like. JSX produces React “elements”.
+→ [React](./reactjs.md)
 
 ## Reusable controls
 

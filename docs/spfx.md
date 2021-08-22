@@ -27,26 +27,25 @@
 
 ### Learning path
 
-* [Introduction to customizing and extending SharePoint](https://docs.microsoft.com/en-us/learn/modules/intro-sharepoint-framework/)
+1. [Introduction to customizing and extending SharePoint](https://docs.microsoft.com/en-us/learn/modules/intro-sharepoint-framework/)
 
-* [Get started with the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-get-started/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-getting-started), [video](https://www.youtube.com/watch?v=_Pt5cnU4MpU&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
+2. [Get started with the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-get-started/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-getting-started), [video](https://www.youtube.com/watch?v=_Pt5cnU4MpU&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
 
-* [Develop web parts with the SharePoint Framework](https://docs.microsoft.com/fr-fr/learn/modules/sharepoint-spfx-web-parts/)
-  * Commands: [Explore a SharePoint Framework project](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-parts/2-explore-project)
+3. [Develop web parts with the SharePoint Framework](https://docs.microsoft.com/fr-fr/learn/modules/sharepoint-spfx-web-parts/)
 
-* [Enable SharePoint Framework web part configuration with property panes](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-part-property-pane/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-webpart-proppane), [video](https://www.youtube.com/watch?v=4QLY6z3RGug&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
+4. [Enable SharePoint Framework web part configuration with property panes](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-part-property-pane/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-webpart-proppane), [video](https://www.youtube.com/watch?v=4QLY6z3RGug&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
 
-* [Work with SharePoint Content using the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-spcontent/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-spcontent), [video](https://www.youtube.com/watch?v=0OiC7AzoCVI&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
+5. [Work with SharePoint Content using the SharePoint Framework](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-spcontent/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-spcontent), [video](https://www.youtube.com/watch?v=0OiC7AzoCVI&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
 
-* [Extend the SharePoint user interface with SharePoint Framework extensions](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-extensions/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-extensions), [video](https://www.youtube.com/watch?v=85DlxhbIK9I&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
+6. [Extend the SharePoint user interface with SharePoint Framework extensions](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-extensions/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-extensions), [video](https://www.youtube.com/watch?v=85DlxhbIK9I&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
 
-* [Leverage Microsoft Graph & third-party APIs](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-graph-3rd-party-apis/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-graph-3rdpartyapis), [video](https://www.youtube.com/watch?v=0zVtDn0ckBM&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
+7. [Leverage Microsoft Graph & third-party APIs](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-graph-3rd-party-apis/) ([code](https://github.com/SharePoint/sp-dev-training-spfx-graph-3rdpartyapis), [video](https://www.youtube.com/watch?v=0zVtDn0ckBM&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc))
 
-* [Deploy SharePoint Framework Components to Production](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-deployment/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn-m365.sharepoint-associate) ([code](https://github.com/SharePoint/sp-dev-training-spfx-deployment), [video](https://www.youtube.com/watch?v=DLi6ZviEIJ8))
+8. [Deploy SharePoint Framework Components to Production](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-deployment/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn-m365.sharepoint-associate) ([code](https://github.com/SharePoint/sp-dev-training-spfx-deployment), [video](https://www.youtube.com/watch?v=DLi6ZviEIJ8))
 
-* [Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components) ([video](https://www.youtube.com/watch?v=kNrYd8nYaZY))
+10. [Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components) ([video](https://www.youtube.com/watch?v=kNrYd8nYaZY))
 
-* [Consume the Microsoft Graph in the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aad-tutorial)
+11. [Consume the Microsoft Graph in the SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aad-tutorial)
 
 ### Code samples
 
@@ -125,3 +124,5 @@ gulp package-solution --ship
 # tracks the generated SharePoint package
 ls /sharepoint/solution/*.sppkg
 ```
+
+Read more about Gulp commands: [Explore a SharePoint Framework project](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-parts/2-explore-project)

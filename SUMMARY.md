@@ -61,7 +61,7 @@
   * JavaScript
   * PHP
   * Swagger
-  * TypeScript
+  * [TypeScript](./docs/typescript.md)
 * Message brokers
   * Apache Kafka
   * RabbitMQ
