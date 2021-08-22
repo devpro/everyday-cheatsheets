@@ -1,18 +1,55 @@
 # SharePoint Framework UI components
 
-## React
+## JavaScript frameworks
 
-→ [React](./reactjs.md)
+### React
 
-## Reusable controls
+→ [Cheat sheet](./reactjs.md)
 
-* [Reusable property pane controls for the SharePoint Framework solutions](https://pnp.github.io/sp-dev-fx-property-controls)
+## Component libraries
+
+### Microsoft Graph Toolkit components
+
+→ [SharePoint Framework library for Microsoft Graph Toolkit](https://docs.microsoft.com/en-us/graph/toolkit/get-started/mgt-spfx)
+
+* Installation
+
+```bash
+npm install @microsoft/mgt-spfx
+
+# for React
+npm install @microsoft/mgt-react
+```
+
+* Examples: [Persona card](https://docs.microsoft.com/en-us/graph/toolkit/components/person-card)
+
+* Read more: [Microsoft Graph](./microsoft-graph.md)
+
+### Office UI Fabric React (soon to be replaced by Fluent UI)
+
+* Introduction: [Use Office UI Fabric React components in your SharePoint client-side web part](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/use-fabric-react-components)
+
+* Installation
+
+```bash
+npm install office-ui-fabric-react
+```
+
+* Documentation: [developer.microsoft.com/fluentui](https://developer.microsoft.com/en-us/fluentui#/)
+
+* Source code: [microsoft/fluentui](https://github.com/microsoft/fluentui)
+
+* Examples: DocumentCard, Persona
+
+### PnP (Microsoft 365 Patterns and Practices) components
+
+* [Property pane controls](https://pnp.github.io/sp-dev-fx-property-controls)
 
 ```bash
 npm install @pnp/spfx-property-controls --save --save-exact
 ```
 
-* [Reusable React controls for your SharePoint Framework solutions](https://pnp.github.io/sp-dev-fx-controls-react)
+* [React controls](https://pnp.github.io/sp-dev-fx-controls-react)
 
 ```bash
 npm install @pnp/spfx-controls-react --save --save-exact
