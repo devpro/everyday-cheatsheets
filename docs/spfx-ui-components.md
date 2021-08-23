@@ -39,11 +39,11 @@ npm install @microsoft/mgt-react
 npm install office-ui-fabric-react
 ```
 
-* Documentation: [developer.microsoft.com/fluentui](https://developer.microsoft.com/en-us/fluentui#/)
+* Documentation: [developer.microsoft.com/fluentui](https://developer.microsoft.com/en-us/fluentui#/) ([Get Started with Fabric React](https://docs.microsoft.com/en-us/javascript/api/getstarted/getstartedpage?view=office-ui-fabric-react-latest))
 
 * Source code: [microsoft/fluentui](https://github.com/microsoft/fluentui)
 
-* Examples: DocumentCard, Persona
+* Examples: DocumentCard, Persona, [SearchBox](https://developer.microsoft.com/en-us/fluentui#/controls/web/searchbox)
 
 ### PnP (Microsoft 365 Patterns and Practices) components
 
