@@ -21,9 +21,11 @@
     * The property pane has two different modes: reactive and non-reactive
 * JavaScript agnostic but can be used with a framework (React in particular)
 
-### Read further
+Read further: [SharePoint Framework UI components](./spfx-ui-components.md)
 
-* [SharePoint Framework UI components](./spfx-ui-components.md)
+### Quick start
+
+* [Set up your Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
 ### Learning path
 
@@ -49,12 +51,13 @@
 
 ### Code samples
 
-* [pnp/sp-starter-kit](https://github.com/pnp/sp-starter-kit)
-* [PnP SharePoint Framework Client-Side Extension Samples](https://pnp.github.io/sp-dev-fx-extensions/)
-  * [pnp/sp-dev-fx-extensions](https://github.com/pnp/sp-dev-fx-extensions)
-* [PnP SharePoint Framework Client-Side Web Part Samples](https://pnp.github.io/sp-dev-fx-webparts/)
-  * [pnp/sp-dev-fx-webparts](https://github.com/pnp/sp-dev-fx-webparts)
-* [pnp/sp-dev-fx-library-components](https://github.com/pnp/sp-dev-fx-library-components)
+* [Microsoft 365 Patterns and Practices (PnP)](https://pnp.github.io/)
+  * [pnp/sp-starter-kit](https://github.com/pnp/sp-starter-kit)
+  * [PnP SharePoint Framework Client-Side Extension Samples](https://pnp.github.io/sp-dev-fx-extensions/)
+    * [pnp/sp-dev-fx-extensions](https://github.com/pnp/sp-dev-fx-extensions)
+  * [PnP SharePoint Framework Client-Side Web Part Samples](https://pnp.github.io/sp-dev-fx-webparts/)
+    * [pnp/sp-dev-fx-webparts](https://github.com/pnp/sp-dev-fx-webparts)
+  * [pnp/sp-dev-fx-library-components](https://github.com/pnp/sp-dev-fx-library-components)
 
 ### Usecases
 
@@ -65,6 +68,7 @@
 #### API calls
 
 * [Connect to Azure AD-secured APIs in SharePoint Framework solutions](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-aadhttpclient)
+* [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 
 #### Logging
 
@@ -126,3 +130,9 @@ ls /sharepoint/solution/*.sppkg
 ```
 
 Read more about Gulp commands: [Explore a SharePoint Framework project](https://docs.microsoft.com/en-us/learn/modules/sharepoint-spfx-web-parts/2-explore-project)
+
+## Operate
+
+### Deployment
+
+* [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)

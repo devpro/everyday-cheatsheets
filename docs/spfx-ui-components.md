@@ -23,6 +23,10 @@ npm install @microsoft/mgt-react
 
 * Examples: [Persona card](https://docs.microsoft.com/en-us/graph/toolkit/components/person-card)
 
+* Recipes
+  * [Build a SharePoint web part with the Microsoft Graph Toolkit](https://docs.microsoft.com/en-us/graph/toolkit/get-started/build-a-sharepoint-web-part)
+
+
 * Read more: [Microsoft Graph](./microsoft-graph.md)
 
 ### Office UI Fabric React (soon to be replaced by Fluent UI)
@@ -43,13 +47,13 @@ npm install office-ui-fabric-react
 
 ### PnP (Microsoft 365 Patterns and Practices) components
 
-* [Property pane controls](https://pnp.github.io/sp-dev-fx-property-controls)
+* [Property pane controls](https://pnp.github.io/sp-dev-fx-property-controls) ([pnp/sp-dev-fx-property-controls](https://github.com/pnp/sp-dev-fx-property-controls))
 
 ```bash
 npm install @pnp/spfx-property-controls --save --save-exact
 ```
 
-* [React controls](https://pnp.github.io/sp-dev-fx-controls-react)
+* [React controls](https://pnp.github.io/sp-dev-fx-controls-react) ([pnp/sp-dev-fx-controls-react](https://github.com/pnp/sp-dev-fx-controls-react))
 
 ```bash
 npm install @pnp/spfx-controls-react --save --save-exact
