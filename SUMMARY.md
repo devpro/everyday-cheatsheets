@@ -39,6 +39,8 @@
     * [.NET Events](./docs/dotnetevents.md)
     * [WPF](./docs/wpf.md)
   * [gRPC](./docs/grpc.md)
+  * Node.js
+    * [NPM](./docs/npm.md)
   * [React](./docs/reactjs.md)
     * React Native
   * [SharePoint Framework](./docs/spfx.md)
@@ -62,9 +64,9 @@
   * PHP
   * Swagger
   * [TypeScript](./docs/typescript.md)
-* Message brokers
+* [Message Broker](./docs/message-broker.md)
   * Apache Kafka
-  * RabbitMQ
+  * [RabbitMQ](./rabbitmq.md)
 * Testing
   * [Cypress](./docs/cypress.md)
   * [Selenium](./docs/selenium.md)
@@ -79,7 +81,18 @@
   * GCP
   * [Firebase](./docs/firebase.md)
   * OVH
-* Cloud native & foundations
+* Collaboration
+  * Microsoft 365
+    * [Microsoft Graph](./docs/microsoft-graph.md)
+* Data collection & analytics
+  * [Elastic Stack](./docs/elastic-stack.md)
+  * [Grafana](./docs/grafana.md)
+  * [Splunk](./docs/splunk.md)
+* Hardware
+  * Single-board computers
+    * [Odroid](./docs/odroid.md)
+    * [Raspberry Pi](./docs/raspberrypi.md)
+* Linux Foundation
   * Cloud Foundry Foundation
     * [Cloud Foundry](./docs/cloudfoundry.md)
   * [CD Foundation](./docs/cd-foundation.md)
@@ -96,17 +109,9 @@
       * [Minikube](./docs/minikube.md)
     * [OpenTelemetry](./docs/opentelemetry.md)
     * [Prometheus](./docs/prometheus.md)
-* Collaboration
-  * Microsoft 365
-    * [Microsoft Graph](./docs/microsoft-graph.md)
-* Data collection & analytics
-  * [Elastic Stack](./docs/elastic-stack.md)
-  * [Grafana](./docs/grafana.md)
-  * [Splunk](./docs/splunk.md)
-* Hardware
-  * Single-board computers
-    * [Odroid](./docs/odroid.md)
-    * [Raspberry Pi](./docs/raspberrypi.md)
+  * eBPF Foundation
+    * [eBPF](./docs/ebpf.md)
+* [Networking](./docs/networking.md)
 * Operating systems
   * [Linux](./docs/linux.md)
     * [CentOS](./docs/centos.md)
@@ -114,6 +119,8 @@
   * Windows
     * [Windows Server](./docs/windows-server.md)
     * [Windows Subsystem for Linux](./docs/wsl.md)
+* Software
+  * [HAProxy](./docs/haproxy.md)
 * Virtualization
   * VMware
     * Tanzu
