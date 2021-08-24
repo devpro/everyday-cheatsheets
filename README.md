@@ -71,6 +71,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
 * [RabbitMQ](./docs/rabbitmq.md)
+* [Redis](./docs/redis.md)
 * [Selenium](./docs/selenium.md)
 * [SharePoint Framework](./docs/spfx.md)
   * [SharePoint Framework UI components](./docs/spfx-ui-components.md)

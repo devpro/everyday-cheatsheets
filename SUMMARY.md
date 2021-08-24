@@ -20,13 +20,13 @@
 * Containerization
   * [Docker](./docs/docker.md)
 * Databases
-  * Redis
   * MySQL
   * [MongoDB](./docs/mongodb.md)
     * .NET MongoDB driver
     * [MongoDB design](./docs/mongodb-design.md)
     * Realm
   * Oracle
+  * [Redis](./docs/redis.md)
   * SQL Server
   * PostgreSQL
 * Frameworks
