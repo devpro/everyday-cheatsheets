@@ -10,6 +10,8 @@
 
 ## HashiCorp
 
+[HashiCorp](https://www.hashicorp.com/)
+
 [HashiCorp Learn](https://learn.hashicorp.com/)
 
 ### HashiConf Digital 2020 (June 22-24, 2020)
@@ -22,4 +24,9 @@
 
 ## Others
 
+- [Bitnami](https://bitnami.com/)
+- [Datadog](https://www.datadoghq.com/)
+- [LogRocket](https://logrocket.com/)
+- [Software AG](https://www.softwareag.com/corporate/default.html)
+  - [webMethods](https://www.softwareag.com/corporate/products/webmethods_integration/default)
 - [sysdig](https://sysdig.com/)

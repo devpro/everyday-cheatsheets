@@ -1,14 +1,20 @@
 # Docker Cheat Sheet
 
-[docker.com](https://www.docker.com/) > [docs](https://docs.docker.com/)
+> Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
 
-## Docker Desktop
+→ [docker.com](https://www.docker.com/), [docs](https://docs.docker.com/, [hub](https://hub.docker.com/), [Youtube](https://www.youtube.com/playlist?list=PLkA60AVN3hh-t0VTESCYCfa4ddGmmXZZt)
 
-[Docker Desktop](https://www.docker.com/products/docker-desktop)
+## Getting started
 
-### Installation on Windows
+Start with [Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/).
+
+### Docker on Windows
+
+Go to [Get started with Docker for Windows](https://docs.docker.com/docker-for-windows/).
 
 [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/#start-docker-for-windows)
+
+[Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 See [WSL cheat sheet](https://github.com/devpro/everyday-cheatsheets/blob/master/docs/wsl.md).
 
@@ -60,13 +66,10 @@ See [Docker Cheat Sheet from Will Sargent](https://github.com/wsargent/docker-ch
 
 Reference: [Child commands](https://docs.docker.com/engine/reference/commandline/docker/#child-commands)
 
-## Quickstart
-
-[Get Started](https://docs.docker.com/get-started/)
-
 ### Playground
 
 - [Play with Docker (PWD)](https://labs.play-with-docker.com/)
+- [Play with Docker Classroom](https://training.play-with-docker.com/)
 
 ### Tutorials
 
@@ -94,3 +97,12 @@ wget --spider http://example.com
 ## Security
 
 - [snykblog - Docker security scanning cheatsheet 2021](https://snyk.io/blog/docker-security-scanning-cheatsheet-2021/) - January 19, 2021
+
+## Recipes
+
+- [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/) July 02 2019
+- [Get Ready for the Tech Preview of Docker Desktop for WSL 2](https://blog.docker.com/2019/07/docker-wsl2-tech-preview/) July 18 2019
+
+## Samples
+
+- [Hello world](https://docs.docker.com/samples/library/hello-world/)
