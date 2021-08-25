@@ -18,7 +18,7 @@
   * [IoT](./docs/iot.md)
   * [Message Broker](./docs/message-broker.md)
     * Apache Kafka
-    * [RabbitMQ](./rabbitmq.md)
+    * [RabbitMQ](./docs/rabbitmq.md)
 * Containerization
   * [Docker](./docs/docker.md)
 * Databases
