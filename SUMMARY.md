@@ -9,7 +9,7 @@
   * [Git](./docs/git.md)
   * GitHub
   * GitLab
-  * Jenkins
+  * [Jenkins](./docs/jenkins.md)
   * [Tuleap](./docs/tuleap.md)
 * Architecture
   * [Cloud Native](./docs/cloud-native.md)
@@ -48,6 +48,8 @@
   * Symfony
   * Xamarin
 * IDE
+  * [PhpStorm](./docs/phpstorm.md)
+  * Visual Studio 2019
   * [Visual Studio Code](./docs/vs-code.md)
 * [Infrastructure as Code](./docs/iac.md)
   * [Ansible](./docs/ansible.md)
