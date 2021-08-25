@@ -7,8 +7,8 @@
   * [Concourse](./docs/concourse.md)
     * [fly CLI](./docs/fly-cli.md)
   * [Git](./docs/git.md)
-  * GitHub
-  * GitLab
+  * [GitHub](./docs/github.md)
+  * [GitLab](./docs/gitlab.md)
   * [Jenkins](./docs/jenkins.md)
   * [Tuleap](./docs/tuleap.md)
 * Architecture
@@ -28,7 +28,7 @@
   * Oracle
   * [Redis](./docs/redis.md)
   * SQL Server
-  * PostgreSQL
+  * [PostgreSQL](./docs/postgresql.md)
 * Frameworks
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
