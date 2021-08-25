@@ -76,6 +76,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [PostgreSQL](./docs/postgresql.md)
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
+* [Python](./docs/python.md)
 * [RabbitMQ](./docs/rabbitmq.md)
 * [Redis](./docs/redis.md)
 * [Selenium](./docs/selenium.md)
@@ -89,10 +90,12 @@ Clean and simple cheat sheets to ease everyday work.
 * [Terraform](./docs/terraform.md)
 * [Tuleap](./docs/tuleap.md)
 * [TypeScript](./docs/typescript.md)
+* [Vagrant](./docs/vagrant.md)
 * [Visual Studio Code](./docs/vs-code.md)
 * Windows
   * [Windows Server](./docs/windows-server.md)
   * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
+* [Workstation](./docs/workstation.md)
 
 ## External resources
 

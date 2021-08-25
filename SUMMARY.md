@@ -10,13 +10,15 @@
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
   * [Jenkins](./docs/jenkins.md)
+  * [Sonar](./docs/sonar.md)
   * [Tuleap](./docs/tuleap.md)
 * Architecture
   * [Cloud Native](./docs/cloud-native.md)
   * [Design Patterns](./docs/design-patterns.md)
   * [IoT](./docs/iot.md)
-* Code analysis
-  * [Sonar](./docs/sonar.md)
+  * [Message Broker](./docs/message-broker.md)
+    * Apache Kafka
+    * [RabbitMQ](./rabbitmq.md)
 * Containerization
   * [Docker](./docs/docker.md)
 * Databases
@@ -47,10 +49,6 @@
     * [SharePoint Framework UI components](./docs/spfx-ui-components.md)
   * Symfony
   * Xamarin
-* IDE
-  * [PhpStorm](./docs/phpstorm.md)
-  * Visual Studio 2019
-  * [Visual Studio Code](./docs/vs-code.md)
 * [Infrastructure as Code](./docs/iac.md)
   * [Ansible](./docs/ansible.md)
   * Azure Resource Manager
@@ -64,14 +62,16 @@
   * [GraphQL](./docs/graphql.md)
   * JavaScript
   * PHP
+  * [Python](./docs/python.md)
   * Swagger
   * [TypeScript](./docs/typescript.md)
-* [Message Broker](./docs/message-broker.md)
-  * Apache Kafka
-  * [RabbitMQ](./rabbitmq.md)
 * Testing
   * [Cypress](./docs/cypress.md)
   * [Selenium](./docs/selenium.md)
+* [Workstation](./docs/workstation.md)
+  * [PhpStorm](./docs/phpstorm.md)
+  * Visual Studio 2019
+  * [Visual Studio Code](./docs/vs-code.md)
 
 ## Run
 
@@ -124,6 +124,7 @@
 * Software
   * [HAProxy](./docs/haproxy.md)
 * Virtualization
+  * [Vagrant](./docs/vagrant.md)
   * VMware
     * Tanzu
 
