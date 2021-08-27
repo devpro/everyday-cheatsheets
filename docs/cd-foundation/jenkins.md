@@ -33,3 +33,9 @@ sudo chmod 775 /var/lib/jenkins-slave
 
 - Go to Manager Jenkins > Manage Nodes > New Node
 - Fill Node Name
+
+### Link a pipeline with Puppet
+
+- [Jenkins Deployment Notification Plugin](https://wiki.jenkins.io/display/JENKINS/Deployment+Notification+Plugin)
+- [Puppet Plugin](https://wiki.jenkins.io/display/JENKINS/Puppet+Plugin)
+- [wwkimball/puppet-jenkinstracking](https://github.com/wwkimball/puppet-jenkinstracking)

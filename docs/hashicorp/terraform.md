@@ -1,8 +1,8 @@
 # Terraform
 
-> Terraform is the infrastructure as code tool from HashiCorp. It is a tool for building, changing, and managing infrastructure in a safe, repeatable way.
+> Write, Plan, Apply. Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
-See [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/docs/index.html), [hashicorp/terraform](https://github.com/hashicorp/terraform), [hashicorp.com](https://www.hashicorp.com/products/terraform/).
+→ [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/docs/index.html), [source](https://github.com/hashicorp/terraform), [hashicorp.com](https://www.hashicorp.com/products/terraform/).
 
 ## Quick start
 

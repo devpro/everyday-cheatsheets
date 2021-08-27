@@ -14,6 +14,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [Azure](./docs/azure.md)
   * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Azure DevOps](./docs/azure-devops.md)
+* [CircleCI](./docs/circleci.md)
 * [Companies](./docs/companies.md)
 * [Concourse](./docs/concourse.md)
   * [fly CLI](./docs/fly-cli.md)
@@ -90,6 +91,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [Raspberry Pi](./docs/raspberrypi.md)
 * [Sonar](./docs/sonar.md)
 * [Splunk](./docs/splunk.md)
+* [Travis](./docs/travis.md)
 * [Tuleap](./docs/tuleap.md)
 * [TypeScript](./docs/typescript.md)
 * Windows

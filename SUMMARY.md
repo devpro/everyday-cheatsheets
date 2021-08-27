@@ -3,13 +3,22 @@
 ## Build
 
 * Application Lifecycle Manangement
+  * Artifactory
   * [Azure DevOps](./docs/azure-devops.md)
+  * Chef
+  * [CircleCI](./docs/circleci.md)
   * [Concourse](./docs/concourse.md)
     * [fly CLI](./docs/fly-cli.md)
   * [Git](./docs/git.md)
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
+  * GoCD
+  * Nexus
+  * Octopus deploy
+  * RunDeck
+  * SaltStack
   * [Sonar](./docs/sonar.md)
+  * [Travis](./docs/travis.md)
   * [Tuleap](./docs/tuleap.md)
 * Architecture
   * [Cloud Native](./docs/cloud-native.md)
