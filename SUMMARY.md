@@ -9,7 +9,6 @@
   * [Git](./docs/git.md)
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
-  * [Jenkins](./docs/jenkins.md)
   * [Sonar](./docs/sonar.md)
   * [Tuleap](./docs/tuleap.md)
 * Architecture
@@ -34,19 +33,19 @@
 * Frameworks
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
-  * [.NET](./docs/dotnet.md)
-    * [Blazor](./docs/blazor.md)
-    * [.NET 5.0](./docs/dotnet50.md)
-    * [.NET Core](./docs/dotnetcore.md)
-    * [.NET Events](./docs/dotnetevents.md)
-    * [WPF](./docs/wpf.md)
+  * [.NET](./docs/dotnet/dotnet.md)
+    * [Blazor](./docs/dotnet/blazor.md)
+    * [.NET 5.0](./docs/dotnet/dotnet50.md)
+    * [.NET Core](./docs/dotnet/dotnetcore.md)
+    * [.NET Events](./docs/dotnet/dotnetevents.md)
+    * [WPF](./docs/dotnet/wpf.md)
   * [gRPC](./docs/grpc.md)
   * Node.js
     * [NPM](./docs/npm.md)
   * [React](./docs/reactjs.md)
     * [React Native](./docs/react-native.md)
-  * [SharePoint Framework](./docs/spfx.md)
-    * [SharePoint Framework UI components](./docs/spfx-ui-components.md)
+  * [SharePoint Framework](./docs/microsoft365/spfx.md)
+    * [SharePoint Framework UI components](./docs/microsoft365/spfx-ui-components.md)
   * Symfony
   * Xamarin
 * [Infrastructure as Code](./docs/iac.md)
@@ -54,10 +53,10 @@
   * Azure Resource Manager
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)
-  * [Terraform](./docs/terraform.md)
+  * [Terraform](./docs/hashicorp/terraform.md)
 * Languages
-  * [C#](./docs/csharp.md)
-    * [C# 8.0](./docs/csharp80.md)
+  * [C#](./docs/dotnet/csharp.md)
+    * [C# 8.0](./docs/dotnet/csharp80.md)
   * [Go](./docs/go.md)
   * [GraphQL](./docs/graphql.md)
   * JavaScript
@@ -85,7 +84,7 @@
   * OVH
 * Collaboration
   * Microsoft 365
-    * [Microsoft Graph](./docs/microsoft-graph.md)
+    * [Microsoft Graph](./docs/microsoft365/microsoft-graph.md)
 * Data collection & analytics
   * [Elastic Stack](./docs/elastic-stack.md)
   * [Grafana](./docs/grafana.md)
@@ -97,20 +96,22 @@
 * Linux Foundation
   * Cloud Foundry Foundation
     * [Cloud Foundry](./docs/cloudfoundry.md)
-  * [CD Foundation](./docs/cd-foundation.md)
-    * [Tekton](./docs/tekton.md)
-  * [CNCF](./docs/cncf.md)
-    * [Argo](./docs/argo.md)
-    * [containerd](./docs/containerd.md)
-    * [Falco](./docs/falco.md)
-    * [Keptn](./docs/keptn.md)
-    * [Kubernetes](./docs/kubernetes.md)
-      * [etcd](./docs/etcd.md)
-      * [Helm](./docs/helm.md)
-      * [Kubectl](./docs/kubectl.md)
-      * [Minikube](./docs/minikube.md)
-    * [OpenTelemetry](./docs/opentelemetry.md)
-    * [Prometheus](./docs/prometheus.md)
+  * [CD Foundation](./docs/cd-foundation/cd-foundation.md)
+    * [Jenkins](./docs/cd-foundation/jenkins.md)
+    * [Spinnaker](./docs/cd-foundation/spinnaker.md)
+    * [Tekton](./docs/cd-foundation/tekton.md)
+  * [CNCF](./docs/cncf/cncf.md)
+    * [Argo](./docs/cncf/argo.md)
+    * [containerd](./docs/cncf/containerd.md)
+    * [Falco](./docs/cncf/falco.md)
+    * [Keptn](./docs/cncf/keptn.md)
+    * [Kubernetes](./docs/cncf/kubernetes.md)
+      * [etcd](./docs/cncf/etcd.md)
+      * [Helm](./docs/cncf/helm.md)
+      * [Kubectl](./docs/cncf/kubectl.md)
+      * [Minikube](./docs/cncf/minikube.md)
+    * [OpenTelemetry](./docs/cncf/opentelemetry.md)
+    * [Prometheus](./docs/cncf/prometheus.md)
   * eBPF Foundation
     * [eBPF](./docs/ebpf.md)
 * [Networking](./docs/networking.md)
