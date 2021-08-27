@@ -20,8 +20,8 @@
 
 ## Presentations
 
-- [What`s new in MongoDB 4.2](https://www.mongodb.com/presentations/whats-new-in-mongodb-42) ([slides](https://docs.google.com/presentation/d/1bT6Neq7Smh6687uE_Dn7OWrWaApQfB18gkmkPmFpLOg)) August 13, 2019
+- [What`s new in MongoDB 4.2](https://www.mongodb.com/presentations/whats-new-in-mongodb-42) ([slides](https://docs.google.com/presentation/d/1bT6Neq7Smh6687uE_Dn7OWrWaApQfB18gkmkPmFpLOg)) - August 13, 2019
 
 ## Annoucements
 
-- [MongoDB 4.2 is now GA: Ready for your Production Apps](https://www.mongodb.com/blog/post/mongodb-42-is-now-ga-ready-for-your-production-apps) August 13, 2019
+- [MongoDB 4.2 is now GA: Ready for your Production Apps](https://www.mongodb.com/blog/post/mongodb-42-is-now-ga-ready-for-your-production-apps) - August 13, 2019

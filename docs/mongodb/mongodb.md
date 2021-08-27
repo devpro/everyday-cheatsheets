@@ -4,8 +4,17 @@
 
 → [mongodb.com](https://www.mongodb.com/), [Github](https://github.com/mongodb), [Twitter](https://twitter.com/MongoDB), [developer.mongodb.com](https://developer.mongodb.com)
 
-## Products
+## Learn
 
+### Content
+
+* [Documentation](https://docs.mongodb.com/)
+* [Resources](https://www.mongodb.com/resources): presentations, webinars, white papers
+* [MongoDB University](https://university.mongodb.com/)
+
+### Products
+
+* [Atlas Cloud (platform as a service)](https://cloud.mongodb.com/)
 * [Ops Manager](./mongodb-opsmanager.md)
 
 ## Releases
