@@ -34,7 +34,6 @@ Clean and simple cheat sheets to ease everyday work.
   * [Jenkins](./docs/cd-foundation/jenkins.md)
   * [Spinnaker](./docs/cd-foundation/spinnaker.md)
   * [Tekton](./docs/cd-foundation/cd-foundation/tekton.md)
-* [Cypress](./docs/cypress.md)
 * [DevOps](./docs/devops.md)
 * [Docker](./docs/docker.md)
 * [.NET](./docs/dotnet/dotnet.md)
@@ -56,11 +55,15 @@ Clean and simple cheat sheets to ease everyday work.
 * [GraphQL](./docs/graphql.md)
 * [gRPC](./docs/grpc.md)
 * [HAProxy](./docs/haproxy.md)
+* HashiCorp
+  * [Terraform](./docs/hashicorp/terraform.md)
+  * [Vagrant](./docs/hashicorp/vagrant.md)
 * [IaC](./docs/iac.md)
 * [IoT](./docs/iot.md)
 * JavaScript
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
+  * [Cypress](./docs/cypress.md)
   * Node.js
     * [NPM](./docs/npm.md)
   * [React](./docs/reactjs.md)
@@ -75,7 +78,6 @@ Clean and simple cheat sheets to ease everyday work.
 * [MongoDB](./docs/mongodb.md)
   * [MongoDB design](./docs/mongodb-design.md)
 * [Networking](./docs/networking.md)
-* [PhpStorm](./docs/phpstorm.md)
 * [PostgreSQL](./docs/postgresql.md)
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
@@ -88,15 +90,14 @@ Clean and simple cheat sheets to ease everyday work.
   * [Raspberry Pi](./docs/raspberrypi.md)
 * [Sonar](./docs/sonar.md)
 * [Splunk](./docs/splunk.md)
-* [Terraform](./docs/hashicorp/terraform.md)
 * [Tuleap](./docs/tuleap.md)
 * [TypeScript](./docs/typescript.md)
-* [Vagrant](./docs/vagrant.md)
-* [Visual Studio Code](./docs/vs-code.md)
 * Windows
   * [Windows Server](./docs/windows-server.md)
   * [Windows Subsystem for Linux (WSL)](./docs/wsl.md)
 * [Workstation](./docs/workstation.md)
+  * [PhpStorm](./docs/phpstorm.md)
+  * [Visual Studio Code](./docs/vs-code.md)
 
 ## External resources
 

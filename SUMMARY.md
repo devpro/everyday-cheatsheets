@@ -125,7 +125,7 @@
 * Software
   * [HAProxy](./docs/haproxy.md)
 * Virtualization
-  * [Vagrant](./docs/vagrant.md)
+  * [Vagrant](./docs/hashicorp/vagrant.md)
   * VMware
     * Tanzu
 
