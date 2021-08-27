@@ -44,8 +44,6 @@
     * [NPM](./docs/npm.md)
   * [React](./docs/reactjs.md)
     * [React Native](./docs/react-native.md)
-  * [SharePoint Framework](./docs/microsoft365/spfx.md)
-    * [SharePoint Framework UI components](./docs/microsoft365/spfx-ui-components.md)
   * Symfony
   * Xamarin
 * [Infrastructure as Code](./docs/iac.md)
@@ -85,6 +83,8 @@
 * Collaboration
   * Microsoft 365
     * [Microsoft Graph](./docs/microsoft365/microsoft-graph.md)
+    * [SharePoint Framework](./docs/microsoft365/spfx.md)
+      * [SharePoint Framework UI components](./docs/microsoft365/spfx-ui-components.md)
 * Data collection & analytics
   * [Elastic Stack](./docs/elastic-stack.md)
   * [Grafana](./docs/grafana.md)
