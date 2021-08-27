@@ -79,6 +79,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [MongoDB](./docs/mongodb/mongodb.md)
   * [MongoDB 4.2](./docs/mongodb/mongodb-42.md)
   * [MongoDB design](./docs/mongodb/mongodb-design.md)
+  * [MongoDB events](./docs/mongodb/mongodb-events.md)
   * [Ops Manager](./docs/mongodb/mongodb-opsmanager.md)
 * [Networking](./docs/networking.md)
 * [PostgreSQL](./docs/postgresql.md)
