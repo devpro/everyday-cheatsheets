@@ -31,9 +31,10 @@
   * [Docker](./docs/docker.md)
 * Databases
   * MySQL
-  * [MongoDB](./docs/mongodb.md)
+  * [MongoDB](./docs/mongodb/mongodb.md)
     * .NET MongoDB driver
-    * [MongoDB design](./docs/mongodb-design.md)
+    * [MongoDB design](./docs/mongodb/mongodb-design.md)
+    * [Ops Manager](./docs/mongodb/mongodb-opsmanager.md)
     * Realm
   * Oracle
   * [Redis](./docs/redis.md)
