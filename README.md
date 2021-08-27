@@ -77,6 +77,7 @@ Clean and simple cheat sheets to ease everyday work.
   * [SharePoint Framework](./docs/spfx.md)
     * [SharePoint Framework UI components](./docs/spfx-ui-components.md)
 * [MongoDB](./docs/mongodb/mongodb.md)
+  * [MongoDB 4.2](./docs/mongodb/mongodb-42.md)
   * [MongoDB design](./docs/mongodb/mongodb-design.md)
   * [Ops Manager](./docs/mongodb/mongodb-opsmanager.md)
 * [Networking](./docs/networking.md)
