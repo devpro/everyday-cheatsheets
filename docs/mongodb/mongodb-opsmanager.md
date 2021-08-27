@@ -15,3 +15,7 @@ You can see it as a dashboard opened to anyone inside your organization, where y
 * [Architecture](https://docs.opsmanager.mongodb.com/current/core/system-overview/)
 * [Configuration](https://docs.opsmanager.mongodb.com/current/reference/configuration/)
 * [Example Deployment Topologies](https://docs.opsmanager.mongodb.com/current/core/deployments/)
+
+## Recipes
+
+* [Installation on CentOS](https://github.com/devpro/simple-howtos/blob/master/mongodb/opsmanager-installation-centos.md)
