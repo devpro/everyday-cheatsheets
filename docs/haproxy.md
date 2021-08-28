@@ -1,6 +1,8 @@
 # HAProxy
 
-→ [haproxy.com](https://www.haproxy.com/)
+> The Reliable, High Performance TCP/HTTP Load Balancer
+
+→ [haproxy.org](https://www.haproxy.org/), [haproxy.com](https://www.haproxy.com/)
 
 ## Quickstart
 
