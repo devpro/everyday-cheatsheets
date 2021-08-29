@@ -12,7 +12,8 @@
 * Code lifecycle (ALM)
   * [Argo](./docs/cncf/argo.md)
   * Artifactory
-  * [Azure DevOps](./docs/azure-devops.md)
+  * [Azure DevOps](./docs/azure/azure-devops.md)
+    * [Azure Pipelines](./docs/azure/azure-pipelines.md)
   * Chef
   * [CircleCI](./docs/circleci.md)
   * [Concourse](./docs/concourse.md)
@@ -116,8 +117,8 @@
 * Cloud computing
   * Alibaba
   * AWS
-  * [Azure](./docs/azure.md)
-    * [Azure CLI](./docs/azure-cli.md)
+  * [Azure](./docs/azure/azure.md)
+    * [Azure CLI](./docs/azure/azure-cli.md)
   * GCP
     * [Firebase](./docs/firebase.md)
   * OVH
