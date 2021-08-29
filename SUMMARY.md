@@ -44,6 +44,9 @@
 * Data storage
   * MySQL
   * [MongoDB](./docs/mongodb/mongodb.md)
+    * [Atlas](./docs/mongodb/atlas.md)
+    * [Compass](./docs/mongodb/compass.md)
+    * [Evergreen](./docs/mongodb/evergreen.md)
     * [MongoDB 4.2](./docs/mongodb/mongodb-42.md)
     * [MongoDB design](./docs/mongodb/mongodb-design.md)
     * [MongoDB events](./docs/mongodb/mongodb-events.md)
@@ -62,6 +65,7 @@
     * [.NET 5.0](./docs/dotnet/dotnet50.md)
     * [.NET Core](./docs/dotnet/dotnetcore.md)
     * [.NET Events](./docs/dotnet/dotnetevents.md)
+    * [NuGet](./docs/dotnet/nuget.md)
     * [WPF](./docs/dotnet/wpf.md)
     * Xamarin
   * [gRPC](./docs/grpc.md)
