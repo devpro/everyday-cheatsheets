@@ -2,15 +2,22 @@
 
 Clean and simple cheat sheets to ease everyday work.
 
-→ [everyday-cheatsheets.docs.devpro.fr](https://everyday-cheatsheets.docs.devpro.fr/)
+## Introduction
+
+This reposiory gathers notes taken over the years, in Markdown format, in a Wiki/Knowledge base spirit. You're more than welcome to contribute (fork > branch > pull request)!
+
+The online version is available at [everyday-cheatsheets.docs.devpro.fr](https://everyday-cheatsheets.docs.devpro.fr/).
 
 ## Topics
 
 * [Ansible](./docs/ansible.md)
 * Architecture
-  * [Cloud Native](./docs/cloud-native.md)
-  * [Design Patterns](./docs/design-patterns.md)
-  * [Message Broker](./docs/message-broker.md)
+  * [Cloud Native](./docs/architecture/cloud-native.md)
+  * [Design Patterns](./docs/architecture/design-patterns.md)
+  * [IaC](./docs/architecture/iac.md)
+  * [IoT](./docs/architecture/iot.md)
+  * [Message Broker](./docs/architecture/message-broker.md)
+  * [Networking](./docs/networking.md)
 * [Azure](./docs/azure.md)
   * [Azure CLI (`az`)](./docs/azure-cli.md)
 * [Azure DevOps](./docs/azure-devops.md)
@@ -18,7 +25,7 @@ Clean and simple cheat sheets to ease everyday work.
 * [Companies](./docs/companies.md)
 * [Concourse](./docs/concourse.md)
   * [fly CLI](./docs/fly-cli.md)
-* [CNCF](./docs/cncf/cncf.md)
+* [Cloud Native Computing Foundation (CNCF)](./docs/cncf/cncf.md)
   * [Argo](./docs/cncf/argo.md)
   * [containerd](./docs/cncf/containerd.md)
   * [Falco](./docs/cncf/falco.md)
@@ -31,13 +38,13 @@ Clean and simple cheat sheets to ease everyday work.
   * [OpenTelemetry](./docs/cncf/opentelemetry.md)
   * [Prometheus](./docs/cncf/prometheus.md)
 * [Cloud Foundry](./docs/cloudfoundry.md)
-* [CD Foundation](./docs/cd-foundation/cd-foundation.md)
+* [Continuous Deployment (CD) Foundation](./docs/cd-foundation/cd-foundation.md)
   * [Jenkins](./docs/cd-foundation/jenkins.md)
   * [Spinnaker](./docs/cd-foundation/spinnaker.md)
   * [Tekton](./docs/cd-foundation/cd-foundation/tekton.md)
 * [DevOps](./docs/devops.md)
 * [Docker](./docs/docker.md)
-* [.NET](./docs/dotnet/dotnet.md)
+* [.NET Framework](./docs/dotnet/dotnet.md)
   * [Blazor](./docs/dotnet/blazor.md)
   * [C#](./docs/dotnet/csharp.md)
     * [C# 8.0](./docs/dotnet/csharp80.md)
@@ -59,8 +66,6 @@ Clean and simple cheat sheets to ease everyday work.
 * HashiCorp
   * [Terraform](./docs/hashicorp/terraform.md)
   * [Vagrant](./docs/hashicorp/vagrant.md)
-* [IaC](./docs/iac.md)
-* [IoT](./docs/iot.md)
 * JavaScript
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
@@ -73,15 +78,14 @@ Clean and simple cheat sheets to ease everyday work.
   * [CentOS](./docs/centos.md)
   * [Ubuntu](./docs/ubuntu.md)
 * Microsoft 365
-  * [Microsoft Graph](./docs/microsoft-graph.md)
-  * [SharePoint Framework](./docs/spfx.md)
-    * [SharePoint Framework UI components](./docs/spfx-ui-components.md)
+  * [Microsoft Graph](./docs/microsoft365/microsoft-graph.md)
+  * [SharePoint Framework](./docs/microsoft365/spfx.md)
+    * [SharePoint Framework UI components](./docs/microsoft365/spfx-ui-components.md)
 * [MongoDB](./docs/mongodb/mongodb.md)
   * [MongoDB 4.2](./docs/mongodb/mongodb-42.md)
   * [MongoDB design](./docs/mongodb/mongodb-design.md)
   * [MongoDB events](./docs/mongodb/mongodb-events.md)
   * [Ops Manager](./docs/mongodb/mongodb-opsmanager.md)
-* [Networking](./docs/networking.md)
 * [PostgreSQL](./docs/postgresql.md)
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)

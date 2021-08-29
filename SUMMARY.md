@@ -3,10 +3,12 @@
 ## Build
 
 * Architecture
-  * [Cloud Native](./docs/cloud-native.md)
-  * [Design Patterns](./docs/design-patterns.md)
-  * [IoT](./docs/iot.md)
-  * [Message Broker](./docs/message-broker.md)
+  * [Cloud Native](./docs/architecture/cloud-native.md)
+  * [Design Patterns](./docs/architecture/design-patterns.md)
+  * [IaC](./docs/iac.md)
+  * [IoT](./docs/architecture/iot.md)
+  * [Message Broker](./docs/architecture/message-broker.md)
+  * [Networking](./docs/networking.md)
 * Code lifecycle (ALM)
   * [Argo](./docs/cncf/argo.md)
   * Artifactory
@@ -110,13 +112,13 @@
   * Single-board computers
     * [Odroid](./docs/odroid.md)
     * [Raspberry Pi](./docs/raspberrypi.md)
-* [Infrastructure automation (IaC)](./docs/iac.md)
+* Infrastructure automation
   * [Ansible](./docs/ansible.md)
   * Azure Resource Manager
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)
   * [Terraform](./docs/hashicorp/terraform.md)
-* [Networking](./docs/networking.md)
+* Networking
   * [HAProxy](./docs/haproxy.md)
 * Observability
   * [Elastic Stack](./docs/elastic-stack.md)
