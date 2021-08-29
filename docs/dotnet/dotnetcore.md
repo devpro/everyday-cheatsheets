@@ -1,70 +1,34 @@
 # .NET CLI cheatsheet
 
-## Content
+## Quick Links
 
-- [new](#new-command)
-- [add](#add-command)
-- [sln](#sln-command)
-- [run](#run-command)
-- [publish](#publish-command)
-- [test](#test-command)
+* [Get started](https://www.microsoft.com/net/learn/get-started/windows)
+* [Documentation](https://docs.microsoft.com/en-us/dotnet/core/)
 
-## New command
+## Use cases
 
-| Command | Action |
-| - | - |
-| `dotnet new` | View the available templates (see [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new)) |
+### Console project
 
-Examples:
+By default .NET Core Console applications reference very few elements.
 
-- `dotnet new webapi --output src/PalTracker --name PalTracker` will use the template "ASP.NET Core Web API"
-- `dotnet new xunit --output test/PalTrackerTests --name PalTrackerTests`will use the template "xUnit Test Project"
-- `dotnet new sln --name PalTracker` will use the template "Solution File"
+These are good references to start with (names are self-explanatory!):
 
-## Add command
+* `Microsoft.Extensions.DependencyInjection`
+* `Microsoft.Extensions.Logging`
+  * `Microsoft.Extensions.Logging.Console`
+  * `Microsoft.Extensions.Logging.Debug`
+* `Microsoft.Extensions.Configuration`
+  * `Microsoft.Extensions.Configuration.Json`
 
-| Command | Action |
-| - | - |
-| `dotnet add reference` | Adds project-to-project (P2P) references (see [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-reference)) |
-| `dotnet add package` | Adds a package reference to a project file (see [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)) |
+### Json serialization
 
-Examples:
+- [JavaScriptSerializer Class](https://msdn.microsoft.com/en-us/library/system.web.script.serialization.javascriptserializer.aspx)
 
-- `dotnet add test/PalTrackerTests reference src/PalTracker/PalTracker.csproj`
-- `dotnet add test/PalTrackerTests package Microsoft.AspNetCore.TestHost --version 2.2.0`
+- Json.NET
 
-## Sln command
+You can convert a Json to Xml:
 
-| Command | Action |
-| - | - |
-| `dotnet sln` | Modifies a .NET Core solution file (see [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-sln)) |
-
-Examples:
-
-- `dotnet sln PalTracker.sln add src/PalTracker/PalTracker.csproj`
-
-## Run command
-
-| Command | Action |
-| - | - |
-| `dotnet run` | Runs source code without any explicit compile or launch commands (see [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run)) |
-
-Examples:
-
-- `dotnet run --project src/PalTracker`
-
-## Publish command
-
-| Command | Action |
-| - | - |
-| `dotnet publish` | Packs the application and its dependencies into a folder for deployment to a hosting system (see [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)) |
-
-Examples:
-
-- `dotnet publish src/PalTracker --configuration Release`
-
-## Test command
-
-Examples:
-
-- `dotnet test test/PalTrackerTests --filter PalTrackerTests.InMemoryTimeEntryRepositoryTest`
+```csharp
+// object is needed as the value is an array
+var expected = JsonConvert.DeserializeXmlNode($"{{\"object\": {step.ExpectedResponseJsonString}}}", "root");
+```

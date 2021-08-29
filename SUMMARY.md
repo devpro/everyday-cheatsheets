@@ -61,10 +61,14 @@
   * [Angular](./docs/angular.md)
     * [Angular CLI](./docs/angular-cli.md)
   * [.NET](./docs/dotnet/dotnet.md)
+    * [ASP.NET Core](./docs/dotnet/aspnetcore.md)
     * [Blazor](./docs/dotnet/blazor.md)
     * [.NET 5.0](./docs/dotnet/dotnet50.md)
+    * [.NET CLI](./docs/dotnet/dotnet-cli.md)
     * [.NET Core](./docs/dotnet/dotnetcore.md)
     * [.NET Events](./docs/dotnet/dotnetevents.md)
+    * [.NET Logging](./docs/dotnet/dotnet-logging.md)
+    * [.NET Testing](./docs/dotnet/dotnet-testing.md)
     * [NuGet](./docs/dotnet/nuget.md)
     * [WPF](./docs/dotnet/wpf.md)
     * Xamarin
@@ -80,6 +84,7 @@
   * [Go](./docs/go.md)
   * [GraphQL](./docs/graphql.md)
   * JavaScript
+  * [MS-DOS](./docs/windows/ms-dos.md)
   * [PHP](./docs/php/php.md)
     * [Symfony](./docs/php/symfony.md)
   * [Python](./docs/python.md)
@@ -96,6 +101,8 @@
   * [QGIS](./docs/qgis.md)
   * Visual Studio 2019
   * [Visual Studio Code](./docs/vs-code.md)
+  * [Windows 10](./docs/windows/windows10.md)
+  * [Windows Subsystem for Linux](./docs/windows/wsl.md)
 
 ## Collaborate
 
@@ -139,10 +146,9 @@
     * [CentOS](./docs/centos.md)
     * [eBPF](./docs/ebpf.md)
     * [Ubuntu](./docs/ubuntu.md)
-  * Windows
-    * [Windows Server](./docs/windows-server.md)
-    * [Windows Subsystem for Linux](./docs/wsl.md)
+  * [Windows Server](./docs/windows/windows-server.md)
 * Virtualization
+  * [Hyper-V](./docs/windows/hyper-v.md)
   * [Vagrant](./docs/hashicorp/vagrant.md)
   * VMware
     * Tanzu
