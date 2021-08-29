@@ -90,6 +90,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
 * [Python](./docs/python.md)
+* [QGIS](./docs/qgis.md)
 * [RabbitMQ](./docs/rabbitmq.md)
 * [Redis](./docs/redis.md)
 * [Selenium](./docs/selenium.md)

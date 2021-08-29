@@ -88,6 +88,7 @@
   * [Selenium](./docs/selenium.md)
 * [Workstation](./docs/workstation.md)
   * [PhpStorm](./docs/phpstorm.md)
+  * [QGIS](./docs/qgis.md)
   * Visual Studio 2019
   * [Visual Studio Code](./docs/vs-code.md)
 
