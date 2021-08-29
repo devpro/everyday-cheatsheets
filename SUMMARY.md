@@ -80,7 +80,8 @@
   * [Go](./docs/go.md)
   * [GraphQL](./docs/graphql.md)
   * JavaScript
-  * PHP
+  * [PHP](./docs/php/php.md)
+    * [Symfony](./docs/php/symfony.md)
   * [Python](./docs/python.md)
   * Swagger
   * [TypeScript](./docs/typescript.md)

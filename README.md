@@ -90,6 +90,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [MongoDB design](./docs/mongodb/mongodb-design.md)
   * [MongoDB events](./docs/mongodb/mongodb-events.md)
   * [Ops Manager](./docs/mongodb/mongodb-opsmanager.md)
+* [PHP](./docs/php/php.md)
+  * [Symfony](./docs/php/symfony.md)
 * [PostgreSQL](./docs/postgresql.md)
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
