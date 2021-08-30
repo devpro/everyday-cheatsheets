@@ -5,10 +5,10 @@
 * Architecture
   * [Cloud Native](./docs/architecture/cloud-native.md)
   * [Design Patterns](./docs/architecture/design-patterns.md)
-  * [IaC](./docs/iac.md)
+  * [IaC](./docs/architecture/iac.md)
   * [IoT](./docs/architecture/iot.md)
   * [Message Broker](./docs/architecture/message-broker.md)
-  * [Networking](./docs/networking.md)
+  * [Networking](./docs/architecture/networking.md)
 * Code lifecycle (ALM)
   * [Argo](./docs/cncf/argo.md)
   * Artifactory
@@ -59,8 +59,8 @@
   * SQL Server
   * [PostgreSQL](./docs/postgresql.md)
 * Frameworks & libraries
-  * [Angular](./docs/angular.md)
-    * [Angular CLI](./docs/angular-cli.md)
+  * [Angular](./docs/javascript/angular.md)
+    * [Angular CLI](./docs/javascript/angular-cli.md)
   * [.NET](./docs/dotnet/dotnet.md)
     * [ASP.NET Core](./docs/dotnet/aspnetcore.md)
     * [Blazor](./docs/dotnet/blazor.md)
@@ -76,9 +76,9 @@
   * [gRPC](./docs/grpc.md)
   * Node.js
     * [NPM](./docs/npm.md)
-  * [React](./docs/reactjs.md)
-    * [React Native](./docs/react-native.md)
-  * Symfony
+  * [React](./docs/javascript/reactjs.md)
+    * [React Native](./docs/javascript/react-native.md)
+  * [Symfony](./docs/php/symfony.md)
 * Languages
   * [C#](./docs/dotnet/csharp.md)
     * [C# 8.0](./docs/dotnet/csharp80.md)
@@ -87,15 +87,14 @@
   * JavaScript
   * [MS-DOS](./docs/windows/ms-dos.md)
   * [PHP](./docs/php/php.md)
-    * [Symfony](./docs/php/symfony.md)
   * [Python](./docs/python.md)
   * Swagger
-  * [TypeScript](./docs/typescript.md)
+  * [TypeScript](./docs/javascript/typescript.md)
 * Messaging
   * Apache Kafka
   * [RabbitMQ](./docs/rabbitmq.md)
 * Testing
-  * [Cypress](./docs/cypress.md)
+  * [Cypress](./docs/javascript/cypress.md)
   * [Selenium](./docs/selenium.md)
 * [Workstation](./docs/workstation.md)
   * [PhpStorm](./docs/phpstorm.md)
@@ -143,10 +142,10 @@
 * Security
   * [Falco](./docs/cncf/falco.md)
 * Systems
-  * [Linux](./docs/linux.md)
-    * [CentOS](./docs/centos.md)
+  * [Linux](./docs/linux/linux.md)
+    * [CentOS](./docs/linux/centos.md)
     * [eBPF](./docs/ebpf.md)
-    * [Ubuntu](./docs/ubuntu.md)
+    * [Ubuntu](./docs/linux/ubuntu.md)
   * [Windows Server](./docs/windows/windows-server.md)
 * Virtualization
   * [Hyper-V](./docs/windows/hyper-v.md)
