@@ -61,6 +61,7 @@
 * Frameworks & libraries
   * [Angular](./docs/javascript/angular.md)
     * [Angular CLI](./docs/javascript/angular-cli.md)
+    * [Angular events](./docs/javascript/angular-events.md)
   * [.NET](./docs/dotnet/dotnet.md)
     * [ASP.NET Core](./docs/dotnet/aspnetcore.md)
     * [Blazor](./docs/dotnet/blazor.md)
@@ -74,17 +75,23 @@
     * [WPF](./docs/dotnet/wpf.md)
     * Xamarin
   * [gRPC](./docs/grpc.md)
-  * Node.js
+  * [Ionic](./docs/ionic.md)
+  * [Node.js](./docs/nodejs.md)
+    * [Express](./docs/javascript/express.md)
     * [NPM](./docs/npm.md)
   * [React](./docs/javascript/reactjs.md)
     * [React Native](./docs/javascript/react-native.md)
+  * [Redux](./docs/javascript/redux.md)
   * [Symfony](./docs/php/symfony.md)
 * Languages
   * [C#](./docs/dotnet/csharp.md)
     * [C# 8.0](./docs/dotnet/csharp80.md)
+  * [ECMAScript](./docs/javascript/ecmascript.md)
   * [Go](./docs/go.md)
   * [GraphQL](./docs/graphql.md)
-  * JavaScript
+  * [JavaScript](./docs/javascript/javascript.md)
+    * [webpack](./docs/javascript/webpack.md)
+    * [Yarn](./docs/javascript/yarn.md)
   * [MS-DOS](./docs/windows/ms-dos.md)
   * [PHP](./docs/php/php.md)
   * [Python](./docs/python.md)
