@@ -2,7 +2,7 @@
 
 > A JavaScript library for building user interfaces
 
-→ [reactjs.org](https://reactjs.org/)
+→ [reactjs.org](https://reactjs.org/), [GitHub](https://github.com/facebook/react)
 
 ## Learn
 
