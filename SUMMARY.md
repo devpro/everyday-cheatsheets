@@ -3,6 +3,9 @@
 ## Build
 
 * Architecture
+  * Authentication
+    * [Keycloak](./docs/keycloak.md)
+    * [Okta](./docs/okta.md)
   * [Cloud Native](./docs/architecture/cloud-native.md)
   * [Design Patterns](./docs/architecture/design-patterns.md)
   * [Design Principles](./docs/architecture/design-principles.md)
@@ -11,9 +14,9 @@
   * [Message Broker](./docs/architecture/message-broker.md)
   * [Methods](./docs/architecture/methods.md)
   * [Networking](./docs/architecture/networking.md)
+  * Payment
+    * [Stripe](./docs/stripe.md)
   * [Testing](./docs/architecture/testing.md)
-* Authentication
-  * [Keycloak](./docs/keycloak.md)
 * Code lifecycle (ALM)
   * [Argo](./docs/cncf/argo.md)
   * Artifactory
@@ -40,7 +43,7 @@
   * [Tuleap](./docs/tuleap.md)
 * Containers & Cloud Native
   * [Open Application Model (OAM)](./docs/oam.md)
-  * [Cloud Foundry](./docs/cloudfoundry.md)
+  * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md)
   * [CNAB](./docs/cnab.md)
   * [containerd](./docs/cncf/containerd.md)
   * [cri-o](./docs/cncf/cri-o.md)
@@ -52,6 +55,8 @@
     * [Helm](./docs/cncf/helm.md)
     * [Kubectl](./docs/cncf/kubectl.md)
     * [Minikube](./docs/cncf/minikube.md)
+  * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
+  * [Unleash](./docs/unleash.md)
 * Data storage
   * [Elasticsearch](./docs/elastic/elasticsearch.md)
   * MySQL
@@ -106,6 +111,7 @@
     * [Yarn](./docs/javascript/yarn.md)
   * [MS-DOS](./docs/windows/ms-dos.md)
   * [PHP](./docs/php/php.md)
+  * [PowerShell](./docs/microsoft/powershell.md)
   * [Python](./docs/python.md)
   * Swagger
   * [TypeScript](./docs/javascript/typescript.md)
@@ -119,8 +125,8 @@
 * [Workstation](./docs/workstation.md)
   * [PhpStorm](./docs/jetbrains/phpstorm.md)
   * [QGIS](./docs/qgis.md)
-  * Visual Studio 2019
-  * [Visual Studio Code](./docs/vs-code.md)
+  * [Visual Studio 2019](./docs/microsoft/vs2019.md)
+  * [Visual Studio Code](./docs/microsoft/vscode.md)
   * [Windows 10](./docs/windows/windows10.md)
   * [Windows Subsystem for Linux](./docs/windows/wsl.md)
 

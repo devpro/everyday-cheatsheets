@@ -6,7 +6,11 @@
 
 ## Getting started
 
-Start with [Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/).
+→ [Get Started](https://docs.docker.com/get-started/)
+
+### Docker Desktop
+
+* [Overview](https://docs.docker.com/desktop/)
 
 ### Docker on Windows
 

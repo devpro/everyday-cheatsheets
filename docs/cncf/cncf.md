@@ -6,6 +6,8 @@
 
 ## Landscape
 
+→ [landscape.cncf.io](https://landscape.cncf.io/)
+
 * [The New Stack > The Cloud Native Landscape: The Application Definition and Development Layer](https://thenewstack.io/the-cloud-native-landscape-the-application-definition-and-development-layer/) - January 26, 2021
 
 ### Projects
@@ -15,12 +17,14 @@
 * [cri-o](./cri-o.md)
 * [Envoy](./envoy.md)
 * [Falco](./falco.md)
+* [Fluentd](./fluentd.md)
 * [Keptn](./keptd.md)
 * [Kubernetes](./kubernetes.md)
   * [etcd](./etcd.md)
   * [Helm](./helm.md)
   * [kubectl](./kubectl.md)
   * [minikube](./minikube.md)
+* [Linkerd](./linkerd.md)
 * [OpenTelemetry](./opentelemetry.md)
 * [Prometheus](./prometheus.md)
 

@@ -1,8 +1,7 @@
-# .NET CLI cheatsheet
+# .NET Core
 
 ## Quick Links
 
-* [Get started](https://www.microsoft.com/net/learn/get-started/windows)
 * [Documentation](https://docs.microsoft.com/en-us/dotnet/core/)
 
 ## Use cases

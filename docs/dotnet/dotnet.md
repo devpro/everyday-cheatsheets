@@ -2,6 +2,16 @@
 
 → [dot.net](http://dot.net)
 
+## Learn
+
+## Quickstart
+
+* [Get started tutorials](https://dotnet.microsoft.com/learn)
+
+### Features
+
+* [.NET CLI](./dotnet-cli.md)
+
 ## Ecosystem
 
 ### .NET Foundation
@@ -13,12 +23,11 @@
 * [dotnet/sourcelink](https://github.com/dotnet/sourcelink)
 * [spectreconsole/spectre.console](https://github.com/spectreconsole/spectre.console)
 * [nuke-build/nuke](https://github.com/nuke-build/nuke)
+* [dotnet/format](https://github.com/dotnet/format)
 
-## Command line
-
-Example | Action
-------- | ------
-`dotnet -v` | Display information on the installed version
+  ```dos
+  dotnet tool install -g dotnet-format
+  ```
 
 ## Recipes
 
@@ -30,9 +39,9 @@ Example | Action
 * [Exploring the ASP.NET Core Identity PasswordHasher](https://andrewlock.net/exploring-the-asp-net-core-identity-passwordhasher/)
 * [IPasswordHasher Interface](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.ipasswordhasher-1?view=aspnetcore-2.0)
 
-## Obfuscate .NET code
+### Code obfuscation
 
-### dotfuscator ([overview](https://www.preemptive.com/products/dotfuscator/overview))
+#### dotfuscator ([overview](https://www.preemptive.com/products/dotfuscator/overview))
 
 `dotfuscator` is a tool, available in Community Edition, that can be installed from `Visual Studio 2017`.
 
@@ -51,7 +60,7 @@ Readings:
 - From marketplace.visualstudio.com:
   - [Dotfuscator Community Edition Build Task](https://marketplace.visualstudio.com/items?itemName=PreEmptiveSolutions.dotfuscator-ce-vsts)
 
-### Decompile .NET Code tools
+#### Decompile .NET Code tools
 
 - ILSpy ([icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy))
 - JustDecompile ([telerik.com](https://www.telerik.com/products/decompiler.aspx))

@@ -65,3 +65,8 @@ Can be also available on MacOS with "brew install cask font-cascadia"
     * Disable "Remove Lock Computer" (in "Administrative Templates/System/Ctrl+Alt+Del Options")
 
 * [How to turn your Windows 10 computer into a DLNA streaming server](https://www.thewindowsclub.com/turn-windows-10-computer-dlna-streaming-server)
+
+* Troubleshoot memory usage
+  * [Top 10 Ways to Fix High CPU/RAM/Memory Usage after Windows 10 Update](https://www.drivethelife.com/windows-10/fix-high-ram-cpu-memory-usage-after-windows-10-update.html)
+  * [High Memory Usage on Windows 10](https://www.drivereasy.com/knowledge/high-memory-usage-windows-10-solved/)
+  * [How to Fix High CPU/Memory Usage in Windows 10](https://beebom.com/how-fix-high-cpu-memory-usage-windows-10/)

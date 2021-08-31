@@ -1,20 +1,6 @@
 # Visual Studio Code
 
-## Extensions
-
-Name | Publisher | Reason
----- | --------- | ------
-[Remote Repositories](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) | Microsoft | Open repositories directly from GitHub
-[VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) | |
-
-## Shortcuts
-
-Key(s) | Action
------- | ------
-`.` | Open the repository in [github.dev](https://github.dev/), VS Code as web interface (OMG!)
-`t` | Open file finder
-`Shift + Tab` | Indent left
-`Ctrl + :` | Toggle line comment
+→ [code.visualstudio.com](https://code.visualstudio.com/)
 
 ## Installation
 
@@ -33,3 +19,19 @@ From wsl command window: `code .`
 - Update apt: `sudo apt-get update`
 - Execute the installation from the package: `sudo apt install /mnt/d/bertrand/Downloads/code_1.35.1-1560350270_amd64.deb`
 - Uninstall: `sudo apt remove code`
+
+## Extensions
+
+Name | Publisher | Reason
+---- | --------- | ------
+[Remote Repositories](https://code.visualstudio.com/blogs/2021/06/10/remote-repositories) | Microsoft | Open repositories directly from GitHub
+[VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) | |
+
+## Shortcuts
+
+Key(s) | Action
+------ | ------
+`.` | Open the repository in [github.dev](https://github.dev/), VS Code as web interface (OMG!)
+`t` | Open file finder
+`Shift + Tab` | Indent left
+`Ctrl + :` | Toggle line comment

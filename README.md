@@ -47,7 +47,9 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
     * [Minikube](./docs/cncf/minikube.md)
   * [OpenTelemetry](./docs/cncf/opentelemetry.md)
   * [Prometheus](./docs/cncf/prometheus.md)
-* [Cloud Foundry](./docs/cloudfoundry.md)
+* Cloud Foundry Foundation
+  * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md)
+  * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
 * [Continuous Deployment (CD) Foundation](./docs/cd-foundation/cd-foundation.md)
   * [Jenkins](./docs/cd-foundation/jenkins.md)
   * [Spinnaker](./docs/cd-foundation/spinnaker.md)
@@ -108,6 +110,9 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Linux](./docs/linux/linux.md)
   * [CentOS](./docs/linux/centos.md)
   * [Ubuntu](./docs/linux/ubuntu.md)
+* Microsoft
+  * [Visual Studio 2019](./docs/microsoft/vs2019.md)
+  * [Visual Studio Code](./docs/microsoft/vscode.md)
 * Microsoft 365
   * [Microsoft Graph](./docs/microsoft365/microsoft-graph.md)
   * [SharePoint Framework](./docs/microsoft365/spfx.md)
@@ -137,11 +142,13 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * Single-board computers
   * [Odroid](./docs/odroid.md)
   * [Raspberry Pi](./docs/raspberrypi.md)
+* Software as a Service (SaaS)
+  * [Okta](./docs/okta.md)
+  * [Stripe](./docs/stripe.md)
 * [Sonar](./docs/sonar.md)
 * [Splunk](./docs/splunk.md)
 * [Travis](./docs/travis.md)
 * [Tuleap](./docs/tuleap.md)
-* [Visual Studio Code](./docs/vs-code.md)
 * Windows
   * [Hyper-V](./docs/windows/hyper-v.md)
   * [MS-DOS](./docs/windows/ms-dos.md)
