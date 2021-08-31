@@ -29,6 +29,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Cloud Native Computing Foundation (CNCF)](./docs/cncf/cncf.md)
   * [Argo](./docs/cncf/argo.md)
   * [containerd](./docs/cncf/containerd.md)
+  * [cri-o](./docs/cncf/cri-o.md)
+  * [Envoy](./docs/envoy.md)
   * [Falco](./docs/cncf/falco.md)
   * [Keptn](./docs/cncf/keptn.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)

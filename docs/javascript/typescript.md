@@ -1,6 +1,10 @@
 # TypeScript
 
-→ [typescriptlang.org](https://www.typescriptlang.org/)
+> TypeScript is JavaScript with syntax for types.
+> 
+> TypeScript is a strongly typed programming language which builds on JavaScript giving you better tooling at any scale.
+
+→ [typescriptlang.org](https://www.typescriptlang.org/), [GitHub](https://github.com/microsoft/TypeScript)
 
 ## Learn
 
@@ -25,7 +29,7 @@
 
 - Create a file named `greeter.ts`
 
-  {{< highlight typescript >}}
+  ```typescript
   class Student {
       fullName: string;
       constructor(public firstName: string, public middleInitial: string, public lastName: string) {
@@ -45,7 +49,7 @@
   let user = new Student("Jane", "M.", "User");
 
   document.body.innerHTML = greeter(user);
-  {{< /highlight >}}
+  ```
 
 - Run the compiler: `tsc`
 

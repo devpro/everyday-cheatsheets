@@ -33,10 +33,12 @@
   * [Tekton](./docs/cd-foundation/tekton.md)
   * [Travis](./docs/travis.md)
   * [Tuleap](./docs/tuleap.md)
-* Containerization
+* Containers & Cloud Native
   * [Cloud Foundry](./docs/cloudfoundry.md)
   * [containerd](./docs/cncf/containerd.md)
+  * [cri-o](./docs/cncf/cri-o.md)
   * [Docker](./docs/docker.md)
+  * [Envoy](./docs/envoy.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)

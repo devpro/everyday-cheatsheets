@@ -19,6 +19,10 @@
 * [Evergreen](./evergreen.md)
 * [Ops Manager](./mongodb-opsmanager.md)
 
+### News
+
+* [Events](./mongodb-events.md)
+
 ## Releases
 
 Version | Date | More

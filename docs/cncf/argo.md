@@ -2,7 +2,7 @@
 
 > Get stuff done with Kubernetes. Open source Kubernetes native workflows, events, CI and CD.
 
-→ [argoproj.github.io](https://argoproj.github.io/)
+→ [argoproj.github.io](https://argoproj.github.io/), [GitHub](https://github.com/argoproj/argo-cd), [ReadTheDocs](https://argo-cd.readthedocs.io/en/stable/)
 
 ## Versions
 
