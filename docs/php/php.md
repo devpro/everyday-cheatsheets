@@ -1,6 +1,6 @@
 # PHP
 
-→ [PHP](https://php.net)
+→ [php.net](https://php.net)
 
 ## Dev setup
 
@@ -163,4 +163,4 @@ Reference: [Using the PHP Library for MongoDB (PHPLIB)](http://php.net/manual/en
 
 ## Frameworks
 
-* Symfony
+* [Symfony](./symfony.md)

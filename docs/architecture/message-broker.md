@@ -6,9 +6,9 @@ It is a way to decouple applications inside an information system and provide hi
 
 ## Noticeable technologies
 
-* [Apache Kafka](https://kafka.apache.org/) goal is building real-time data pipeline and streaming apps
-* [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/) is a multi-tenant cloud messaging service handling asynchronous operations
-* [Pivotal RabbitMQ](./rabbitmq.md) is an open source message broker, whose commercial version is managed by Pivotal Software
+* [Apache Kafka](../apache/kafka.md) goal is building real-time data pipeline and streaming apps
+* [Azure Service Bus](../azure/azureservicebus.md) is a multi-tenant cloud messaging service handling asynchronous operations
+* [RabbitMQ](../rabbitmq.md) is an open source message broker, whose commercial version is managed by Pivotal Software
 
 ## Studies
 

@@ -38,7 +38,7 @@
   * [containerd](./docs/cncf/containerd.md)
   * [cri-o](./docs/cncf/cri-o.md)
   * [Docker](./docs/docker.md)
-  * [Envoy](./docs/envoy.md)
+  * [Envoy](./docs/cncf/envoy.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
@@ -77,10 +77,10 @@
     * [WPF](./docs/dotnet/wpf.md)
     * Xamarin
   * [gRPC](./docs/grpc.md)
-  * [Ionic](./docs/ionic.md)
-  * [Node.js](./docs/nodejs.md)
+  * [Ionic](./docs/javascript/ionic.md)
+  * [Node.js](./docs/javascript/nodejs.md)
     * [Express](./docs/javascript/express.md)
-    * [NPM](./docs/npm.md)
+    * [NPM](./docs/javascript/npm.md)
   * [React](./docs/javascript/reactjs.md)
     * [React Native](./docs/javascript/react-native.md)
   * [Redux](./docs/javascript/redux.md)
@@ -100,13 +100,14 @@
   * Swagger
   * [TypeScript](./docs/javascript/typescript.md)
 * Messaging
-  * Apache Kafka
+  * [Azure Service Bus](./docs/azure/azureservicebus.md)
+  * [Kafka](./docs/apache/kafka.md)
   * [RabbitMQ](./docs/rabbitmq.md)
 * Testing
   * [Cypress](./docs/javascript/cypress.md)
   * [Selenium](./docs/selenium.md)
 * [Workstation](./docs/workstation.md)
-  * [PhpStorm](./docs/phpstorm.md)
+  * [PhpStorm](./docs/jetbrains/phpstorm.md)
   * [QGIS](./docs/qgis.md)
   * Visual Studio 2019
   * [Visual Studio Code](./docs/vs-code.md)
@@ -135,7 +136,7 @@
     * [Odroid](./docs/odroid.md)
     * [Raspberry Pi](./docs/raspberrypi.md)
 * Infrastructure automation
-  * [Ansible](./docs/ansible.md)
+  * [Ansible](./docs/redhat/ansible.md)
   * Azure Resource Manager
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)

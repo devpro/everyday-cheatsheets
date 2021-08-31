@@ -10,7 +10,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 
 ## Topics
 
-* [Ansible](./docs/ansible.md)
+* Apache Software Foundation
+  * [Kafka](./docs/apache/kafka.md)
 * Architecture
   * [Cloud Native](./docs/architecture/cloud-native.md)
   * [Design Patterns](./docs/architecture/design-patterns.md)
@@ -21,6 +22,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Azure](./docs/azure/azure.md)
   * [Azure CLI (`az`)](./docs/azure/azure-cli.md)
   * [Azure DevOps](./docs/azure/azure-devops.md)
+  * [Azure Service Bus](./docs/azure/azureservicebus.md)
   * [Azure Pipelines](./docs/azure/azure-pipelines.md)
 * [CircleCI](./docs/circleci.md)
 * [Companies](./docs/companies.md)
@@ -30,7 +32,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Argo](./docs/cncf/argo.md)
   * [containerd](./docs/cncf/containerd.md)
   * [cri-o](./docs/cncf/cri-o.md)
-  * [Envoy](./docs/envoy.md)
+  * [Envoy](./docs/cncf/envoy.md)
   * [Falco](./docs/cncf/falco.md)
   * [Keptn](./docs/cncf/keptn.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)
@@ -90,6 +92,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [TypeScript](./docs/javascript/typescript.md)
   * [webpack](./docs/javascript/webpack.md)
   * [Yarn](./docs/javascript/yarn.md)
+* JetBrains
+  * [PhpStorm](./docs/jetbrains/phpstorm.md)
 * [Linux](./docs/linux/linux.md)
   * [CentOS](./docs/linux/centos.md)
   * [Ubuntu](./docs/linux/ubuntu.md)
@@ -112,6 +116,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Puppet](./docs/puppet.md)
 * [Python](./docs/python.md)
 * [QGIS](./docs/qgis.md)
+* Red Hat
+  * [Ansible](./docs/redhat/ansible.md)
 * [RabbitMQ](./docs/rabbitmq.md)
 * [Redis](./docs/redis.md)
 * [Selenium](./docs/selenium.md)
@@ -122,6 +128,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Splunk](./docs/splunk.md)
 * [Travis](./docs/travis.md)
 * [Tuleap](./docs/tuleap.md)
+* [Visual Studio Code](./docs/vs-code.md)
 * Windows
   * [Hyper-V](./docs/windows/hyper-v.md)
   * [MS-DOS](./docs/windows/ms-dos.md)
@@ -129,8 +136,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Windows Server](./docs/windows/windows-server.md)
   * [Windows Subsystem for Linux (WSL)](./docs/windows/wsl.md)
 * [Workstation](./docs/workstation.md)
-  * [PhpStorm](./docs/phpstorm.md)
-  * [Visual Studio Code](./docs/vs-code.md)
 
 ## External resources
 

@@ -12,22 +12,20 @@
 
 [Installation](https://golang.org/doc/install) > [Downloads](https://golang.org/dl/)
 
-<details>
-  <summary>Installation on Windows 10</summary>
+### Installation on Windows 10
    
-  - Download and execute MSI file (for example `go1.15.windows-amd64.msi`)
-    - _Note: The installer will update the environment variables (need to restart any open command prompts for the change to take effect)_
-  
-    Variable Name | Variable Value | Variable Type
-    ------------- | -------------- | -------------
-    `GOPATH` | `%USERPROFILE%\go` | User
-    `Path` | `%USERPROFILE%\go\bin` | User
-    `Path` | Go installation directory + "\bin" (by default "C:\Go\bin") | System
-  
-  - Uninstallation steps
-    - Remove remove an existing Go installation from your system delete the go directory (C:\Go by default in Windows).
-    - Remove Go bin directory from the `Path` System and User environment variable and the `GOPATH` User environment variable.
-</details>
+- Download and execute MSI file (for example `go1.15.windows-amd64.msi`)
+  - _Note: The installer will update the environment variables (need to restart any open command prompts for the change to take effect)_
+
+  Variable Name | Variable Value | Variable Type
+  ------------- | -------------- | -------------
+  `GOPATH` | `%USERPROFILE%\go` | User
+  `Path` | `%USERPROFILE%\go\bin` | User
+  `Path` | Go installation directory + "\bin" (by default "C:\Go\bin") | System
+
+- Uninstallation steps
+  - Remove remove an existing Go installation from your system delete the go directory (C:\Go by default in Windows).
+  - Remove Go bin directory from the `Path` System and User environment variable and the `GOPATH` User environment variable.
 
 #### Multipe Go versions
 
@@ -39,32 +37,29 @@ As soon as a Go file is opened, Visual Studio Code will suggest to install Go ex
 
 On a Go file save, Visual Studio code will suggest installing additional tools.
 
-<details>
-  <summary>Additional tools installed by Visual Studio Code</summary>
+#### Additional tools installed by Visual Studio Code
 
-  Installed at C:\Users\<username>\go\bin in module mode:
+Installed at C:\Users\<username>\go\bin in module mode:
 
-  - gocode
-  - gopkgs
-  - go-outline
-  - go-symbols
-  - guru
-  - gorename
-  - gotests
-  - gomodifytags
-  - impl
-  - fillstruct
-  - goplay
-  - godoctor
-  - dlv
-  - gocode-gomod
-  - godef
-  - goreturns
-  - golint
-  - goimports
+- gocode
+- gopkgs
+- go-outline
+- go-symbols
+- guru
+- gorename
+- gotests
+- gomodifytags
+- impl
+- fillstruct
+- goplay
+- godoctor
+- dlv
+- gocode-gomod
+- godef
+- goreturns
+- golint
+- goimports
   
-</details>
-
 ## Learn
 
 [Learn](https://learn.go.dev/)

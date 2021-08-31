@@ -100,8 +100,8 @@ wsl -t ubuntu
 
 ## Snap applications
 
-- JetBrains PhpStorm
-- Visual Studio Code
+- [JetBrains PhpStorm](../jetbrains/phpstorm.md)
+- [Visual Studio Code](../vs-code.md)
 
 ### Shared drives
 

@@ -2,7 +2,7 @@
 
 > Simple, agentless IT automation that anyone can use. Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button.
 
-&rarr; [ansible.com](https://www.ansible.com/), [github.com](https://github.com/ansible/ansible)
+→ [ansible.com](https://www.ansible.com/), [GitHub](https://github.com/ansible/ansible)
     
 ## Learn
 
