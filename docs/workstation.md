@@ -2,6 +2,7 @@
 
 ## Bookmarks
 
+* [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
 * [Katacoda](https://www.katacoda.com/)
 
 ## Setup

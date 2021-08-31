@@ -12,3 +12,8 @@
 # from a DOS cmd window with admin rights (not PowerShell window)
 mklink /D existing_path new_path
 ```
+
+## Recipes
+
+- Rename files by adding a prefix: `FOR %v IN (*.*) DO REN %v prefix%v`
+- [Scott Hanselman - Enjoy some DOS Games this Christmas with DOSBox](https://www.hanselman.com/blog/EnjoySomeDOSGamesThisChristmasWithDOSBox.aspx)

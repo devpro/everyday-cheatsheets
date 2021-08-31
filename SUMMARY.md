@@ -5,10 +5,15 @@
 * Architecture
   * [Cloud Native](./docs/architecture/cloud-native.md)
   * [Design Patterns](./docs/architecture/design-patterns.md)
+  * [Design Principles](./docs/architecture/design-principles.md)
   * [IaC](./docs/architecture/iac.md)
   * [IoT](./docs/architecture/iot.md)
   * [Message Broker](./docs/architecture/message-broker.md)
+  * [Methods](./docs/architecture/methods.md)
   * [Networking](./docs/architecture/networking.md)
+  * [Testing](./docs/architecture/testing.md)
+* Authentication
+  * [Keycloak](./docs/keycloak.md)
 * Code lifecycle (ALM)
   * [Argo](./docs/cncf/argo.md)
   * Artifactory
@@ -34,17 +39,21 @@
   * [Travis](./docs/travis.md)
   * [Tuleap](./docs/tuleap.md)
 * Containers & Cloud Native
+  * [Open Application Model (OAM)](./docs/oam.md)
   * [Cloud Foundry](./docs/cloudfoundry.md)
+  * [CNAB](./docs/cnab.md)
   * [containerd](./docs/cncf/containerd.md)
   * [cri-o](./docs/cncf/cri-o.md)
   * [Docker](./docs/docker.md)
   * [Envoy](./docs/cncf/envoy.md)
+  * [Fluentd](./docs/cncf/fluentd.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
     * [Kubectl](./docs/cncf/kubectl.md)
     * [Minikube](./docs/cncf/minikube.md)
 * Data storage
+  * [Elasticsearch](./docs/elastic/elasticsearch.md)
   * MySQL
   * [MongoDB](./docs/mongodb/mongodb.md)
     * [Atlas](./docs/mongodb/atlas.md)
@@ -78,6 +87,7 @@
     * Xamarin
   * [gRPC](./docs/grpc.md)
   * [Ionic](./docs/javascript/ionic.md)
+  * [Jekyll](./docs/jekyll.md)
   * [Node.js](./docs/javascript/nodejs.md)
     * [Express](./docs/javascript/express.md)
     * [NPM](./docs/javascript/npm.md)
@@ -103,7 +113,7 @@
   * [Azure Service Bus](./docs/azure/azureservicebus.md)
   * [Kafka](./docs/apache/kafka.md)
   * [RabbitMQ](./docs/rabbitmq.md)
-* Testing
+* [Testing](./docs/architecture/testing.md)
   * [Cypress](./docs/javascript/cypress.md)
   * [Selenium](./docs/selenium.md)
 * [Workstation](./docs/workstation.md)
@@ -143,8 +153,12 @@
   * [Terraform](./docs/hashicorp/terraform.md)
 * Networking
   * [HAProxy](./docs/haproxy.md)
+  * [nginx](./docs/nginx.md)
 * Observability
-  * [Elastic Stack](./docs/elastic-stack.md)
+  * [Elastic Stack](./docs/elastic/elastic-stack.md)
+    * [Elasticsearch](./docs/elastic/elasticsearch.md)
+    * [Kibana](./docs/elastic/kibana)
+    * [Logstash](./docs/elastic/logstash.md)
   * [Grafana](./docs/grafana.md)
   * [OpenTelemetry](./docs/cncf/opentelemetry.md)
   * [Prometheus](./docs/cncf/prometheus.md)

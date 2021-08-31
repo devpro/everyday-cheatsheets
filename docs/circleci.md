@@ -1,3 +1,3 @@
 # CircleCI
 
-→ [circle**ci**.com](https://circleci.com/)
+→ [circleci.com](https://circleci.com/)
