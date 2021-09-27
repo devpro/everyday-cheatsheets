@@ -39,6 +39,10 @@ npm run eject
 - [Getting started](https://reactjs.org/docs/getting-started.html)
 - [Intro to React](https://reactjs.org/tutorial/tutorial.html)
 
+### Books
+
+- DigitalOcean: [How To Code in React.js eBook](https://www.digitalocean.com/community/books/how-to-code-in-react-js-ebook) - July 30, 2021
+
 ### Testing
 
 - [Testing Overview](https://reactjs.org/docs/testing.html)
