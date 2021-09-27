@@ -50,6 +50,7 @@
   * [Docker](./docs/docker.md)
   * [Envoy](./docs/cncf/envoy.md)
   * [Fluentd](./docs/cncf/fluentd.md)
+  * [Knative](./docs/knative.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
