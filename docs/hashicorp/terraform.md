@@ -31,6 +31,8 @@ Command | Action
 
 ### Providers
 
+- [Azure AD](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs) ([hashicorp/terraform-provider-azuread](https://github.com/hashicorp/terraform-provider-azuread))
+  - [Announcing Terraform AzureAD Provider 2.0](https://www.hashicorp.com/blog/announcing-terraform-azuread-provider-2-0) - Aug 26 2021
 - [MongoDB Atlas](https://github.com/terraform-providers/terraform-provider-mongodbatlas)
 
 ## Releases
