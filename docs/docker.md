@@ -40,6 +40,10 @@ docker -H localhost:2375 images
 #ubuntu              latest              f975c5035748        4 weeks ago         112MB
 ```
 
+### Installation on WSL2
+
+* Docker tutorial: [How To Develop a Docker Application on Windows using WSL, Visual Studio Code, and Docker Desktop](https://www.digitalocean.com/community/tutorials/how-to-develop-a-docker-application-on-windows-using-wsl-visual-studio-code-and-docker-desktop) - July 28, 2021
+
 ### Installation on Ubuntu
 
 [Get Docker CE for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
