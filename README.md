@@ -107,6 +107,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * JetBrains
   * [PhpStorm](./docs/jetbrains/phpstorm.md)
 * [Keycloak](./docs/keycloak.md)
+* [Knative](./docs/knative.md)
 * [Linux](./docs/linux/linux.md)
   * [CentOS](./docs/linux/centos.md)
   * [Ubuntu](./docs/linux/ubuntu.md)
