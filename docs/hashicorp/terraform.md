@@ -30,6 +30,10 @@
 
 - [Managing Infrastructure with Terraform](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform) on Pluralsight
 
+### IDE (Integrated Development Environment)
+
+- [Visual Studio Code](https://code.visualstudio.com/) with extensions ([HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform))
+
 ## Releases
 
 Version | Release date | Links
