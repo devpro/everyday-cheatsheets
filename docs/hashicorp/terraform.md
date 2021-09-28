@@ -12,9 +12,9 @@
 
 ### Key elements
 
-- [HashiCorp Configuration Language (HCL)](./docs/hcl.md)
-- [Terraform CLI (Command Line Interface)](./docs/terraform-cli.md)
-- [Terraform Providers](./docs/terraform-providers.md)
+- [HashiCorp Configuration Language (HCL)](./hcl.md)
+- [Terraform CLI (Command Line Interface)](./terraform-cli.md)
+- [Terraform Providers](./terraform-providers.md)
 - [Terraform State](https://www.terraform.io/docs/language/state/index.html)
 
 ### Tutorials
