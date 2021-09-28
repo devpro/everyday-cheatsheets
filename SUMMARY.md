@@ -158,6 +158,9 @@
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)
   * [Terraform](./docs/hashicorp/terraform.md)
+    * [HCL](./docs/hashicorp/hcl.md)
+    * [Terraform CLI](./docs/hashicorp/terraform-cli.md)
+    * [Terraform Providers](./docs/hashicorp/terraform-providers.md)
 * Networking
   * [HAProxy](./docs/haproxy.md)
   * [nginx](./docs/nginx.md)
