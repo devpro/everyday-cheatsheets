@@ -15,6 +15,7 @@
 - [HashiCorp Configuration Language (HCL)](./docs/hcl.md)
 - [Terraform Providers](./docs/terraform-providers.md)
 - [Terraform CLI (Command Line Interface)](./docs/terraform-cli.md)
+- [Terraform State](https://www.terraform.io/docs/language/state/index.html)
 
 ### Tutorials
 
