@@ -13,19 +13,24 @@
 ### Key elements
 
 - [HashiCorp Configuration Language (HCL)](./docs/hcl.md)
-- [Terraform Providers](./docs/terraform-providers.md)
 - [Terraform CLI (Command Line Interface)](./docs/terraform-cli.md)
+- [Terraform Providers](./docs/terraform-providers.md)
 - [Terraform State](https://www.terraform.io/docs/language/state/index.html)
 
 ### Tutorials
 
 - [HashiCorp Learn](https://learn.hashicorp.com/terraform)
 
+### Training
+
+- [Managing Infrastructure with Terraform](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform) on Pluralsight
+
 ## Releases
 
-### 0.15
-
-- [Announcing HashiCorp Terraform 0.15 General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability) - April 14, 2021
+Version | Release date | Links
+------- | ------------ | -----
+1.0 | June 08, 2021 | [Announcing General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-1-0-general-availability)
+0.15 | April 14, 2021 | [Announcing General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability)
 
 ## Samples
 
