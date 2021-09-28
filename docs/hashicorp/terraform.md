@@ -17,9 +17,14 @@
 - [Terraform Providers](./terraform-providers.md)
 - [Terraform State](https://www.terraform.io/docs/language/state/index.html)
 
+### Playground
+
+- [Katacoda](https://www.katacoda.com/courses/terraform/playground)
+
 ### Tutorials
 
 - [HashiCorp Learn](https://learn.hashicorp.com/terraform)
+- [Deploy NGINX container using Terraform](https://www.katacoda.com/courses/terraform/deploy-nginx) on Katacoda
 
 ### Training
 
