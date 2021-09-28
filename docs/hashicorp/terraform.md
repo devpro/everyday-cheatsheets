@@ -2,38 +2,23 @@
 
 > Write, Plan, Apply. Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
-→ [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/docs/index.html), [source](https://github.com/hashicorp/terraform), [hashicorp.com](https://www.hashicorp.com/products/terraform/).
-
-## Quick start
-
-- [Downloads](https://www.terraform.io/downloads.html)
-- [Introduction](https://www.terraform.io/intro/index.html)
-- [Lean](https://learn.hashicorp.com/terraform)
-  - [Getting started (Azure)](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/azure-get-started)
-- Samples: [devpro/terraform-samples](https://github.com/devpro/terraform-samples)
-
-## Command Line Interface (CLI)
-
-Command | Action
-------- | ------
-`terraform --help` | Display information on how to use the CLI
-`terraform --version` | Display CLI version
-`terraform init` | 
-`terraform plan` | 
-`terraform apply` | 
-`terraform destroy` | 
+→ [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/docs/index.html), [github](https://github.com/hashicorp/terraform), [hashicorp.com](https://www.hashicorp.com/products/terraform/)
 
 ## Learn
 
-### HashiCorp Configuration Language (HCL)
+### Quickstart
 
-- [Configuration Syntax](https://www.terraform.io/docs/configuration/syntax.html) ([hashicorp/hcl](https://github.com/hashicorp/hcl))
+- [Introduction](https://www.terraform.io/intro/index.html)
 
-### Providers
+### Key elements
 
-- [Azure AD](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs) ([hashicorp/terraform-provider-azuread](https://github.com/hashicorp/terraform-provider-azuread))
-  - [Announcing Terraform AzureAD Provider 2.0](https://www.hashicorp.com/blog/announcing-terraform-azuread-provider-2-0) - Aug 26 2021
-- [MongoDB Atlas](https://github.com/terraform-providers/terraform-provider-mongodbatlas)
+- [HashiCorp Configuration Language (HCL)](./docs/hcl.md)
+- [Terraform Providers](./docs/terraform-providers.md)
+- [Terraform CLI (Command Line Interface)](./docs/terraform-cli.md)
+
+### Tutorials
+
+- [HashiCorp Learn](https://learn.hashicorp.com/terraform)
 
 ## Releases
 
@@ -41,9 +26,14 @@ Command | Action
 
 - [Announcing HashiCorp Terraform 0.15 General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability) - April 14, 2021
 
+## Samples
+
+- [devpro/terraform-samples](https://github.com/devpro/terraform-samples)
+
 ## Recipes
 
 ### Azure
 
-- [Microsoft - Terraform on Azure documentation](https://docs.microsoft.com/en-us/azure/developer/terraform/)
-- [Cellenza - Déployer un process Serverless avec Terraform et Azure DevOps](https://blog.cellenza.com/devops/deployer-un-process-serverless-avec-terraform-et-azure-devops/) - September 4, 2019
+- [Introduction to Infrastructure as Code with Terraform on Azure by HashiCorp](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/azure-get-started)
+- [Terraform on Azure documentation by Microsoft](https://docs.microsoft.com/en-us/azure/developer/terraform/)
+- [FR - Déployer un process Serverless avec Terraform et Azure DevOps par Cellenza](https://blog.cellenza.com/devops/deployer-un-process-serverless-avec-terraform-et-azure-devops/) - September 4, 2019
