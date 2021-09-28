@@ -28,4 +28,5 @@ Command | Action
 `terraform destroy` | Destroys Terraform-managed infrastructure
 `terraform init` | Initializes a Terraform working directory
 `terraform plan` | Generates and shows an execution plan
+`terraform show` | Provide human-readable output from a state or plan file
 `terraform validate` | Validates the Terraform files
