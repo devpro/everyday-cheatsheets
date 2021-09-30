@@ -13,7 +13,9 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * Apache Software Foundation
   * [Kafka](./docs/apache/kafka.md)
 * Architecture
+  * [Automation Pipelines](./docs/automation-pipelines.md)
   * [Cloud Native](./docs/architecture/cloud-native.md)
+  * [Containerization](./docs/architecture/containerization.md)
   * [Design Patterns](./docs/architecture/design-patterns.md)
   * [Design Principles](./docs/architecture/design-principles.md)
   * [IaC](./docs/architecture/iac.md)
