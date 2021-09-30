@@ -52,3 +52,7 @@ Version | Release date | Links
 - [Introduction to Infrastructure as Code with Terraform on Azure by HashiCorp](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/azure-get-started)
 - [Terraform on Azure documentation by Microsoft](https://docs.microsoft.com/en-us/azure/developer/terraform/)
 - [FR - Déployer un process Serverless avec Terraform et Azure DevOps par Cellenza](https://blog.cellenza.com/devops/deployer-un-process-serverless-avec-terraform-et-azure-devops/) - September 4, 2019
+
+## Mitigations
+
+- [Terraform is Not the Golden Hammer by Qovery](https://hub.qovery.com/guides/engineering/terraform-not-the-golden-hammer/) - September 17, 2021
