@@ -13,7 +13,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * Apache Software Foundation
   * [Kafka](./docs/apache/kafka.md)
 * Architecture
-  * [API Management](./docs/api-management.md)
+  * [API Management](./docs/architecture/api-management.md)
   * [Automation Pipelines](./docs/automation-pipelines.md)
   * [Cloud Native](./docs/architecture/cloud-native.md)
   * [Containerization](./docs/architecture/containerization.md)
