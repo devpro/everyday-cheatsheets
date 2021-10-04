@@ -13,6 +13,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * Apache Software Foundation
   * [Kafka](./docs/apache/kafka.md)
 * Architecture
+  * [API Management](./docs/api-management.md)
   * [Automation Pipelines](./docs/automation-pipelines.md)
   * [Cloud Native](./docs/architecture/cloud-native.md)
   * [Containerization](./docs/architecture/containerization.md)
@@ -110,6 +111,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [PhpStorm](./docs/jetbrains/phpstorm.md)
 * [Keycloak](./docs/keycloak.md)
 * [Knative](./docs/knative.md)
+* [Kong](./docs/kong.md)
 * [Linux](./docs/linux/linux.md)
   * [CentOS](./docs/linux/centos.md)
   * [Ubuntu](./docs/linux/ubuntu.md)
