@@ -12,3 +12,7 @@
 ## Learning
 
 * [TeamCity documentation](https://www.jetbrains.com/help/teamcity/teamcity-documentation.html)
+
+## Installation
+
+* [JetBrains/teamcity-docker-images](https://github.com/JetBrains/teamcity-docker-images)
