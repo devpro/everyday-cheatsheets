@@ -12,4 +12,3 @@
 ## Learn
 
 * [Kubernetes Podcast by Google #164 - Podman](https://kubernetespodcast.com/episode/164-podman/) - September 24, 2021
-* 
