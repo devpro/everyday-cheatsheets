@@ -28,6 +28,7 @@
       * [fly CLI](./docs/fly-cli.md)
     * [Jenkins](./docs/cd-foundation/jenkins.md)
     * [Spinnaker](./docs/cd-foundation/spinnaker.md)
+    * [TeamCity](./docs/jetbrains/teamcity.md)
     * [Tekton](./docs/cd-foundation/tekton.md)
     * [Travis](./docs/travis.md)
   * [Azure DevOps](./docs/azure/azure-devops.md)
