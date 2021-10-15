@@ -49,7 +49,7 @@ npm config set registry https://registry.npmjs.org/
 
 - Install and use [npm-check-updates](https://github.com/raineorshine/npm-check-updates)
 
-```
+```bash
 # installs the tool globally
 npm install -g npm-check-updates
 
