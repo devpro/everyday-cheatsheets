@@ -68,6 +68,11 @@ git branch -m master main
 git push -u origin main
 ```
 
+* SVN (Subversion) to git migration
+
+  * [GitKraken - Migrating to Git from SVN](https://www.gitkraken.com/blog/migrating-git-svn)
+  * [Azure DevOps - Learn how to migrate from Subversion (SVN) to Git, including history](https://docs.microsoft.com/en-us/azure/devops/repos/git/perform-migration-from-svn-to-git)
+
 ## Tools
 
 * [GitKraken](https://www.gitkraken.com/): legendary Git GUI client for Windows, Mac & Linux
