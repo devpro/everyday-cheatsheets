@@ -47,7 +47,7 @@
   * [Tuleap](./docs/tuleap.md)
 * Containers & Cloud Native
   * [Containerization](./docs/architecture/containerization.md)
-    * [Docker](./docs/docker.md)
+    * [Docker](./docs/docker/docker.md)
     * [containerd](./docs/cncf/containerd.md)
     * [cri-o](./docs/cncf/cri-o.md)
   * [Open Application Model (OAM)](./docs/oam.md)

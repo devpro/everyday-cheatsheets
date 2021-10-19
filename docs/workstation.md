@@ -11,7 +11,7 @@
 
 * Git
 * .NET SDK
-* [Docker](./docker.md)
+* [Docker](./docker/docker.md)
 * [Visual Studio Code](./docs/microsoft/vscode.md)
 
 ### Create SSH key
