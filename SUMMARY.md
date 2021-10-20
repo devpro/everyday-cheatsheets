@@ -48,6 +48,7 @@
 * Containers & Cloud Native
   * [Containerization](./docs/architecture/containerization.md)
     * [Docker](./docs/docker/docker.md)
+      * [Docker CLI](./docs/docker/docker-cli.md)
     * [containerd](./docs/cncf/containerd.md)
     * [cri-o](./docs/cncf/cri-o.md)
   * [Open Application Model (OAM)](./docs/oam.md)
