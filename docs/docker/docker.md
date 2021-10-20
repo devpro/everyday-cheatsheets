@@ -8,7 +8,7 @@
 
 ### Components
 
-* [Docker CLI](./docker-cli.md)
+* [Docker CLI](docker-cli.md)
 
 ### Getting started
 
