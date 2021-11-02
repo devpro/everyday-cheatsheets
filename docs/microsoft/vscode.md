@@ -2,6 +2,10 @@
 
 → [code.visualstudio.com](https://code.visualstudio.com/)
 
+## Web version
+
+* [vscode.dev](https://vscode.dev/)
+
 ## Installation
 
 ### Windows Linux Subsystem
