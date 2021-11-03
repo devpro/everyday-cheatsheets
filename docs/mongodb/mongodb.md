@@ -27,6 +27,7 @@
 
 Version | Date | More
 ------- | ---- | ----
+[`5.0`](./mongodb-50.md) | |
 `4.4` | _June 09, 2020_ | [Annoucement](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud), [Paper](https://webassets.mongodb.com/MongoDB_Whats_New_4.4.pdf)
 [`4.2`](./mongodb-42.md) | |
 
