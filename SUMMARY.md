@@ -72,6 +72,7 @@
     * [Compass](./docs/mongodb/compass.md)
     * [Evergreen](./docs/mongodb/evergreen.md)
     * [MongoDB 4.2](./docs/mongodb/mongodb-42.md)
+    * [MongoDB 5.0](./docs/mongodb/mongodb-50.md)
     * [MongoDB design](./docs/mongodb/mongodb-design.md)
     * [MongoDB events](./docs/mongodb/mongodb-events.md)
     * MongoDB driver for .NET
