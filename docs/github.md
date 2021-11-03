@@ -5,6 +5,7 @@
 ## Shortcuts
 
 * `t` to open file finder
+* `Ctrl` + `k` to navigate, search, and run commands directly from your keyboard 
 
 ## Visual Studio Code Web
 
