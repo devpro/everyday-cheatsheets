@@ -2,6 +2,10 @@
 
 ## Pages to review
 
+### API
+
+- CNCF Live Webinar: [Introduction to APIClarity – A Wireshark for APIs](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-live-webinar-introduction-to-apiclarity-a-wireshark-for-apis/) - September 21, 2021
+
 ### ASP.NET
 
 - [CodeBurst - Load Balancing an ASP.NET Core Web App using Nginx and Docker](https://codeburst.io/load-balancing-an-asp-net-core-web-app-using-nginx-and-docker-66753eb08204)
@@ -44,6 +48,7 @@
 
 - [Microsoft - Using API gateways in microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway)
 - [Kong](https://konghq.com/kong/)
+- [APM With Prometheus and Grafana on Kubernetes Ingress](https://konghq.com/blog/prometheus-grafana-kubernetes/) - September 21, 2021
 
 ### XBox
 
