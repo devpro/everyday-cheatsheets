@@ -2,18 +2,23 @@
 
 > Simple, agentless IT automation that anyone can use. Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button.
 
-→ [ansible.com](https://www.ansible.com/), [GitHub](https://github.com/ansible/ansible)
-
-## Content
-
-* [Ansible CLI](./ansible-cli.md)
+→ [ansible.com](https://www.ansible.com/), [github.com](https://github.com/ansible/ansible), [docs.ansible.com](https://docs.ansible.com/)
 
 ## Learn
 
-## Documentation
+### Documentation
 
-* [docs.ansible.com](https://docs.ansible.com/ansible/latest/index.html)
-  * [Network Getting Started](https://docs.ansible.com/ansible/latest/network/getting_started/index.html)
+* [Ansible Community](https://docs.ansible.com/ansible/latest/index.html)
+* [Ansible Core](https://docs.ansible.com/ansible-core/devel/index.html)
+
+### Features
+
+* [Ansible CLI](./ansible-cli.md)
+
+### Getting started
+
+* [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
+* [Network](https://docs.ansible.com/ansible/latest/network/getting_started/index.html)
 
 ### Introduction videos
 
@@ -30,18 +35,10 @@
 * [Introduction](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html)
 * [Examples](https://github.com/ansible/ansible-examples)
 
-### Tasks
-
-### Roles
-
 ### Galaxy
 
 * [`ansible-galaxy` CLI](https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html) performs various Role and Collection related operations
 * [galaxy.ansible.com](https://galaxy.ansible.com/) is a free website for finding, downloading, and sharing community developed roles
-
-### Getting started
-
-* [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
 
 ### Playgrounds
 
