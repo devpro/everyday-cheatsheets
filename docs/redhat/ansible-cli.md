@@ -7,9 +7,6 @@
 ### ansible
 
 ```bash
-# install on Ubuntu 20.04
-sudo apt install ansible
-
 # display version
 ansible --version
 ```
@@ -22,9 +19,31 @@ ansible --version
 
 ### ansible-doc
 
+```doc
+# displays the list of available plugins
+ansible-doc -t inventory -l
+
+# displays plugin-specific documentation and examples
+ansible-doc -t inventory <plugin name>
+```
+
 ### ansible-galaxy
 
+```bash
+# display version
+ansible-galaxy --version
+```
+
+→ [docs.ansible.com](https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html)
+
 ### ansible-inventory
+
+```bash
+# display version
+ansible-inventory --version
+```
+
+→ [docs.ansible.com](https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html)
 
 ### ansible-playbook
 

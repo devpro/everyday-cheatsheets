@@ -14,38 +14,39 @@
 ### Features
 
 * [Ansible CLI](./ansible-cli.md)
+* [Ansible Modules](./ansible-modules.md)
+* [Ansible Playbooks](./ansible-playbooks.md)
+* [Ansible Inventory](./ansible-inventory.md)
+* [Ansible Roles](./ansible-roles.md)
+* [Ansible Galaxy](./ansible-galaxy.md)
+* [Ansible Collections](./ansible-collections.md)
 
 ### Getting started
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
-* [Network](https://docs.ansible.com/ansible/latest/network/getting_started/index.html)
 
-### Introduction videos
+### Learning paths
 
-* [Quick start video](https://www.ansible.com/resources/videos/quick-start-video)
-* [What is Ansible by TechWorld with Nana (Youtube)](https://www.youtube.com/watch?v=1id6ERvfozo)
-
-### Modules
-
-* [Working With Modules](https://docs.ansible.com/ansible/latest/user_guide/modules.html)
-* [All modules](https://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html)
-
-### Playbooks
-
-* [Introduction](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html)
-* [Examples](https://github.com/ansible/ansible-examples)
-
-### Galaxy
-
-* [`ansible-galaxy` CLI](https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html) performs various Role and Collection related operations
-* [galaxy.ansible.com](https://galaxy.ansible.com/) is a free website for finding, downloading, and sharing community developed roles
+* [devpro/infrastructure-automation-guide](https://github.com/devpro/infrastructure-automation-guide/blob/main/docs/learning-path.md#ansible)
 
 ### Playgrounds
 
 * [KataCoda](https://www.katacoda.com/courses/ansible/playground) (with [Courses](https://www.katacoda.com/courses/ansible))
 
-## Recipes
+## Guides
 
-### Ansible on Azure
+### Network automation
+
+* [docs.ansible.com](https://docs.ansible.com/ansible/latest/network/getting_started/index.html)
+
+### Public Cloud automation
+
+* [docs.ansible.com](https://docs.ansible.com/ansible/latest/scenario_guides/cloud_guides.html)
+
+#### Azure
 
 * [docs.microsoft.com](https://docs.microsoft.com/en-us/azure/developer/ansible/)
+
+### Virtualization and Containerization automation
+
+* [docs.ansible.com](https://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html)

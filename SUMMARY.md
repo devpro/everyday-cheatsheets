@@ -162,6 +162,12 @@
 * Infrastructure automation
   * [Ansible](./docs/redhat/ansible.md)
     * [Ansible CLI](./docs/redhat/ansible-cli.md)
+    * [Ansible Modules](./docs/redhat/ansible-modules.md)
+    * [Ansible Playbooks](./docs/redhat/ansible-playbooks.md)
+    * [Ansible Inventory](./docs/redhat/ansible-inventory.md)
+    * [Ansible Roles](./docs/redhat/ansible-roles.md)
+    * [Ansible Galaxy](./docs/redhat/ansible-galaxy.md)
+    * [Ansible Collections](./docs/redhat/ansible-collections.md)
   * Azure Resource Manager
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)
