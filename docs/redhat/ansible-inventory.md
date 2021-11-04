@@ -6,7 +6,11 @@
 
 ## Inventory types
 
-Inventory can be static or dynamic (stored in EC2 for example).
+Inventory can be static or [dynamic]((https://docs.ansible.com/ansible/latest/user_guide/intro_dynamic_inventory.html)) (stored in EC2 for example).
+
+### Recipes
+
+* [How To Set Up Ansible Inventories (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-set-up-ansible-inventories) - June 30, 2020
 
 ## Inventory plugins
 
@@ -14,7 +18,7 @@ Inventory can be static or dynamic (stored in EC2 for example).
 
 → [docs.ansible.com](https://docs.ansible.com/ansible/latest/plugins/inventory.html)
 
-## Examples of inventory plugins
+### Examples of inventory plugins
 
 * EC2 inventory source: [amazon.aws.aws_ec2](https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html)
 * Azure Resource Manager inventory plugin: [azure.azcollection.azure_rm](https://docs.ansible.com/ansible/latest/collections/azure/azcollection/azure_rm_inventory.html#ansible-collections-azure-azcollection-azure-rm-inventory)

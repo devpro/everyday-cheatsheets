@@ -24,6 +24,7 @@
 ### Getting started
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
+* [ansible.com](https://www.ansible.com/resources/get-started)
 
 ### Learning paths
 
