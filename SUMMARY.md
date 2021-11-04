@@ -161,6 +161,7 @@
     * [Raspberry Pi](./docs/raspberrypi.md)
 * Infrastructure automation
   * [Ansible](./docs/redhat/ansible.md)
+    * [Ansible CLI](./docs/redhat/ansible-cli.md)
   * Azure Resource Manager
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)

@@ -3,7 +3,11 @@
 > Simple, agentless IT automation that anyone can use. Ansible is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button.
 
 → [ansible.com](https://www.ansible.com/), [GitHub](https://github.com/ansible/ansible)
-    
+
+## Content
+
+* [Ansible CLI](./ansible-cli.md)
+
 ## Learn
 
 ## Documentation
@@ -35,35 +39,6 @@
 * [`ansible-galaxy` CLI](https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html) performs various Role and Collection related operations
 * [galaxy.ansible.com](https://galaxy.ansible.com/) is a free website for finding, downloading, and sharing community developed roles
 
-### Command line tools
-
-#### Ansible CLI
-
-```bash
-# install on Ubuntu 20.04
-sudo apt install ansible
-
-# display version
-ansible --version
-```
-
-&rarr; [docs.ansible.com](https://docs.ansible.com/ansible/latest/cli/ansible.html)
-
-#### Ansible Playbook CLI
-
-```bash
-ansible-playbook
-```
-
-#### Ansible Lint CLI
-
-
-```bash
-ansible-lint verify-apache.yml
-```
-
-&rarr; [docs.ansible.com](https://docs.ansible.com/ansible-lint/index.html)
- 
 ### Getting started
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
