@@ -51,9 +51,9 @@
       * [Docker CLI](./docs/docker/docker-cli.md)
     * [containerd](./docs/cncf/containerd.md)
     * [cri-o](./docs/cncf/cri-o.md)
-  * [Open Application Model (OAM)](./docs/oam.md)
   * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md)
   * [CNAB](./docs/cnab.md)
+  * [Dapr](./docs/dapr.md)
   * [Envoy](./docs/cncf/envoy.md)
   * [Fluentd](./docs/cncf/fluentd.md)
   * [Knative](./docs/knative.md)
@@ -62,6 +62,7 @@
     * [Helm](./docs/cncf/helm.md)
     * [Kubectl](./docs/cncf/kubectl.md)
     * [Minikube](./docs/cncf/minikube.md)
+  * [Open Application Model (OAM)](./docs/oam.md)
   * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
   * [Unleash](./docs/unleash.md)
 * Data storage
