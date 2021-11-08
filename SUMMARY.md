@@ -38,6 +38,7 @@
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
   * GoCD
+  * [Flux](./docs/cncf/flux.md)
   * [Keptn](./docs/cncf/keptn.md)
   * Nexus
   * Octopus deploy
@@ -53,7 +54,7 @@
     * [cri-o](./docs/cncf/cri-o.md)
   * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md)
   * [CNAB](./docs/cnab.md)
-  * [Dapr](./docs/dapr.md)
+  * [Dapr](./docs/cncf/dapr.md)
   * [Envoy](./docs/cncf/envoy.md)
   * [Fluentd](./docs/cncf/fluentd.md)
   * [Knative](./docs/knative.md)
