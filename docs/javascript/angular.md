@@ -12,8 +12,9 @@ Angular has replaced [AngularJS](https://angularjs.org/) (aka Angular v1).
 
 Version | Date | More
 ------- | ---- | ----
-12.0 | | [ninja squad](https://blog.ninja-squad.com/2021/05/12/what-is-new-angular-12.0/)
-10.0 | 2020-06-25 | [release note](https://blog.angular.io/version-10-of-angular-now-available-78960babd41), [ninja squad](https://blog.ninja-squad.com/2020/06/25/what-is-new-angular-10.0/)
+13.0 | | [blog.ninja-squad.com](https://blog.ninja-squad.com/2021/11/03/what-is-new-angular-13.0/)
+12.0 | | [blog.ninja-squad.com](https://blog.ninja-squad.com/2021/05/12/what-is-new-angular-12.0/)
+10.0 | 2020-06-25 | [blog.angular.io](https://blog.angular.io/version-10-of-angular-now-available-78960babd41), [blog.ninja-squad.com](https://blog.ninja-squad.com/2020/06/25/what-is-new-angular-10.0/)
 
 ## Learn
 
