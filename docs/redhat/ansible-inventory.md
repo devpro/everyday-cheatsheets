@@ -8,10 +8,6 @@
 
 Inventory can be static or [dynamic]((https://docs.ansible.com/ansible/latest/user_guide/intro_dynamic_inventory.html)) (stored in EC2 for example).
 
-### Recipes
-
-* [How To Set Up Ansible Inventories (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-set-up-ansible-inventories) - June 30, 2020
-
 ## Inventory plugins
 
 > Inventory plugins allow users to point at data sources to compile the inventory of hosts that Ansible uses to target tasks, either using the -i /path/to/file and/or -i 'host1, host2' command line parameters or from other configuration sources.
