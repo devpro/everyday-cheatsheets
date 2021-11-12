@@ -12,6 +12,12 @@
 * [Resources](https://www.mongodb.com/resources): presentations, webinars, white papers
 * [MongoDB University](https://university.mongodb.com/)
 
+### Key features
+
+#### Sharding
+
+* [Database Sharding: Concepts and Examples](https://www.mongodb.com/features/database-sharding-explained)
+
 ### Products
 
 * [Atlas](./atlas.md)
