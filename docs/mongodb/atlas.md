@@ -8,3 +8,9 @@ MongoDB Atlas is the Cloud solution to easily manage MongoDB clusters. You can c
 * [Improving MongoDB Performance with Automatically Generated Index Suggestions](https://www.mongodb.com/blog/post/improving-mongodb-performance-with-automatically-generated-index-suggestions)
 
 Do not forget to look at the Security page of your cluster, in particulier for the IP restriction (white list).
+
+## Features
+
+### Search
+
+* [100x Faster Facets with MongoDB Atlas Search: Public Preview](https://www.mongodb.com/blog/post/100x-faster-facets-mongodb-atlas-search-public-preview) - November 9, 2021
