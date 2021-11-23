@@ -122,7 +122,7 @@
   * [MS-DOS](./docs/windows/ms-dos.md)
   * [PHP](./docs/php/php.md)
   * [PowerShell](./docs/microsoft/powershell.md)
-  * [Python](./docs/python.md)
+  * [Python](./docs/python/python.md)
   * Swagger
   * [TypeScript](./docs/javascript/typescript.md)
 * Messaging

@@ -135,7 +135,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [PostgreSQL](./docs/postgresql.md)
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
-* [Python](./docs/python.md)
+* [Python](./docs/python/python.md)
 * [QGIS](./docs/qgis.md)
 * Red Hat
   * [Ansible](./docs/redhat/ansible.md)

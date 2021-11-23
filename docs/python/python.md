@@ -1,6 +1,28 @@
 # Python
 
-## Recipes
+> Python is a programming language that lets you work quickly and integrate systems more effectively.
+
+→ [python.org](https://www.python.org/)
+
+## Learn
+
+### Documentation
+
+* [docs.python.org](https://docs.python.org/)
+
+### Getting started
+
+* [Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)
+* [The Python Tutorial](https://docs.python.org/tutorial/index.html)
+
+## Step
+
+### Installation
+
+* [Downloads](https://www.python.org/downloads/)
+* [How To Install Python 3 and Set Up a Programming Environment on an Ubuntu 20.04 Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server) (DigitalOcean) - October 29, 2021
+
+## Practice
 
 ### Different ways to execute a command line
 
