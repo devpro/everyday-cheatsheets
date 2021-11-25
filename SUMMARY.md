@@ -61,6 +61,7 @@
   * [Kubernetes](./docs/cncf/kubernetes.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
+    * [kind](./docs/cncf/kind.md)
     * [Kubectl](./docs/cncf/kubectl.md)
     * [Minikube](./docs/cncf/minikube.md)
   * [Open Application Model (OAM)](./docs/oam.md)
