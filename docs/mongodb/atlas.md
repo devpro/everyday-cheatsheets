@@ -11,6 +11,10 @@ Do not forget to look at the Security page of your cluster, in particulier for t
 
 ## Features
 
+### Administration API
+
+* [Documentation](https://docs.atlas.mongodb.com/api/atlas-admin-api/)
+
 ### Search
 
 * [100x Faster Facets with MongoDB Atlas Search: Public Preview](https://www.mongodb.com/blog/post/100x-faster-facets-mongodb-atlas-search-public-preview) - November 9, 2021
