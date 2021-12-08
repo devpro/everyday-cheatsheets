@@ -172,6 +172,7 @@
     * [Ansible Galaxy](./docs/redhat/ansible-galaxy.md)
     * [Ansible Collections](./docs/redhat/ansible-collections.md)
   * Azure Resource Manager
+  * [Packer](./docs/packer.md)
   * [Pulumi](./docs/pulumi.md)
   * [Puppet](./docs/puppet.md)
   * [Terraform](./docs/hashicorp/terraform.md)
