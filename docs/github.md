@@ -6,10 +6,7 @@
 
 * `t` to open file finder
 * `Ctrl` + `k` to navigate, search, and run commands directly from your keyboard 
-
-## Visual Studio Code Web
-
-* Replace `https://github.com` with `https://github.dev`
+* `.` to open Visual Studio Code Web (`https://github.com` will be replaced by `https://github.dev`)
 
 ## GitHub Actions
 
