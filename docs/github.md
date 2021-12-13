@@ -23,3 +23,7 @@
 ## Tools
 
 * [Pull Panda](https://pullpanda.com/)
+
+## Recipes
+
+* [How to Find GitHub User Email Addresses - The Reach](https://www.thereach.io/blog/articles/how-to-find-github-user-email-addresses)
