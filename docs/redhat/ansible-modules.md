@@ -5,6 +5,12 @@
 
 → [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/modules.html)
 
-## Repository
+## Repositories
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html)
+
+## Common modules
+
+Name | Package | Action
+---- | ------- | ------
+[`apt`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html) | `ansible-core` | Manages apt packages
