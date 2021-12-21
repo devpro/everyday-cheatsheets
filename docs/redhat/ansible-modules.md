@@ -14,3 +14,4 @@
 Name | Package | Action
 ---- | ------- | ------
 [`apt`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html) | `ansible-core` | Manages apt packages
+[`user`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html) | `ansible-core` | Manage user accounts
