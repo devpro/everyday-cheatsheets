@@ -202,8 +202,7 @@
 * Virtualization
   * [Hyper-V](./docs/windows/hyper-v.md)
   * [Vagrant](./docs/hashicorp/vagrant.md)
-  * VMware
-    * Tanzu
+  * [VirtualBox](./docs/oracle/virtualbox.md)
 
 ## Optimize
 
