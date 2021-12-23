@@ -1,4 +1,4 @@
-# Linux operating system
+# Linux operating systems
 
 ## Distributions
 
@@ -60,6 +60,12 @@ top
 
 ## Common packages
 
-| Name                    | Details                          |
-| ----------------------- | -------------------------------- |
-| **wget** | GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS the most widely-used Internet protocols |
+Name | Details
+---- | -------
+**wget** | GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS the most widely-used Internet protocols
+
+## Shell shortcuts
+
+Shortcut | Action
+-------- | ------
+`Ctrl` + `R` | Search a command in the history
