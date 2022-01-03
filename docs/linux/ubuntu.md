@@ -120,3 +120,44 @@ sudo mount -t cifs -o username=myuser,password=*****,iocharset=utf8,file_mode=07
 ```bash
 cat /proc/sys/fs/inotify/max_user_watches
 ```
+
+## Recipes
+
+### Execute an action on startup
+
+* Create a script file `/home/<username>/run_vagrant_k8s.sh`
+
+```shell
+#!/bin/bash
+
+cd /home/<username>/Vagrant/k8s-cluster/
+vagrant up
+```
+
+* Create a service file `/etc/systemd/system/vagrant-k8s-cluster.service`
+
+```ini
+[Unit]
+Description=Run Vagrant to start Kubernetes cluster
+After=network.service
+
+[Service]
+Type=simple
+User=<username>
+Group=<username>
+ExecStart=/home/<username>/run_vagrant_k8s.sh
+TimeoutStartSec=0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
+```
+
+* Update permissions and enable system
+
+```bash
+sudo chmod 755 /home/<username>/run_vagrant_k8s.sh
+sudo chmod 664 /etc/systemd/system/vagrant-k8s-cluster.service
+sudo systemctl daemon-reload
+sudo systemctl status vagrant-k8s-cluster.service
+```
