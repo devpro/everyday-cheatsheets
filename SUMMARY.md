@@ -66,6 +66,7 @@
     * [Minikube](./docs/cncf/minikube.md)
   * [Open Application Model (OAM)](./docs/oam.md)
   * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
+  * [Quay](./docs/redhat/quay.md)
   * [Unleash](./docs/unleash.md)
 * Data storage
   * [Elasticsearch](./docs/elastic/elasticsearch.md)
