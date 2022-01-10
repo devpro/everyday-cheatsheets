@@ -8,6 +8,10 @@
 - On-Premises
   - [Docker](https://docs.gitlab.com/ee/install/docker.html): [gitlab/gitlab-ee](https://hub.docker.com/r/gitlab/gitlab-ee/), [gitlab/gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce/)
 
+## Pages
+
+- [GitLab Pages examples](https://gitlab.com/pages)
+
 ## Runners
 
 - Local execution
