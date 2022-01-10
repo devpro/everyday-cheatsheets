@@ -21,3 +21,23 @@ Open the terminal at the root folder and run `bundle exec jekyll serve`
 ## Creation
 
 This code base was made by using the command: `jekyll new my-website`
+
+## How to run with Docker
+
+```bash
+# checks docker is working
+docker run hello-world
+
+# checks make utility is present
+make --version
+
+# creates a new projet
+mkdir jekyll-site
+cd jekyll-site
+docker run -v $(pwd):/srv/jekyll jekyll/jekyll:latest jekyll new .
+
+# starts web server (open http://localhost:4000/ in a browser)
+docker run -v $(pwd):/srv/jekyll -p 4000:4000 -it jekyll/jekyll:latest jekyll serve
+```
+
+See [alcher.dev](https://alcher.dev/2020/jekyll-on-docker/)
