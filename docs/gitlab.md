@@ -35,3 +35,8 @@
   - Includes are not supported unfortunately
     - Issue(s): [Local runner execution MVC](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/2797)
     - Alternative(s): [firecow/gitlab-ci-local](https://github.com/firecow/gitlab-ci-local)
+
+## CI/CD pipelines
+
+- Best practices
+  - [10 préconisations pour une CI/CD efficace](https://www.linkedin.com/pulse/gitlab-ci-10-pr%C3%A9conisations-pour-une-cicd-efficace-benoit-couetil/)
