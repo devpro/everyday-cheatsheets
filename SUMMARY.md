@@ -113,6 +113,9 @@
     * [React Native](./docs/javascript/react-native.md)
   * [Redux](./docs/javascript/redux.md)
   * [Symfony](./docs/php/symfony.md)
+* IDE
+  * [Visual Studio 2022](./docs/microsoft/vs2022.md)
+  * [Visual Studio Code](./docs/microsoft/vscode.md)
 * Languages
   * [C#](./docs/dotnet/csharp.md)
     * [C# 8.0](./docs/dotnet/csharp80.md)
