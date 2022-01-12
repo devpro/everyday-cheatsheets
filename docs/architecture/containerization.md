@@ -32,3 +32,7 @@
 ### Container GUI
 
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+## Readings
+
+* [Containers vs. Pods - Taking a Deeper Look](https://iximiuz.com/en/posts/containers-vs-pods/) - October 28, 2021
