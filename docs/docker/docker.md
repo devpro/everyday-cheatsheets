@@ -88,8 +88,9 @@ wget --spider http://example.com
 
 ## Recipes
 
-- [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/) July 02 2019
-- [Get Ready for the Tech Preview of Docker Desktop for WSL 2](https://blog.docker.com/2019/07/docker-wsl2-tech-preview/) July 18 2019
+- [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/) - July 02, 2019
+- [Get Ready for the Tech Preview of Docker Desktop for WSL 2](https://blog.docker.com/2019/07/docker-wsl2-tech-preview/) - July 18, 2019
+- [Debugging a weird 'file not found' error](https://jvns.ca/blog/2021/11/17/debugging-a-weird--file-not-found--error/)
 
 ## Samples
 
