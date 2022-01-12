@@ -4,6 +4,10 @@
 
 → [falco.org](https://falco.org/), [sysdig.com/opensource/falco](https://sysdig.com/opensource/falco/)
 
+## Learn
+
+* [Falco Hands-on Lab](https://falco.org/labs/)
+
 ## Releases
 
 ### 0.15
