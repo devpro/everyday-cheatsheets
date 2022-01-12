@@ -17,5 +17,6 @@
 ## Recipes
 
 - [Getting started with runtime security and Falco](https://sysdig.com/blog/intro-runtime-security-falco/) - November 15, 2021
+- [Cloud Infrastructure Entitlements Management (CIEM) with Sysdig Secure](https://sysdig.com/blog/ciem-security-sysdig-secure/) - October 27, 2021
 - [Using Falco to monitor outbound traffic for Pods in Kubernetes](https://www.rkatz.xyz/post/2021-04-16-falco-network-monitoring/) by The Katz Experiments - April 16, 2021
 - [Getting started with Kubernetes audit logs and Falco](https://sysdig.com/blog/kubernetes-audit-log-falco/) - February 9, 2021
