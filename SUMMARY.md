@@ -209,6 +209,8 @@
 ## Optimize
 
 * [DevOps](./docs/devops.md)
+* Engineering
+  * [Best practices](./docs/engineering/best-practices.md)
 
 ## Join
 
