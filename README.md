@@ -78,6 +78,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Elasticsearch](./docs/elastic/elasticsearch.md)
   * [Kibana](./docs/elastic/kibana)
   * [Logstash](./docs/elastic/logstash.md)
+* Engineering
+  * [Best practices](./docs/engineering/best-practices.md)
 * [Firebase](./docs/firebase.md)
 * [git](./docs/git.md)
 * [GitHub](./docs/github.md)
