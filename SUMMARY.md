@@ -94,6 +94,7 @@
     * [ASP.NET Core](./docs/dotnet/aspnetcore.md)
     * [Blazor](./docs/dotnet/blazor.md)
     * [.NET 5.0](./docs/dotnet/dotnet50.md)
+    * [.NET 6.0](./docs/dotnet/dotnet60.md)
     * [.NET CLI](./docs/dotnet/dotnet-cli.md)
     * [.NET Core](./docs/dotnet/dotnetcore.md)
     * [.NET Events](./docs/dotnet/dotnetevents.md)
