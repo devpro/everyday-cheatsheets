@@ -15,6 +15,10 @@
 * [Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)
 * [The Python Tutorial](https://docs.python.org/tutorial/index.html)
 
+### Training
+
+* [Python-Mini-Projects](https://github.com/Python-World/python-mini-projects)
+
 ## Step
 
 ### Installation
