@@ -6,22 +6,12 @@
 
 ## Learn
 
-### Recipes
+### Key features
 
-- [Run docker-compose](https://stackoverflow.com/questions/37919989/concourse-ci-how-to-run-functional-tests)
-- [Leverage Docker image cache](https://stackoverflow.com/questions/44475165/concourse-ci-leverage-docker-image-cache)
-
-### Resources
-
-- Official documentation:
-  - [Resources](https://concourse-ci.org/resources.html)
-  - [Resource Types](https://resource-types.concourse-ci.org/)
-    - [Implementing a Resource Type](https://concourse-ci.org/implementing-resource-types.html)
-    - [Marketplace](https://resource-types.concourse-ci.org/)
-- Interesting replies on stackoverflow:
-  - [How to pass job's output to a different job](https://stackoverflow.com/questions/42634934/concourse-how-to-pass-jobs-output-to-a-different-job)
-  - [Why does Concourse `get` a resource after `put`ing it?](https://stackoverflow.com/questions/38964299/why-does-concourse-get-a-resource-after-puting-it)
-  - [Difference between PUT and OUTPUT steps in Concourse](https://stackoverflow.com/questions/59142135/difference-between-put-and-output-steps-in-concourse)
+- [Fly](./fly.md)
+- [Resources](https://concourse-ci.org/resources.html)
+- [Resource Types](https://concourse-ci.org/resource-types.html)
+  - [Resource Types catalog](https://resource-types.concourse-ci.org/)
 
 ### Quick start
 
@@ -64,10 +54,19 @@ To go further, feel free to have a look at [devpro/concourse-samples](https://gi
 - [pivotalservices/concourse-pipeline-samples](https://github.com/pivotalservices/concourse-pipeline-samples)
 - [Aptomi/concourse-pipelines](https://github.com/Aptomi/concourse-pipelines)
 
+### Recipes
+
+- [Run docker-compose](https://stackoverflow.com/questions/37919989/concourse-ci-how-to-run-functional-tests)
+- [Leverage Docker image cache](https://stackoverflow.com/questions/44475165/concourse-ci-leverage-docker-image-cache)
+- [How to pass job's output to a different job](https://stackoverflow.com/questions/42634934/concourse-how-to-pass-jobs-output-to-a-different-job)
+- [Why does Concourse `get` a resource after `put`ing it?](https://stackoverflow.com/questions/38964299/why-does-concourse-get-a-resource-after-puting-it)
+- [Difference between PUT and OUTPUT steps in Concourse](https://stackoverflow.com/questions/59142135/difference-between-put-and-output-steps-in-concourse)
+
 ## Hosting
 
 ### Docker
 
+- [concourse/concourse-docker](https://github.com/concourse/concourse-docker)
 - [micahyoung/concourse-docker-windows](https://github.com/micahyoung/concourse-docker-windows)
 
 ### Kubernetes
