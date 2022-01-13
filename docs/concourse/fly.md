@@ -1,4 +1,4 @@
-# fly CLI
+# fly (Concourse CLI)
 
 ## Links
 
