@@ -25,8 +25,10 @@
     * [Argo](./docs/cncf/argo.md)
     * [CircleCI](./docs/circleci.md)
     * [Concourse](./docs/concourse/concourse.md)
-      * [fly CLI](./docs/concourse/fly-cli.md)
+      * [fly](./docs/concourse/fly.md)
+    * GoCD
     * [Jenkins](./docs/cd-foundation/jenkins.md)
+    * [Keptn](./docs/cncf/keptn.md)
     * [Spinnaker](./docs/cd-foundation/spinnaker.md)
     * [TeamCity](./docs/jetbrains/teamcity.md)
     * [Tekton](./docs/cd-foundation/tekton.md)
@@ -37,9 +39,7 @@
   * [Git](./docs/git.md)
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
-  * GoCD
   * [Flux](./docs/cncf/flux.md)
-  * [Keptn](./docs/cncf/keptn.md)
   * Nexus
   * Octopus deploy
   * RunDeck
