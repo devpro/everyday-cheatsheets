@@ -2,23 +2,14 @@
 
 > Concourse is an open-source continuous thing-doer. Built on the simple mechanics of resources, tasks, and jobs, Concourse presents a general approach to automation that makes it great for CI/CD.
 
-## Links
+→ [concourse-ci.org](https://concourse-ci.org/), [GitHub](https://github.com/concourse/concourse), [docs](https://concourse-ci.org/docs.html)
 
-- [concourse-ci.org](https://concourse-ci.org/)
-- [github.com/concourse/concourse](https://github.com/concourse/concourse)
-- [concourse-ci.org/docs.html](https://concourse-ci.org/docs.html)
+## Learn
 
-## Key concepts
+### Recipes
 
-### Functionalities
-
-- Interesting replies on stackoverflow:
-  - [Run docker-compose](https://stackoverflow.com/questions/37919989/concourse-ci-how-to-run-functional-tests)
-
-### Optimization
-
-- Interesting replies on stackoverflow:
-  - [Leverage Docker image cache](https://stackoverflow.com/questions/44475165/concourse-ci-leverage-docker-image-cache)
+- [Run docker-compose](https://stackoverflow.com/questions/37919989/concourse-ci-how-to-run-functional-tests)
+- [Leverage Docker image cache](https://stackoverflow.com/questions/44475165/concourse-ci-leverage-docker-image-cache)
 
 ### Resources
 
