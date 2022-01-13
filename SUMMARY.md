@@ -26,6 +26,7 @@
     * [CircleCI](./docs/circleci.md)
     * [Concourse](./docs/concourse/concourse.md)
       * [fly](./docs/concourse/fly.md)
+    * [Flux](./docs/cncf/flux.md)
     * GoCD
     * [Jenkins](./docs/cd-foundation/jenkins.md)
     * [Keptn](./docs/cncf/keptn.md)
@@ -39,7 +40,6 @@
   * [Git](./docs/git.md)
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
-  * [Flux](./docs/cncf/flux.md)
   * Nexus
   * Octopus deploy
   * RunDeck
