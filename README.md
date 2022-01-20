@@ -88,6 +88,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [GraphQL](./docs/graphql.md)
 * [gRPC](./docs/grpc.md)
 * [HAProxy](./docs/haproxy.md)
+* [Harness](./docs/harness/harness.md)
 * HashiCorp
   * [Packer](./docs/packer.md)
   * [Terraform](./docs/hashicorp/terraform.md)
