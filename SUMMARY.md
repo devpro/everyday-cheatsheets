@@ -27,7 +27,7 @@
     * [Concourse](./docs/concourse/concourse.md)
       * [fly](./docs/concourse/fly.md)
     * [Flux](./docs/cncf/flux.md)
-    * GoCD
+    * [Harness](./docs/harness/harness.md)
     * [Jenkins](./docs/cd-foundation/jenkins.md)
     * [Keptn](./docs/cncf/keptn.md)
     * [Spinnaker](./docs/cd-foundation/spinnaker.md)
