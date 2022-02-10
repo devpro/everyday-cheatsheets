@@ -11,6 +11,13 @@
 * [Blog	> Argo Workflows 3.0 Released!](https://www.cncf.io/blog/2021/04/02/argo-workflows-3-0-released/)
 * [CNCF On-Demand Webinar: Argo Workflows 3.0, a detailed look at what’s new from the Argo Team](https://community.cncf.io/events/details/cncf-cncf-online-programs-presents-cncf-on-demand-webinar-argo-workflows-30-a-detailed-look-at-whats-new-from-the-argo-team/)
 
+## Learn
+
+### Best practices
+
+* [Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD](
+https://blog.akuity.io/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argo-cd-7c5b4057ee49) - Dec 3, 2021
+
 ## Recipes
 
 ### Integrate with HashiCorp Vault
