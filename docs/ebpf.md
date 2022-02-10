@@ -12,6 +12,7 @@
 
 ### Publications
 
+* [What is eBPF? by SysAdvent](https://sysadvent.blogspot.com/2021/12/day-23-what-is-ebpf.html) - December 23, 2021
 * [How Netflix uses eBPF flow logs at scale for network insight](https://netflixtechblog.com/how-netflix-uses-ebpf-flow-logs-at-scale-for-network-insight-e3ea997dca96) - Jun 7, 2021
 * [Facebook, Google, Isovalent, Microsoft, and Netflix announce eBPF Foundation](https://www.isovalent.com/blog/post/2021-08-ebpf-foundation-announcement) - August 12, 2021
 * [Facebook, Google, Isovalent, Microsoft and Netflix Launch eBPF Foundation as Part of the Linux Foundation](https://www.linuxfoundation.org/press-release/facebook-google-isovalent-microsoft-and-netflix-launch-ebpf-foundation-as-part-of-the-linux-foundation) - August 12, 2021
