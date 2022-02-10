@@ -116,6 +116,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Kong](./docs/kong.md)
 * [Linux](./docs/linux/linux.md)
   * [CentOS](./docs/linux/centos.md)
+  * [Rocky](./docs/rocky.md)
   * [Ubuntu](./docs/linux/ubuntu.md)
 * [Marp](./docs/marp.md)
 * Microsoft
