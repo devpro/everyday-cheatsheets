@@ -7,6 +7,7 @@
 - Fedora
   - Red Hat Enterprise Linux (RHEL)
     - [CentOS](./centos.md)
+    - [Rocky](./rocky.md)
 - openSUSE
 
 ## Common utilities
