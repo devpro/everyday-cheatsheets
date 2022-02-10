@@ -203,6 +203,7 @@
   * [Linux](./docs/linux/linux.md)
     * [CentOS](./docs/linux/centos.md)
     * [eBPF](./docs/ebpf.md)
+    * [Rocky](./docs/linux/rocky.md)
     * [Ubuntu](./docs/linux/ubuntu.md)
   * [Windows Server](./docs/windows/windows-server.md)
 * Virtualization
