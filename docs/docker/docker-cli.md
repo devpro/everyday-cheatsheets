@@ -25,6 +25,7 @@ Command | Action
 `docker start <containerid>` | Start an existing container
 `docker stop <containerid>` | Stop a running container
 `docker logs <containerid>` | See last logs of a container
+`docker system prune --volumes` | Delete all unused objects ([pruning](https://docs.docker.com/config/pruning/))
 
 ### Examples
 
