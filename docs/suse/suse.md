@@ -22,7 +22,11 @@
 ## Products
 
 * [K3s](k3s.md)
+* Harvester
 * [Longhorn](longhorn.md)
+* NeuVector
 * [openSUSE](opensuse.md)
 * [Rancher](rancher.md)
 * [Rancher Desktop](rancher-desktop.md)
+* RKE
+* SUSE Linux Enterprise
