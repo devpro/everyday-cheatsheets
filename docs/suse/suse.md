@@ -35,7 +35,7 @@
 
 ### Services
 
-* [registry.suse.com](https://registry.suse.com/)
+* [SUSE Container Image Registry](https://registry.suse.com/)
 
 ## About the community
 
