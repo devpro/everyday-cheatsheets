@@ -208,6 +208,7 @@
     * [eBPF](./docs/ebpf.md)
     * [openSUSE](./docs/suse/opensuse.md)
     * [Rocky](./docs/linux/rocky.md)
+    * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)
     * [Ubuntu](./docs/linux/ubuntu.md)
   * [Windows Server](./docs/windows/windows-server.md)
 * Virtualization

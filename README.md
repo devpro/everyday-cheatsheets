@@ -159,7 +159,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Splunk](./docs/splunk.md)
 * [SUSE](./docs/suse/suse.md)
   * [K3s](./docs/suse/k3s.md)
-  * [Longhorn](./docs/suse/longhorn.md)
   * [openSUSE](./docs/suse/opensuse.md)
   * [Rancher](./docs/suse/rancher.md)
   * [Rancher Desktop](./docs/suse/rancher-desktop.md)
