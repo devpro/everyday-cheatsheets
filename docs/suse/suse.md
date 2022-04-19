@@ -30,7 +30,7 @@
 * [openSUSE](opensuse.md)
 * [Rancher](rancher.md)
 * [Rancher Desktop](rancher-desktop.md)
-* RKE
+* [RKE](rke.md)
 * [SUSE Linux Enterprise](suse-linux-enterprise.md)
 
 ### Services

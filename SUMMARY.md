@@ -67,6 +67,7 @@
     * [Minikube](./docs/cncf/minikube.md)
     * [Rancher](./docs/suse/rancher.md)
     * [Rancher Desktop](./docs/suse/rancher-desktop.md)
+    * [RKE](./docs/suse/rke.md)
   * [Open Application Model (OAM)](./docs/oam.md)
   * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
   * [Quay](./docs/redhat/quay.md)

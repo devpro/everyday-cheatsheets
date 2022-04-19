@@ -1,6 +1,12 @@
 # Rancher
 
+> Rancher is a container management platform built for organizations that deploy containers in production. Rancher makes it easy to run Kubernetes everywhere, meet IT requirements, and empower DevOps teams.
+
 → [rancher.com](https://rancher.com/), [docs](https://rancher.com/docs/rancher/v2.6/en/)
+
+## General idea
+
+![Rancher platform](https://rancher.com/docs/img/rancher/platform.png)
 
 ## Quick start
 
