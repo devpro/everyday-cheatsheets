@@ -36,3 +36,7 @@
 ### Services
 
 * [registry.suse.com](https://registry.suse.com/)
+
+## About the community
+
+* [SUSE Events](https://www.suse.com/events/)
