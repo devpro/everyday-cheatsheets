@@ -224,3 +224,4 @@
 ## Join
 
 * [Companies](./docs/companies.md)
+  * [SUSE](./docs/suse/suse.md)
