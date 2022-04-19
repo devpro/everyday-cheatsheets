@@ -8,7 +8,9 @@
   - Red Hat Enterprise Linux (RHEL)
     - [CentOS](./centos.md)
     - [Rocky](./rocky.md)
-- openSUSE
+- SUSE
+  - [openSUSE](../suse/opensuse.md)
+  - [SUSE Linux Enterprise](../suse/suse-linux-enterprise.md)
 
 ## Common utilities
 
