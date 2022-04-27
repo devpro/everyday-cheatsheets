@@ -41,7 +41,7 @@
   * [GitHub](./docs/github.md)
   * [GitLab](./docs/gitlab.md)
   * Nexus
-  * Octopus deploy
+  * [Promyze](./docs/promyze.md)
   * RunDeck
   * SaltStack
   * [Sonar](./docs/sonar.md)
