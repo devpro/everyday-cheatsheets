@@ -22,6 +22,23 @@
 
 [Percona Open Source Database Resources](https://www.percona.com/resources)
 
+## Gaming industry
+
+-  ([twitter]())
+
+- Annapurna Interactive ([twitter](https://twitter.com/A_i))
+- Arkane Studios ([twitter](https://twitter.com/ArkaneStudios))
+- Asobo Studio ([twitter](https://twitter.com/AsoboStudio))
+- Ben Studio ([twitter](https://twitter.com/BendStudio))
+- Bethesda ([twitter](https://twitter.com/bethesda))
+- CD Projekt Red ([twitter](https://twitter.com/CDPROJEKTRED))
+- Insomniac Games ([twitter](https://twitter.com/insomniacgames))
+- Naughty Dog ([twitter](https://twitter.com/Naughty_Dog))
+- Playground Games ([twitter](https://twitter.com/WeArePlayground))
+- Quantic Dream ([twitter](https://twitter.com/Quantic_Dream))
+- Turn 10 Studios ([twitter](https://twitter.com/Turn10Studios))
+- Ubisoft ([twitter](https://twitter.com/Ubisoft))
+
 ## Others
 
 - [Bitnami](https://bitnami.com/)
