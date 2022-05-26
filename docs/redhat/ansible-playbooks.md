@@ -7,3 +7,4 @@
 ## Examples
 
 * [ansible/ansible-examples](https://github.com/ansible/ansible-examples)
+* [Working with Ansible Playbooks – Tips & Tricks with Examples](https://spacelift.io/blog/ansible-playbooks)
