@@ -9,6 +9,6 @@
 * [magjac/d3-graphviz](https://github.com/magjac/d3-graphviz)
 * [Graphviz Visual Editor](http://magjac.com/graphviz-visual-editor/)
 
-## Intergation
+## Integration with other technologies
 
 * [Render diagrams on the fly in your Blazor apps](https://jonhilton.net/blazor-diagrams/) - October 1, 2020
