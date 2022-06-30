@@ -8,6 +8,12 @@
 
 * Install the tool through the [download Packer](https://www.packer.io/downloads)
 
+## Learn
+
+* Follow [Provision Infrastructure with Packer](https://learn.hashicorp.com/tutorials/terraform/packer) tutorial
+
+## Reference
+
 ## Packer CLI
 
 Command |	Action
