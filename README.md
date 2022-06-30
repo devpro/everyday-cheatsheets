@@ -123,8 +123,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Visual Studio 2019](./docs/microsoft/vs2019.md)
   * [Visual Studio Code](./docs/microsoft/vscode.md)
 * Microsoft 365
-  * [Microsoft Graph](./docs/microsoft365/microsoft-graph.md)
-  * [SharePoint Framework](./docs/microsoft365/spfx.md)
+  * [Microsoft Graph](./docs/microsoft/microsoft-graph.md)
+  * [SharePoint Framework](./docs/microsoft/spfx.md)
 * [MongoDB](./docs/mongodb/mongodb.md)
   * [Atlas](./docs/mongodb/atlas.md)
   * [Compass](./docs/mongodb/compass.md)

@@ -154,9 +154,10 @@
 
 * [Marp](./docs/marp.md)
 * Microsoft 365
-  * [Microsoft Graph](./docs/microsoft365/microsoft-graph.md)
-  * [SharePoint Framework](./docs/microsoft365/spfx.md)
-    * [SharePoint Framework UI components](./docs/microsoft365/spfx-ui-components.md)
+  * [Microsoft Graph](./docs/microsoft/microsoft-graph.md)
+  * [SharePoint Framework](./docs/microsoft/spfx.md)
+    * [Fluent UI](./docs/microsoft/spfx-ui-components.md)
+    * [SharePoint Framework UI components](./docs/microsoft/spfx-ui-components.md)
 
 ## Run
 
