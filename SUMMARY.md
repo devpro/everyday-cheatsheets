@@ -34,8 +34,8 @@
     * [TeamCity](./docs/jetbrains/teamcity.md)
     * [Tekton](./docs/cd-foundation/tekton.md)
     * [Travis](./docs/travis.md)
-  * [Azure DevOps](./docs/azure/azure-devops.md)
-    * [Azure Pipelines](./docs/azure/azure-pipelines.md)
+  * [Azure DevOps](./docs/microsoft/azure-devops.md)
+    * [Azure Pipelines](./docs/microsoft/azure-pipelines.md)
   * Chef
   * [Git](./docs/git.md)
   * [GitHub](./docs/github.md)
@@ -136,7 +136,7 @@
   * Swagger
   * [TypeScript](./docs/javascript/typescript.md)
 * Messaging
-  * [Azure Service Bus](./docs/azure/azureservicebus.md)
+  * [Azure Service Bus](./docs/microsoft/azureservicebus.md)
   * [Kafka](./docs/apache/kafka.md)
   * [RabbitMQ](./docs/rabbitmq.md)
 * [Testing](./docs/architecture/testing.md)
@@ -164,8 +164,9 @@
 * Cloud computing
   * Alibaba
   * AWS
-  * [Azure](./docs/azure/azure.md)
-    * [Azure CLI](./docs/azure/azure-cli.md)
+  * [Azure](./docs/microsoft/azure.md)
+    * [Azure AD](./docs/microsoft/azure-ad.md)
+    * [Azure CLI](./docs/microsoft/azure-cli.md)
   * GCP
     * [Firebase](./docs/firebase.md)
   * OVH
