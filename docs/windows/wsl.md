@@ -26,6 +26,15 @@ If your OS version is compatible, you should update to WSL 2: [Updating the WSL 
 
 - Access Linux files from Windows system: open `\\wsl$\Ubuntu\` in Windows Explorer (or `%LOCALAPPDATA%\Packages\CanonicalGroupLimited.UbuntuonWindows*\LocalState\rootfs`)
 - Access Windows files from Linux subsystem: go to `/mnt/c/users/<username>`
+- Configuration (`\\wsl$\Ubuntu\etc\wsl.conf`)
+
+```ini
+[automount]
+options = "metadata"
+
+[interop]
+appendWindowsPath = false
+```
 
 ## Known issues
 
