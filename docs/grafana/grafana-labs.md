@@ -4,9 +4,9 @@
 
 ## Components
 
-* [Grafana](grafana.md]
-* [Loki](loki.md]
-* [Tempo](tempo.md]
+* [Grafana](grafana.md)
+* [Loki](loki.md)
+* [Tempo](tempo.md)
 
 ## Learn
 
