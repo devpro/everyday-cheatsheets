@@ -79,7 +79,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [GitHub](./docs/github.md)
 * [GitLab](./docs/gitlab.md)
 * [Go](./docs/go.md)
-* [Grafana](./docs/grafana.md)
+* [Grafana Labs](./docs/grafana/grafana-labs.md)
 * [GraphQL](./docs/graphql.md)
 * [gRPC](./docs/grpc.md)
 * [HAProxy](./docs/haproxy.md)

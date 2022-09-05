@@ -1,4 +1,4 @@
-# Grafana
+# Grafana Labs
 
 → [grafana.com](https://grafana.com/)
 
