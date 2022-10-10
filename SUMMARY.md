@@ -212,7 +212,7 @@
   * [Linux](./docs/linux/linux.md)
     * [CentOS](./docs/linux/centos.md)
     * [eBPF](./docs/ebpf.md)
-    * [Linux Kernel](.docs/linux/linux-kernel.md)
+    * [Linux Kernel](./docs/linux/linux-kernel.md)
     * [openSUSE](./docs/suse/opensuse.md)
     * [Rocky](./docs/linux/rocky.md)
     * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)
