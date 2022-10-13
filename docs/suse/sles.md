@@ -3,7 +3,7 @@
 ## Commands
 
 ```bash
-# adds main repository
+# adds main repository (see https://en.opensuse.org/Package_repositories)
 zypper addrepo http://download.opensuse.org/distribution/leap/15.3/repo/oss/ oss
 
 # lists updates
