@@ -15,6 +15,6 @@ zypper refresh
 # update packages
 zypper up
 
-# installs a package (git here)
-sudo zypper install git
+# installs a package (git for example)
+zypper install git
 ```
