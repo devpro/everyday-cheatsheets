@@ -214,8 +214,8 @@
     * [eBPF](./docs/ebpf.md)
     * [Linux Kernel](./docs/linux/linux-kernel.md)
     * [openSUSE](./docs/suse/opensuse.md)
-    * [Rocky](./docs/linux/rocky.md)
-    * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)
+    * [Rocky](./docs/linux/rocky.md)   
+    * [SLES](./docs/suse/sles.md)
     * [Ubuntu](./docs/linux/ubuntu.md)
   * [Windows Server](./docs/windows/windows-server.md)
 * Virtualization
@@ -233,3 +233,4 @@
 
 * [Companies](./docs/companies.md)
   * [SUSE](./docs/suse/suse.md)
+    * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)
