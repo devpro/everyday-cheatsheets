@@ -167,6 +167,7 @@
   * [Azure](./docs/microsoft/azure.md)
     * [Azure AD](./docs/microsoft/azure-ad.md)
     * [Azure CLI](./docs/microsoft/azure-cli.md)
+    * [Azure Portal](./docs/azure-portal.md)
   * GCP
     * [Firebase](./docs/firebase.md)
   * OVH
