@@ -38,7 +38,8 @@
     * [Azure Pipelines](./docs/microsoft/azure-pipelines.md)
   * Chef
   * [Git](./docs/git.md)
-  * [GitHub](./docs/github.md)
+  * [GitHub](./docs/microsoft/github.md)
+    * [GitHub Actions](./docs/microsoft/github-actions.md)
   * [GitLab](./docs/gitlab.md)
   * Nexus
   * [Promyze](./docs/promyze.md)

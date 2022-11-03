@@ -76,7 +76,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Best practices](./docs/engineering/best-practices.md)
 * [Firebase](./docs/firebase.md)
 * [git](./docs/git.md)
-* [GitHub](./docs/github.md)
 * [GitLab](./docs/gitlab.md)
 * [Go](./docs/go.md)
 * [Grafana Labs](./docs/grafana/grafana-labs.md)
@@ -117,6 +116,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * Microsoft
   * [Azure](./docs/microsoft/azure.md)
   * [Azure DevOps](./docs/microsoft/azure-devops.md)
+  * [GitHub](./docs/microsoft/github.md)
   * [Microsoft Graph](./docs/microsoft/microsoft-graph.md)
   * [SharePoint Framework](./docs/microsoft/spfx.md)
   * [Visual Studio 2022](./docs/microsoft/vs2022.md)
