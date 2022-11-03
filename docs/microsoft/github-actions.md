@@ -23,3 +23,5 @@
 
 * [Helm Chart Releaser](https://github.com/helm/chart-releaser-action)
 * [Helm Chart Testing](https://github.com/helm/chart-testing-action)
+* [Helm Kind](https://github.com/helm/kind-action)
+* [Helm Repo HTML](https://github.com/halkeye/helm-repo-html)
