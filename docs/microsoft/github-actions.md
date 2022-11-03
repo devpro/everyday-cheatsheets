@@ -11,6 +11,15 @@
 
 ## Action catalog
 
-* [Git Auto Commit](https://github.com/stefanzweifel/git-auto-commit-action)
-* [Helm Chart Releaser](https://github.com/helm/chart-releaser-action)
+### .NET actions
+
 * [Setup .NET](https://github.com/actions/setup-dotnet)
+
+### Git actions
+
+* [Git Auto Commit](https://github.com/stefanzweifel/git-auto-commit-action)
+
+### Helms actions
+
+* [Helm Chart Releaser](https://github.com/helm/chart-releaser-action)
+* [Helm Chart Testing](https://github.com/helm/chart-testing-action)
