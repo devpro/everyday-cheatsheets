@@ -1,4 +1,4 @@
-# Todo list
+# To-do list
 
 ## Topics to study
 
@@ -6,6 +6,39 @@
 
 - [GitHub Classroom](https://classroom.github.com/) ([docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom))
 - [GitHub Codespaces](https://github.com/features/codespaces) (examples: [Learn Kubernetes with Kind and Kubectl in Codespaces](https://github.com/craiglpeters/try-kind-in-codespaces))
+
+## Sharing
+
+### Write a blog post about
+
+* [sslip.io](https://sslip.io/)
+* [SUSE Registry](https://registry.suse.com/)
+
+## Repository clean-up
+
+### Repositories to delete
+
+* [gitops-samples](https://github.com/devpro/gitops-samples)
+* [kubernetes-samples](https://github.com/devpro/kubernetes-samples)
+* [rancher-demo-containers](https://github.com/devpro/rancher-demo-containers)
+
+### Repositories to rename
+
+* [fun-with-containers](https://github.com/devpro/fun-with-containers) -> transform to devpro-presentations
+* [mongodb-client-examples](https://github.com/devpro/mongodb-client-examples) -> php-samples
+* [Wpf-Picture-Organizer](https://github.com/devpro/Wpf-Picture-Organizer) -> ?
+* [Xna-Model-Viewer](Xna-Model-Viewer) -> xna-samples
+
+### Repositories to merge
+
+* [concourse-samples](https://github.com/devpro/concourse-samples) -> ?
+* [dotnet-5.0-samples](https://github.com/devpro/dotnet-5.0-samples) -> dotnet-samples
+* [dotnet-basics-training](https://github.com/devpro/dotnet-basics-training) -> dotnet-learning
+* [dotnetcore-3.0-samples](https://github.com/devpro/dotnetcore-3.0-samples) -> dotnet-samples
+* [klanik-training-oct21](https://github.com/devpro/klanik-training-oct21) -> ?
+* [knowledgebase-web](https://github.com/devpro/knowledgebase-web) -> cheatsheets, *-learning
+* [Wpf-Picture-Organizer](https://github.com/devpro/Wpf-Picture-Organizer) -> monogame-samples
+* [aspnetcore-angular-sample](https://github.com/devpro/aspnetcore-angular-sample) -> dotnet-samples
 
 ## Pages to review
 
