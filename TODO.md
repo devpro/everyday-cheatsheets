@@ -1,5 +1,12 @@
 # Todo list
 
+## Topics to study
+
+### Self-learning platform / training material
+
+- [GitHub Classroom](https://classroom.github.com/) ([docs](https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/basics-of-setting-up-github-classroom))
+- [GitHub Codespaces](https://github.com/features/codespaces) (examples: [Learn Kubernetes with Kind and Kubectl in Codespaces](https://github.com/craiglpeters/try-kind-in-codespaces))
+
 ## Pages to review
 
 ### API
