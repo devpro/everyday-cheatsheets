@@ -53,6 +53,7 @@
 ### Azure
 
 - [github.com/Azure-Samples](https://github.com/Azure-Samples)
+- [andyzhangx/demo](https://github.com/andyzhangx/demo)
 
 ### Azure DevOps
 
