@@ -59,6 +59,11 @@
 
 - [microsoft/azure-devops-extension-yeoman-generator](https://github.com/microsoft/azure-devops-extension-yeoman-generator)
 
+### Certifications
+
+- [CKS](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/)
+- [KCNA](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
+
 ### Companies
 
 - [r2devops.io](https://r2devops.io/)
