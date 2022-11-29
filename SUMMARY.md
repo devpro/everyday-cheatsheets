@@ -60,6 +60,7 @@
   * [Fluentd](./docs/cncf/fluentd.md)
   * [Knative](./docs/knative.md)
   * [Kubernetes](./docs/cncf/kubernetes.md)
+    * [Cluster API](./docs/cncf/cluster-api.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
     * [K3s](./docs/suse/k3s.md)
