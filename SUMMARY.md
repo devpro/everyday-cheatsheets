@@ -63,6 +63,7 @@
     * [Cluster API](./docs/cncf/cluster-api.md)
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
+    * [k3d](./docs/k3d.md)
     * [K3s](./docs/suse/k3s.md)
     * [kind](./docs/cncf/kind.md)
     * [Kubectl](./docs/cncf/kubectl.md)
