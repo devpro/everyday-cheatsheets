@@ -99,3 +99,10 @@ k3d cluster delete mycluster
 ## Advanced usage
 
 - [Kubernetes - K3D with Load Balancer](https://niehaitao.github.io/ops/ops-k3d-lb/)
+
+- CoreDNS configuration
+
+```bash
+# displays coredns configmap
+kubectl -n kube-system get configmap coredns -o yaml
+```
