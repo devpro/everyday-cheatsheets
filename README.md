@@ -105,6 +105,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * JetBrains
   * [PhpStorm](./docs/jetbrains/phpstorm.md)
   * [TeamCity](./docs/jetbrains/teamcity.md)
+* [k3d](./docs/k3d.md)
 * [Keycloak](./docs/keycloak.md)
 * [Knative](./docs/knative.md)
 * [Kong](./docs/kong.md)
