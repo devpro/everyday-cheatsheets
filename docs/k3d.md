@@ -49,7 +49,7 @@ kubectl create deployment nginx --image=nginx
 kubectl create service clusterip nginx --tcp=80:80
 
 # provides an ingress to the service
-cat > nginx-ingress.yaml <<EOM
+cat <<EOF | kubectl apply -f -
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -58,28 +58,44 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: nginx
-            port:
-              number: 80
-EOM
-kubectl apply -f nginx-ingress.yaml
+    - host: nginx.dev.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: nginx
+                port:
+                  number: 80
+EOF
 
-kubectl get all -A -o wide
-# makes sure 
+# checks everything is ok
+kubectl get svc,pod,deploy,ingress
+
+# makes sure the website can be reached
 curl localhost:8081/
+```
 
-# deletes a cluster
-k3d cluster delete twonodecluster
+- Update `hosts` file
+
+```hosts
+127.0.0.1  nginx.dev.local
+```
+
+- Make sure ingress is working
+
+```bash
+curl nginx.dev.local:8081/
+```
+
+- Clean-up
+
+```bash
+# deletes the cluster
+k3d cluster delete mycluster
 ```
 
 ## Advanced usage
 
-- k3s deploys traefik as the default ingress controller
-
-- Use load balancer (ref. [Kubernetes - K3D with Load Balancer](https://niehaitao.github.io/ops/ops-k3d-lb/))
+- [Kubernetes - K3D with Load Balancer](https://niehaitao.github.io/ops/ops-k3d-lb/)
