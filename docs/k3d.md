@@ -13,21 +13,38 @@
 wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 ```
 
+## Basic commands
+
+Command                          | Action
+-------------------------------- | ------
+`k3d cluster create <mycluster>` | Create a cluster
+`k3d cluster list`               | List the cluster
+`k3d cluster delete <mycluster>` | Delete a cluster
+
 ## Getting started
 
-- Create a cluster (ref. [k3d Guides > Exposing Services](https://k3d.io/v5.1.0/usage/exposing_services/))
+- Create a cluster
 
 ```bash
 # creates a cluster
 k3d cluster create twonodecluster -p "8081:80@loadbalancer" -p "8082:443@loadbalancer" --agents 2
 
-# displays nodes
-kubectl config use-context k3d-twonodecluster
+# kubectl configuration is automatically updated and set to use the new cluster context
 kubectl get nodes
 
-# deploy a basic workflow (see https://k3d.io/v5.4.6/usage/exposing_services/)
+# traefik is deplayed as the default ingress controller (k3s behavior)
+```
+
+- Deploy a basic workflow (ref. [k3d Guides > Exposing Services](https://k3d.io/v5.1.0/usage/exposing_services/))
+
+```bash
+# creates a nginx (web server) deployment
 kubectl create deployment nginx --image=nginx
+
+# exposes the deployment with a service
 kubectl create service clusterip nginx --tcp=80:80
+
+# provides an ingress to the service
 cat > nginx-ingress.yaml <<EOM
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -48,12 +65,16 @@ spec:
               number: 80
 EOM
 kubectl apply -f nginx-ingress.yaml
+
 kubectl get all -A -o wide
+# makes sure 
 curl localhost:8081/
 
 # deletes a cluster
 k3d cluster delete twonodecluster
 ```
+
+## Advanced usage
 
 - k3s deploys traefik as the default ingress controller
 
