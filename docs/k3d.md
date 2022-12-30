@@ -27,12 +27,16 @@ Command                          | Action
 
 ```bash
 # creates a cluster
-k3d cluster create twonodecluster -p "8081:80@loadbalancer" -p "8082:443@loadbalancer" --agents 2
+k3d cluster create mycluster -p "8081:80@loadbalancer" -p "8082:443@loadbalancer" --agents 2
 
-# kubectl configuration is automatically updated and set to use the new cluster context
-kubectl get nodes
+# displays cluster information (kubectl configuration is automatically updated and set to use the new cluster context)
+kubectl cluster-info
 
-# traefik is deplayed as the default ingress controller (k3s behavior)
+# ensures coredns and traefik (ingress controller) are deployed by default (k3s behavior)
+kubectl get deploy -n kube-system
+
+# (optional) writes and uses specific kubectl configuration
+export KUBECONFIG="$(k3d kubeconfig write mycluster)"
 ```
 
 - Deploy a basic workflow (ref. [k3d Guides > Exposing Services](https://k3d.io/v5.1.0/usage/exposing_services/))
