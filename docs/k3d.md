@@ -2,7 +2,7 @@
 
 > k3d is a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.
 
-→ [k3d.io](https://k3d.io/), [code](https://github.com/k3d-io/k3d)
+→ [k3d.io](https://k3d.io/), [docs](https://k3d.io/v5.4.6/usage/configfile/), [code](https://github.com/k3d-io/k3d)
 
 ## Installation
 
@@ -18,7 +18,9 @@ wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 Command                          | Action
 -------------------------------- | ------
 `k3d cluster create <mycluster>` | Create a cluster
-`k3d cluster list`               | List the cluster
+`k3d cluster list`               | List the clusters
+`k3d cluster stop <mycluster>`   | Stops a cluster
+`k3d cluster start <mycluster>`  | Starts a cluster
 `k3d cluster delete <mycluster>` | Delete a cluster
 
 ## Getting started
