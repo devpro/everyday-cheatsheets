@@ -70,6 +70,13 @@
 
 - [NATS](https://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html) is a lightweight publish-subscribe and distributed queueing messaging system written in Ruby ([GitHub](https://github.com/nats-io/ruby-nats)).
 
+- [Stemcell](https://bosh.io/docs/stemcell/) is a versioned Operating System image wrapped with IaaS specific packaging.
+  - [cloudfoundry-incubator/stembuild](https://github.com/cloudfoundry-incubator/stembuild): The stembuild binary is used to build BOSH stemcells for Windows 2012R2,Windows Server, version v1709, Windows Server, version 1803, Windows Server 2019 on vSphere.
+  - [cloudfoundry-community/stembuild-concourse](https://github.com/cloudfoundry-community/stembuild-concourse): A concourse pipeline to create a Windows stemcell using stembuild cli.
+  - [Creating a Windows Stemcell for vSphere Using stembuild (Beta)](https://docs.pivotal.io/pivotalcf/2-6/windows/create-vsphere-stemcell-automatically.html)
+  - [Downloading or Creating Windows Stemcells](https://docs.pivotal.io/pivotalcf/2-5/windows/stemcells.html)
+  - [Stemcells for PCF (Windows)](https://network.pivotal.io/products/stemcells-windows-server)
+
 - [UAA](https://docs.cloudfoundry.org/concepts/architecture/uaa.html) stands for User Account and Authentication.
 
 ### Going further
