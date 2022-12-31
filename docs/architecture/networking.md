@@ -19,6 +19,8 @@
   * Wide Area Network (WAN)
   * Wireless Local Area Network (WLAN)
 
+* Classless Inter-Domain Routing (CIDR)
+
 * Content Delivery Network (CDN)
 
 * Distributed Denial of Service (DDoS)
