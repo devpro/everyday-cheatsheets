@@ -53,7 +53,8 @@
       * [Docker CLI](./docs/docker/docker-cli.md)
     * [containerd](./docs/cncf/containerd.md)
     * [cri-o](./docs/cncf/cri-o.md)
-  * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md)
+  * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md
+    * [Buildpacks](docs/cf-foundation/buildpacks.md)
   * [CNAB](./docs/cnab.md)
   * [Dapr](./docs/cncf/dapr.md)
   * [Envoy](./docs/cncf/envoy.md)
