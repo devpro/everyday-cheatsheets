@@ -61,6 +61,8 @@
 - [CredHub](https://docs.cloudfoundry.org/credhub/index.html) is a component designed for centralized credential management in Cloud Foundry (CF). It is a single component that can address several scenarios in the CF ecosystem. At the highest level, CredHub centralizes and secures credential generation, storage, lifecycle management, and access.
 
 - [**Diego**](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html) is the container management system for Cloud Foundry ([cloudfoundry/diego-release](https://github.com/cloudfoundry/diego-release)).
+  - [Diego Overview (CF Summit 2017)](https://www.youtube.com/watch?v=gB-nrdYTTKU)
+  - [Differences Between DEA and Diego Architectures](https://docs.cloudfoundry.org/concepts/diego/dea-vs-diego.html)
 
 - [**Garden**](https://docs.cloudfoundry.org/concepts/architecture/garden.html) is the component that Cloud Foundry uses to create and manage isolated environments called containers. Each instance of an application deployed to Cloud Foundry runs within a container.
 
