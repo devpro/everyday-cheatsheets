@@ -1,6 +1,6 @@
 # Kubernetes
 
-→ [Condensed Kubernetes](https://github.com/devpro/condensed-kubernetes)
+→ [Learn Kubernetes](https://github.com/devpro/learn-kubernetes)
 
 ## Components
 
