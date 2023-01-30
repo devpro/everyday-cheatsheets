@@ -68,6 +68,7 @@
     * [K3s](./docs/suse/k3s.md)
     * [kind](./docs/cncf/kind.md)
     * [Kubectl](./docs/cncf/kubectl.md)
+    * [MetalLB](./docs/cncf/metallb.md)
     * [Minikube](./docs/cncf/minikube.md)
     * [Rancher](./docs/suse/rancher.md)
     * [Rancher Desktop](./docs/suse/rancher-desktop.md)
