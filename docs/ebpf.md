@@ -8,10 +8,11 @@
 
 ### Overview
 
-![Overview](https://ebpf.io/static/overview-bf463455a5666fc3fb841b9240d588ff.png)
+![Overview](https://ebpf.io/static/overview-3c0c9cd2010cb0b7fdc26e5e17d99635.png)
 
 ### Publications
 
+* [A light introduction to eBPF](https://anaisurl.com/a-light-introduction-to-ebpf/) by Anais Urlichs - January 20, 2023
 * [What is eBPF? by SysAdvent](https://sysadvent.blogspot.com/2021/12/day-23-what-is-ebpf.html) - December 23, 2021
 * [How Netflix uses eBPF flow logs at scale for network insight](https://netflixtechblog.com/how-netflix-uses-ebpf-flow-logs-at-scale-for-network-insight-e3ea997dca96) - Jun 7, 2021
 * [Facebook, Google, Isovalent, Microsoft, and Netflix announce eBPF Foundation](https://www.isovalent.com/blog/post/2021-08-ebpf-foundation-announcement) - August 12, 2021
