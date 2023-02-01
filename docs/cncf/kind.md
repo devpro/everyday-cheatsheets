@@ -56,3 +56,8 @@ nodes:
 ```bash
 kind create cluster --config=cluster-config.yml --image kindest/node:v1.17.17
 ```
+
+### NGINX Ingress Controller
+
+- [LoadBalancer Services using Kubernetes in Docker](https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d) by Owain Williams
+- September 20, 2022
