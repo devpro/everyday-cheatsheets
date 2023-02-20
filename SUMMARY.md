@@ -22,7 +22,7 @@
 * Code lifecycle (ALM)
   * Artifactory
   * [Automation Pipelines](./docs/automation-pipelines.md)
-    * [Argo](./docs/cncf/argo.md)
+    * [Argo CD](./docs/cncf/argo-cd.md)
     * [CircleCI](./docs/circleci.md)
     * [Concourse](./docs/concourse/concourse.md)
       * [fly](./docs/concourse/fly.md)
@@ -48,6 +48,7 @@
   * [Sonar](./docs/sonar.md)
   * [Tuleap](./docs/tuleap.md)
 * Containers & Cloud Native
+  * [Argo Workflows](./docs/cncf/argo-workflows.md)
   * [Containerization](./docs/architecture/containerization.md)
     * [Docker](./docs/docker/docker.md)
       * [Docker CLI](./docs/docker/docker-cli.md)
