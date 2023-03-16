@@ -10,7 +10,7 @@
 
 * [Docker CLI](docker-cli.md)
 * Docker Hub
-  ⚠ [Docker is deleting Open Source organisations](https://blog.alexellis.io/docker-is-deleting-open-source-images/) - March 15, 2023
+  * ⚠ [Docker is deleting Open Source organisations](https://blog.alexellis.io/docker-is-deleting-open-source-images/) - March 15, 2023
 
 ### Getting started
 
