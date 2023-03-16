@@ -4,11 +4,13 @@
 
 → [docker.com](https://www.docker.com/), [docs](https://docs.docker.com/), [hub](https://hub.docker.com/), [Youtube](https://www.youtube.com/playlist?list=PLkA60AVN3hh-t0VTESCYCfa4ddGmmXZZt)
 
-## Learn
+## Getting to know
 
 ### Components
 
 * [Docker CLI](docker-cli.md)
+* Docker Hub
+  ⚠ [Docker is deleting Open Source organisations](https://blog.alexellis.io/docker-is-deleting-open-source-images/) - March 15, 2023
 
 ### Getting started
 
