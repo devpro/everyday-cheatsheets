@@ -10,53 +10,56 @@
 ## Commands
 
 ```bash
-# display Git client version
+# displays Git client version
 git version
 
-# open the help for a given message (in the browser)
+# opens the help for a given message (in the browser)
 git help <command>
 
-# see the current status of the local repository
+# displays the current status of the local repository
 git status
 
-# know your reporistory origin URL
+# displays the reporistory origin URL
 git config --get remote.origin.url
 git remote -v
 
-# update your origin URL
+# updates the origin URL
 git remote set-url origin ssh://my.git.url
 
-# reset to previous commit if already pushed
+# resets to previous commit if already pushed
 git reset --hard HEAD~1
 git push origin HEAD --force
 
-# reset to previous commit if not pushed
+# resets to previous commit if not pushed
 git reset HEAD~1
 
-# list all local and remote branches
+# lists all local and remote branches
 git branch -a
 
-# fetch data from remotes
+# fetches data from remotes
 git fetch origin
 
-# delete locally dev branch (on wrong remotes for instance)
+# deletes locally dev branch (on wrong remotes for instance)
 git branch -d dev
 
-# switch remotes (if branch has been deleted first)
+# switches remotes (if branch has been deleted first)
 git branch dev -t origin/dev
 git checkout dev
 
-# switch upstream on an existing branch
+# switches upstream on an existing branch
 git branch --set-upstream-to=origin/dev dev
 
-# push a branch (master) on a specific remote (other) by setting upstream to this remote
+# pushes a branch (master) on a specific remote (other) by setting upstream to this remote
 git push -u other master
 
-# Navigate through the tags and branches
+# navigates through the tags and branches
 git log --graph --decorate --oneline --all
 
-# Push on all remotes
+# pushes on all remotes
 git remote | xargs -L1 git push --all
+
+# sets file as executable
+git update-index --chmod=+x scripts/my_script.sh
 ```
 
 ## Recipes
