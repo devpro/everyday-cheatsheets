@@ -1,8 +1,6 @@
 # Blazor
 
-> Blazor lets you build interactive web UIs using C# instead of JavaScript. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code is written in C#, allowing you to share code and libraries.
->
-> Blazor is a feature of ASP.NET, the popular web development framework that extends the .NET developer platform with tools and libraries for building web apps.
+> Use the power of .NET and C# to build full stack web apps without writing a line of JavaScript.
 
 → [dotnet.microsoft.com/apps/aspnet/web-apps/blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 
@@ -10,10 +8,9 @@
 
 ### Getting started
 
-* [Get started with ASP.NET Core Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started)
-* [What is Blazor and what is Razor Components?](https://www.hanselman.com/blog/WhatIsBlazorAndWhatIsRazorComponents.aspx) - Mar 19, 2019.
+* [Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
+* [Tutorials](https://learn.microsoft.com/en-us/aspnet/core/blazor/tutorials)
 * [Blazor workshop](https://github.com/dotnet-presentations/blazor-workshop)
-* [Tutorial - Build a Blazor todo list app](https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app)
 
 ### Fundamentals
 
@@ -26,10 +23,13 @@
 
 * [Integrating Blazor Components into Existing Asp.Net Core MVC Applications](https://medium.com/@waelkdouh/integrating-blazor-components-into-existing-asp-net-core-mvc-applications-b1a2aec4ac1f) - Jan 7, 2020
 * [Blazor Server in .NET Core 3.0 scenarios and performance](https://devblogs.microsoft.com/aspnet/blazor-server-in-net-core-3-0-scenarios-and-performance/) - Oct 10, 2019
-* [Awesome resources by AdrienTorris](https://github.com/AdrienTorris/awesome-blazor)
 
-### Examples
+### Samples
 
+* [dotnet/blazor-samples](https://github.com/dotnet/blazor-samples)
+* [learn.microsoft.com/samples](https://learn.microsoft.com/en-us/samples/browse/?expanded=dotnet&products=blazor)
+* [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor#sample-projects)
+* [davidfowl/TodoApi](https://github.com/davidfowl/TodoApi)
 * [iammukeshm/Blazor.Learner](https://github.com/iammukeshm/Blazor.Learner)
 * [Naveen512/Blazor-webassembly-authentication-scratch](https://github.com/Naveen512/Blazor-webassembly-authentication-scratch)
 
