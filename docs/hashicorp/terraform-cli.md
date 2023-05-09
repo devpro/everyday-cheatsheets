@@ -12,13 +12,13 @@
 
 * Read the information given in the [Upgrade Guides](https://www.terraform.io/upgrade-guides/index.html) page (will depend on the version numbers)
 
-## Learn
-
-### Tutorials
+## Getting started
 
 * [Use the Command Line Interface by HashiCorp](https://learn.hashicorp.com/collections/terraform/cli)
 
-## Common commands
+## commands
+
+### Generic commands
 
 Command                      | Action
 -----------------------------|--------------------------------------------------------
@@ -32,3 +32,10 @@ Command                      | Action
 `terraform show`             | Displays human-readable output from a state or plan file
 `terraform state`            | Uses state to display resources
 `terraform validate`         | Validates the Terraform files
+
+## Examples
+
+```bash
+# displays the list of resources managed in the workspace
+terraform state list
+```
