@@ -2,13 +2,14 @@
 
 > Write, Plan, Apply. Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
-→ [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/docs/index.html), [github](https://github.com/hashicorp/terraform), [hashicorp.com](https://www.hashicorp.com/products/terraform/)
+→ [terraform.io](https://www.terraform.io/), [docs](https://www.terraform.io/docs/index.html), [source](https://github.com/hashicorp/terraform), [product](https://www.hashicorp.com/products/terraform/)
 
 ## Learn
 
 ### Quickstart
 
-- [Introduction](https://www.terraform.io/intro/index.html)
+- [Introduction](https://developer.hashicorp.com/terraform/intro)
+- [HashiCorp Learn](https://developer.hashicorp.com/terraform/tutorials)
 
 ### Key elements
 
@@ -17,18 +18,9 @@
 - [Terraform Providers](./terraform-providers.md)
 - [Terraform State](https://www.terraform.io/docs/language/state/index.html)
 
-### Playground
-
-- [Katacoda](https://www.katacoda.com/courses/terraform/playground)
-
-### Tutorials
-
-- [HashiCorp Learn](https://learn.hashicorp.com/terraform)
-- [Deploy NGINX container using Terraform](https://www.katacoda.com/courses/terraform/deploy-nginx) on Katacoda
-
 ### Training
 
-- [Managing Infrastructure with Terraform](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform) on Pluralsight
+- [Pluralsight - Managing Infrastructure with Terraform](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform)
 
 ### IDE (Integrated Development Environment)
 
@@ -36,10 +28,10 @@
 
 ## Releases
 
-Version | Release date | Links
-------- | ------------ | -----
-1.0 | June 08, 2021 | [Announcing General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-1-0-general-availability)
-0.15 | April 14, 2021 | [Announcing General Availability](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability)
+Version | Release date   | Links
+------- | ---------------| -----------------------------------------------------------------------------------------------
+1.0     | June 08, 2021  | [Blog](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-1-0-general-availability)
+0.15    | April 14, 2021 | [Blog](https://www.hashicorp.com/blog/announcing-hashicorp-terraform-0-15-general-availability)
 
 ## Samples
 

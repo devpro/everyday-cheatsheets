@@ -20,13 +20,13 @@
 
 ## Common commands
 
-Command | Action
-------- | ------
-`terraform --version` | Prints the Terraform version
+Command                      | Action
+-----------------------------|--------------------------------------------------------
+`terraform --version`        | Prints the Terraform version
 `terraform [command] --help` | Prints help message (general or specific to a command)
-`terraform apply` | Builds or changes infrastructure
-`terraform destroy` | Destroys Terraform-managed infrastructure
-`terraform init` | Initializes a Terraform working directory
-`terraform plan` | Generates and shows an execution plan
-`terraform show` | Provide human-readable output from a state or plan file
-`terraform validate` | Validates the Terraform files
+`terraform apply`            | Builds or changes infrastructure
+`terraform destroy`          | Destroys Terraform-managed infrastructure
+`terraform init`             | Initializes a Terraform working directory
+`terraform plan`             | Generates and shows an execution plan
+`terraform show`             | Provide human-readable output from a state or plan file
+`terraform validate`         | Validates the Terraform files
