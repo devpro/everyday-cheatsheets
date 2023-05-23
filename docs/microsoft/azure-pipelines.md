@@ -4,7 +4,7 @@
 
 ## Quick links
 
-- [Documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/)
+* [Documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/)
 
 ## Learn
 
@@ -38,7 +38,7 @@ Example of pipelines in [MicrosoftDocs](https://github.com/MicrosoftDocs) GitHub
 
 ### Tutorials
 
-- [Tutorial: Immutable infrastructure for Azure, using VSTS, Terraform, Packer and Ansible](https://cloudblogs.microsoft.com/opensource/2018/05/23/immutable-infrastructure-azure-vsts-terraform-packer-ansible/) May 23, 2018
+* [Tutorial: Immutable infrastructure for Azure, using VSTS, Terraform, Packer and Ansible](https://cloudblogs.microsoft.com/opensource/2018/05/23/immutable-infrastructure-azure-vsts-terraform-packer-ansible/) May 23, 2018
 
 ## Recipes
 

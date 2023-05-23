@@ -62,8 +62,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [C#](./docs/dotnet/csharp.md)
   * [.NET CLI](./docs/dotnet/dotnet-cli.md)
   * [.NET Core](./docs/dotnet/dotnetcore.md)
-  * [.NET Events](./docs/dotnet/dotnetevents.md)
-  * [.NET Logging](./docs/dotnet/dotnet-logging.md)
   * [.NET Testing](./docs/dotnet/dotnet-testing.md)
   * [NuGet](./docs/dotnet/nuget.md)
   * [WPF](./docs/dotnet/wpf.md)
@@ -81,6 +79,8 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Go](./docs/go.md)
 * [Grafana Labs](./docs/grafana/grafana-labs.md)
 * [GraphQL](./docs/graphql.md)
+* Google
+  * [Google Cloud](./docs/google/google-cloud.md)
 * [gRPC](./docs/grpc.md)
 * [HAProxy](./docs/haproxy.md)
 * [Harness](./docs/harness/harness.md)
