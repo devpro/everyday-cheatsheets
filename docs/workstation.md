@@ -20,23 +20,23 @@
 
 ## Windows setup
 
-### Applications
+## Applications
 
-#### Validated
+### Validated
 
 * [Greenshot](http://getgreenshot.org/downloads/)
 * Cmder: portable terminal
 * [wget](https://www.gnu.org/software/wget/)
-  - solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
-  - as indicated in the [faq](https://www.gnu.org/software/wget/faq.html#download) go to [eternallybored.org/misc/wget](https://eternallybored.org/misc/wget/) and download the latest x64 version
-  - extract the exe file and copy it in your local cmder installation bin directory
+  * solution found on [GitHub](https://github.com/cmderdev/cmder/issues/69)
+  * as indicated in the [faq](https://www.gnu.org/software/wget/faq.html#download) go to [eternallybored.org/misc/wget](https://eternallybored.org/misc/wget/) and download the latest x64 version
+  * extract the exe file and copy it in your local cmder installation bin directory
 * Make, 2 options:
-  - [MinGW](http://www.mingw.org/)
-  - [GnuWin](http://gnuwin32.sourceforge.net/)
+  * [MinGW](http://www.mingw.org/)
+  * [GnuWin](http://gnuwin32.sourceforge.net/)
 * [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_overview)
-* [Visual Studio 2019](./docs/microsoft/vs2019.md)
+* [Visual Studio 2019](./docs/dotnet/vs2019.md)
 * Windows terminal (Available from Windows store)
 
-#### To review
+### To review
 
-- [zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
+* [zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)

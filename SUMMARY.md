@@ -151,7 +151,7 @@
 * [Workstation](./docs/workstation.md)
   * [PhpStorm](./docs/jetbrains/phpstorm.md)
   * [QGIS](./docs/qgis.md)
-  * [Visual Studio 2019](./docs/microsoft/vs2019.md)
+  * [Visual Studio 2019](./docs/dotnet/vs2019.md)
   * [Visual Studio Code](./docs/microsoft/vscode.md)
   * [Windows 10](./docs/windows/windows10.md)
   * [Windows Subsystem for Linux](./docs/windows/wsl.md)

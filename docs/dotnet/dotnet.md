@@ -1,6 +1,8 @@
-# .NET Framework
+# .NET
 
-→ [dot.net](http://dot.net)
+> .NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services
+
+→ [dot.net](https://dotnet.microsoft.com/), [docs](https://docs.microsoft.com/en-us/dotnet/), [GitHub](https://github.com/Microsoft)
 
 ## Learn
 
@@ -8,9 +10,22 @@
 
 * [Get started tutorials](https://dotnet.microsoft.com/learn)
 
-### Features
+### Key components
 
+* [**CoreCLR**](https://github.com/dotnet/coreclr) (Common Language Runtime) is the **runtime** for .NET Core. It includes the garbage collector, JIT compiler, primitive data types and low-level classes.
+* [**Roslyn**](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/), .NET **compiler**, provides C# and Visual Basic languages with rich code analysis APIs. See [GitHub](https://github.com/dotnet/roslyn).
 * [.NET CLI](./dotnet-cli.md)
+
+### Guides
+
+* [.NET Architecture Guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
+  * [.NET Microservices Architecture Guidance](https://dotnet.microsoft.com/learn/aspnet/microservices-architecture) ([Microservice architecture with ASP.NET Core](https://channel9.msdn.com/Events/Build/2017/T6051) May 08, 2017, [dotnet-architecture/eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers))
+* [.NET at Pivotal](https://content.pivotal.io/dotnet)
+
+### Videos
+
+* [Learning videos](https://dotnet.microsoft.com/learn/videos)
+* [Youtube channel](https://www.youtube.com/channel/UCvtT19MZW8dq5Wwfu6B0oxw)
 
 ## Ecosystem
 
@@ -47,23 +62,50 @@
 
 Readings:
 
-- From docs.microsoft.com:
-  - [ObfuscateAssemblyAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.reflection.obfuscateassemblyattribute?view=netframework-4.7.1)
-  - [Dotfuscator Community Edition (CE)](https://docs.microsoft.com/en-us/visualstudio/ide/dotfuscator/)
-  - [Install Dotfuscator Community Edition (CE)](https://docs.microsoft.com/en-us/visualstudio/ide/dotfuscator/install)
-- From preemptive.com:
-  - [Overview](https://www.preemptive.com/products/dotfuscator/overview)
-  - [Downloads](https://www.preemptive.com/products/dotfuscator/downloads)
-  - [Building in the Cloud with Dotfuscator Community Edition](https://www.preemptive.com/blog/article/905-building-in-the-cloud-with-dotfuscator-community-edition/91-dotfuscator-ce)
-  - [Getting started from VS 2017](https://www.preemptive.com/blog/article/904-dotfuscator-in-visual-studio-2017/91-dotfuscator-ce)
-  - [Getting Started](https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html)
-- From marketplace.visualstudio.com:
-  - [Dotfuscator Community Edition Build Task](https://marketplace.visualstudio.com/items?itemName=PreEmptiveSolutions.dotfuscator-ce-vsts)
+* From docs.microsoft.com:
+  * [ObfuscateAssemblyAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.reflection.obfuscateassemblyattribute?view=netframework-4.7.1)
+  * [Dotfuscator Community Edition (CE)](https://docs.microsoft.com/en-us/visualstudio/ide/dotfuscator/)
+  * [Install Dotfuscator Community Edition (CE)](https://docs.microsoft.com/en-us/visualstudio/ide/dotfuscator/install)
+* From preemptive.com:
+  * [Overview](https://www.preemptive.com/products/dotfuscator/overview)
+  * [Downloads](https://www.preemptive.com/products/dotfuscator/downloads)
+  * [Building in the Cloud with Dotfuscator Community Edition](https://www.preemptive.com/blog/article/905-building-in-the-cloud-with-dotfuscator-community-edition/91-dotfuscator-ce)
+  * [Getting started from VS 2017](https://www.preemptive.com/blog/article/904-dotfuscator-in-visual-studio-2017/91-dotfuscator-ce)
+  * [Getting Started](https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html)
+* From marketplace.visualstudio.com:
+  * [Dotfuscator Community Edition Build Task](https://marketplace.visualstudio.com/items?itemName=PreEmptiveSolutions.dotfuscator-ce-vsts)
 
 #### Decompile .NET Code tools
 
-- ILSpy ([icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy))
-- JustDecompile ([telerik.com](https://www.telerik.com/products/decompiler.aspx))
+* ILSpy ([icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy))
+* JustDecompile ([telerik.com](https://www.telerik.com/products/decompiler.aspx))
+
+### Package management
+
+* FuGet
+  * [Scott Hansleman - NuGet's fancy older sibling FuGet gives you a whole new view of the .NET packaging ecosystem](https://www.hanselman.com/blog/NuGetsFancyOlderSiblingFuGetGivesYouAWholeNewViewOfTheNETPackagingEcosystem.aspx)
+* Nukeeper
+  * [Scott Hanselman - NuKeeper for automated NuGet Package Reference Updates on Build Servers](https://www.hanselman.com/blog/NuKeeperForAutomatedNuGetPackageReferenceUpdatesOnBuildServers.aspx)
+* Dependabot
+  * [Scott Hanselman - Dependabot for .NET Core dependency tracking in GitHub](https://www.hanselman.com/blog/DependabotForNETCoreDependencyTrackingInGitHub.aspx)
+* SourceLink
+  * [Scott Hanselman - Exploring .NET Core's SourceLink - Stepping into the Source Code of NuGet packages you don't own](https://www.hanselman.com/blog/ExploringNETCoresSourceLinkSteppingIntoTheSourceCodeOfNuGetPackagesYouDontOwn.aspx)
+
+### Code analysis
+
+* [.NET API analyzer](https://docs.microsoft.com/en-us/dotnet/standard/analyzers/api-analyzer)
+* [Overview of static code analysis for managed code in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/code-quality/code-analysis-for-managed-code-overview?view=vs-2017)
+* FxCop
+* StyleCop
+
+### Performances
+
+* [BenchmarkDotNet](https://benchmarkdotnet.org) ([GitHub](https://github.com/dotnet/BenchmarkDotNet))
+
+### Others
+
+* [App Metrics](https://www.app-metrics.io/)
+* [nuke](http://www.nuke.build/index.html)
 
 ## Additional readings
 
