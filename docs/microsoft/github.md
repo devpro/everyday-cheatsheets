@@ -4,11 +4,11 @@
 
 ## Shortcuts
 
-Shortcut | Action
--------- | ------
-`t` | Open file finder
+Shortcut     | Action
+------------ | ------
+`t`          | Open file finder
 `Ctrl` + `k` | Navigate, search, and run commands directly from your keyboard
-`.` | Open Visual Studio Code Web (`https://github.com` will be replaced by `https://github.dev`)
+`.`          | Open Visual Studio Code Web (`https://github.com` will be replaced by `https://github.dev`)
 
 ## Features
 

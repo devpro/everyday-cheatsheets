@@ -23,6 +23,10 @@
 
 * [Git Auto Commit](https://github.com/stefanzweifel/git-auto-commit-action)
 
+### GitHub actions
+
+* [Remove Artifacts](https://github.com/c-hive/gha-remove-artifacts)
+
 ### Helms actions
 
 * [Helm Chart Releaser](https://github.com/helm/chart-releaser-action)
