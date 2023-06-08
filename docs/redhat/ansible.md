@@ -46,25 +46,31 @@
 ### Additional content
 
 * [Ansible CLI](./ansible-cli.md)
-* [Ansible Roles](./ansible-roles.md)
 * [Ansible Galaxy](./ansible-galaxy.md)
+* [Ansible Roles](./ansible-roles.md)
 
 ### Getting started
 
 * [docs.ansible.com](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
 * [ansible.com](https://www.ansible.com/resources/get-started)
 
-### Learning paths
+### Learning path
 
-* [devpro/infrastructure-automation-guide](https://github.com/devpro/infrastructure-automation-guide/blob/main/docs/learning-path.md#ansible)
+* Introduction videos
+  * [ ] [Quick start video](https://www.ansible.com/resources/videos/quick-start-video)
+  * [ ] [What is Ansible (TechWorld)](https://www.youtube.com/watch?v=1id6ERvfozo)
+  * [ ] [You need to learn Ansible right now! (NetworkCheck)](https://www.youtube.com/watch?v=5hycyr-8EKs)
+
+* Skill assessment
+  * [ ] [Configuration Management Using Ansible](https://app.pluralsight.com/paths/skills/configuration-management-using-ansible) on Pluralsight
+
+* Courses
+  * [ ] [Ansible Fundamentals](https://app.pluralsight.com/library/courses/ansible-fundamentals/table-of-contents) on Pluralsight
+  * [ ] [Automating Networks with Ansible the Right Way](https://app.pluralsight.com/library/courses/automating-networks-ansible-right-way/table-of-contents) on Pluralsight
 
 ### Tutorials
 
-* [How To Manage Remote Servers with Ansible (DigitalOcean)](https://www.digitalocean.com/community/tutorial_series/how-to-manage-remote-servers-with-ansible)
-
-### Playgrounds
-
-* [KataCoda](https://www.katacoda.com/courses/ansible/playground) (with [Courses](https://www.katacoda.com/courses/ansible))
+* [How To Manage Remote Servers with Ansible, by DigitalOcean](https://www.digitalocean.com/community/tutorial_series/how-to-manage-remote-servers-with-ansible)
 
 ## Guides
 

@@ -20,7 +20,16 @@
 
 ### Training
 
-- [Pluralsight - Managing Infrastructure with Terraform](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform)
+- Skill assessment
+  - [ ] [Managing Infrastructure with Terraform, by Pluralsight](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform)
+
+- Courses
+  - [ ] [Terraform Getting Started, by Pluralsight](https://app.pluralsight.com/library/courses/getting-started-terraform/table-of-contents)
+  - [ ] [Terraform Deep Dive, by Pluralsight](https://app.pluralsight.com/library/courses/terraform-deep-dive/table-of-contents)
+  - [ ] [Implementing Terraform on Microsoft Azure, by Pluralsight](https://app.pluralsight.com/library/courses/implementing-terraform-microsoft-azure/table-of-contents)
+
+- Path
+  - [ ] [Managing Infrastructure with Terraform, by Pluralsight](https://app.pluralsight.com/paths/skills/managing-infrastructure-with-terraform)
 
 ### IDE (Integrated Development Environment)
 
