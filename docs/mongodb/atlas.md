@@ -1,20 +1,17 @@
 # MongoDB Atlas
 
-→ [Atlas Cloud (platform as a service)](https://cloud.mongodb.com/)
+> MongoDB Atlas is an integrated suite of data services centered around a cloud database designed to accelerate and simplify how you build with data.
 
-MongoDB Atlas is the Cloud solution to easily manage MongoDB clusters. You can create a free cluster with only one email address (no credit card required).
-
-* [Getting started](https://docs.atlas.mongodb.com/getting-started/)
-* [Improving MongoDB Performance with Automatically Generated Index Suggestions](https://www.mongodb.com/blog/post/improving-mongodb-performance-with-automatically-generated-index-suggestions)
-
-Do not forget to look at the Security page of your cluster, in particulier for the IP restriction (white list).
+→ [MongoDB Atlas Database](https://www.mongodb.com/atlas/database), [MongoDB Cloud Services](https://www.mongodb.com/cloud), [docs](https://www.mongodb.com/docs/atlas/), [Resources](https://www.mongodb.com/resources)
 
 ## Features
 
-### Administration API
+* [Atlas Administration API](https://docs.atlas.mongodb.com/api/atlas-admin-api/)
+* [Atlas Compute Auto-Scaling and Data Infrastructure as Code at MongoDB.local London](https://www.mongodb.com/blog/post/atlas-compute-autoscaling-data-infrastructure-as-code-and-more-at-mongodblocal-london) - September 26, 2019
+* Cloud providers: Amazon Web Services, Google Cloud Platform, Microsoft Azure
+* [MongoDB Atlas Kubernetes Operator](https://github.com/mongodb/mongodb-atlas-kubernetes)
 
-* [Documentation](https://docs.atlas.mongodb.com/api/atlas-admin-api/)
+## Getting started
 
-### Search
-
-* [100x Faster Facets with MongoDB Atlas Search: Public Preview](https://www.mongodb.com/blog/post/100x-faster-facets-mongodb-atlas-search-public-preview) - November 9, 2021
+* [Get Started with Atlas](https://www.mongodb.com/docs/atlas/getting-started/)
+* [Optimizing Your MongoDB Deployment with Performance Advisor](https://www.mongodb.com/blog/post/optimizing-mongodb-deployment-performance-advisor) - November 22, 2022

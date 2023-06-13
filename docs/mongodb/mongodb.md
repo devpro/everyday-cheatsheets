@@ -2,7 +2,7 @@
 
 > MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 
-→ [mongodb.com](https://www.mongodb.com/), [Github](https://github.com/mongodb), [Twitter](https://twitter.com/MongoDB), [developer.mongodb.com](https://developer.mongodb.com)
+→ [mongodb.com](https://www.mongodb.com/), [Github](https://github.com/mongodb), [developer.mongodb.com](https://developer.mongodb.com)
 
 ## Learn
 
@@ -11,31 +11,148 @@
 * [Documentation](https://docs.mongodb.com/)
 * [Resources](https://www.mongodb.com/resources): presentations, webinars, white papers
 * [MongoDB University](https://university.mongodb.com/)
+* [Engineering Journal](https://engineering.mongodb.com/)
+* [SlideShare](https://www.slideshare.net/MongoDB)
+* [Videos](https://www.mongodb.com/presentations)
 
 ### Key features
 
-#### Sharding
+* Flexible schema
+* Performance
+* High Availability
+  * Primary / Secondaries architecture
+* BSON storage (Binary JSON)
+  * [GeoJSON Objects](https://docs.mongodb.com/manual/reference/geojson/) support of [GeoJson format](http://geojson.org/) for encoding a variety of geographic data structures
+* ACID transactions
+  * [The cost of MongoDB ACID transactions in theory and practice](http://henrikingo.github.io/presentations/Highload%202018%20-%20The%20cost%20of%20MongoDB%20ACID%20transactions%20in%20theory%20and%20practice/index.html#/markdown)
+* Sharding
+  * [Database Sharding: Concepts and Examples](https://www.mongodb.com/features/database-sharding-explained)
 
-* [Database Sharding: Concepts and Examples](https://www.mongodb.com/features/database-sharding-explained)
+#### Replication
+
+[Manual](https://docs.mongodb.com/manual/replication/)
+
+A _replica set_ is a group of `mongod` processes that maintain the same data set. Replica sets provide redundancy and high availability.
+
+A node of the replica set can be: Primary, Secondary, Arbitrer.
+
+##### Read preference
+
+[Manual](https://docs.mongodb.com/manual/core/read-preference/)
+
+##### Write concern
+
+[Manual](https://docs.mongodb.com/manual/reference/write-concern/)
+
+##### Read concern
+
+[Manual](https://docs.mongodb.com/manual/reference/read-concern/)
+
+#### Indexing
+
+[Manual](https://docs.mongodb.com/manual/indexes/) [Query Plans](https://docs.mongodb.com/manual/core/query-plans/) [Limits](https://docs.mongodb.com/manual/reference/limits/#indexes) [Analyze Query Performance](https://docs.mongodb.com/manual/tutorial/analyze-query-plan/)
+
+MongoDB indexes use a [B-tree](https://en.wikipedia.org/wiki/B-tree) data structure.
+
+Indexes gets have better read time but have an impact on write time.
+
+Index Types:
+
+* Single Field
+* Compound Index
+* Multikey Index
+* Geospatial Index
+* Text Indexes
+* Hashed Indexes
+
+Index Properties:
+
+* Unique Indexes
+* Partial Indexes
+* Sparse Indexes
+* TTL Indexes (Time To Live)
+
+See also [Performance Best Practices: Indexing](https://www.mongodb.com/blog/post/performance-best-practices-indexing) - February 12, 2020
+
+#### Performance
+
+[Manual](https://docs.mongodb.com/manual/administration/analyzing-mongodb-performance/)
+
+#### Storage engine
+
+The storage engine that is used can be seen with the command `db.serverStatus()`. It is a `mongod` option: `--storageEngine`.
+
+In March 2015, there were two choices: MMAPv1 (original) and WiredTiger (new).
+
+**Wired Tiger** is new in MongoDB 3.0. It is the first pluggable storage engine.
+
+Features:
+
+* Document level locking
+* Compression
+  * Snappy (default) - fast
+  * Zlib - more compression
+  * None
+* Lacks some pitfalls of MMAPv1
+* Performance gains
+
+Background:
+
+* Built separately from MongoDB
+* Used by other's DB
+* Open source
+
+Internals:
+
+* Stores data in btrees
+* Writes are initially separate, incorporated later
+* Two caches
+  * WT caches - 1/2 of RAM (default)
+  * FS cache
+* Checkpoint: every minute or more
+* No need for a journal
+
+#### Transactions
+
+* [Presentation](https://www.mongodb.com/transactions)
+* [Documentation](https://docs.mongodb.com/manual/core/transactions/)
+
+#### High availability
+
+* [MongoDB and Jepsen](https://www.mongodb.com/jepsen)
+  * [jepsen.io](http://jepsen.io/)
+  * [jepsen-io/jepsen](https://github.com/jepsen-io/jepsen)
+  * [wikipedia Raft](https://en.wikipedia.org/wiki/Raft_(computer_science))
+  * [Raft - The Understandable Distributed Protocol](https://www.infoq.com/presentations/raft/)
+
+#### Data types
+
+[Quick Start: BSON Data Types - ObjectId](https://www.mongodb.com/blog/post/quick-start-bson-data-types--objectid)
 
 ### Products
 
 * [Atlas](./atlas.md)
 * [Compass](./compass.md)
-* [Evergreen](./evergreen.md)
 * [Ops Manager](./mongodb-opsmanager.md)
 
-### News
+### Getting further
 
 * [Events](./mongodb-events.md)
+* [News](./mongodb-news.md)
+
+### Recipes
+
+* Store large data: [GridFS](https://docs.mongodb.com/manual/core/gridfs/)
+  * [mongofiles](https://docs.mongodb.com/manual/reference/program/mongofiles)
+  * [Building MongoDB Applications with Binary Files Using GridFS](https://www.mongodb.com/blog/post/building-mongodb-applications-binary-files-using-gridfs-part-1)
 
 ## Releases
 
-Version | Date | More
-------- | ---- | ----
-[`5.0`](./mongodb-50.md) | |
-`4.4` | _June 09, 2020_ | [Annoucement](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud), [Paper](https://webassets.mongodb.com/MongoDB_Whats_New_4.4.pdf)
-[`4.2`](./mongodb-42.md) | |
+Version                  | Date            | More
+------------------------ | --------------- | ----
+[`5.0`](./mongodb-50.md) |                 |
+`4.4`                    | _June 09, 2020_ | [Annoucement](https://www.mongodb.com/blog/post/announcing-mongodb-44--mongodb-cloud), [Paper](https://webassets.mongodb.com/MongoDB_Whats_New_4.4.pdf)
+[`4.2`](./mongodb-42.md) |                 |
 
 ## First steps
 
@@ -142,43 +259,6 @@ mongostat
 
 → [docs.mongodb.com/program/mongo](https://docs.mongodb.com/manual/reference/program/mongo)
 
-### Mongo CLI
-
-```javascript
-// display current db
-db
-// display the existing collections on the db
-show dbs
-// get DB version
-db.version()
-// display help
-db.help()
-// get current operation
-db.currentOp()
-// display the existing collections on the db
-show collections
-
-// connect to db "training"
-use training
-// execute commands from a javascript file
-load("my_file.js")
-// display all entries in "movies" collection with a nice display
-db.movies.find().pretty()
-// remove one entry with its id
-db.movies.remove({ "_id" : ObjectId("59e334a1a48ad3d58f40bb00") })
-// display statistics on a collection
-db.movieDetails.stat()
-// rename a collection
-db.cars.renameCollection("car")
-
-// display startup log
-use local
-db.startup_log.find().pretty()
-
-// exit the shell (or Ctrl+C)
-quit()
-```
-
 ### MongoDB Shell (mongosh)
 
 Introduced in June 2020, avalable as a standalone package, it provides a fully functional JavaScript/Node.js environment for interacting with MongoDB deployments. It can be used to test queries and operations directly with one database.
@@ -230,12 +310,8 @@ You'll need Python (2 or 3) to install and use it.
 pip install mtools
 ```
 
-#### dbKoda
-
-Graphical client for MongoDB databases: [dbkoda.com](https://www.dbkoda.com/) and [github.com/SouthbankSoftware/dbkoda](https://github.com/SouthbankSoftware/dbkoda).
-
 ## Deployment typologies
 
 ### MongoDB & OVH
 
-- [FR - OVHcloud et MongoDB s’allient pour proposer une solution facilitant l’innovation des données dans le cloud](https://www.developpez.net/forums/d2109067/logiciels/solutions-d-entreprise/cloud-computing/ovhcloud-mongodb-s-allient-proposer-solution-facilitant-l-innovation-donnees-cloud/) - May 28, 2021
+* [FR - OVHcloud et MongoDB s’allient pour proposer une solution facilitant l’innovation des données dans le cloud](https://www.developpez.net/forums/d2109067/logiciels/solutions-d-entreprise/cloud-computing/ovhcloud-mongodb-s-allient-proposer-solution-facilitant-l-innovation-donnees-cloud/) - May 28, 2021
