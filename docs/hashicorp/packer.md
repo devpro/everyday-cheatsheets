@@ -8,14 +8,19 @@
 
 * Install the tool through the [download Packer](https://www.packer.io/downloads)
 
-## Learn
+## Tutorials
 
-* Follow [Provision Infrastructure with Packer](https://learn.hashicorp.com/tutorials/terraform/packer) tutorial
+* [HashiCorp Lean](https://learn.hashicorp.com/packer)
+  * [Provision Infrastructure with Packer](https://learn.hashicorp.com/tutorials/terraform/packer)
 
-## Reference
+## References
 
 ## Packer CLI
 
-Command |	Action
-------- | ------
+Command  |	Action
+-------- | ------
 `packer` | Displays basic commands
+
+## Examples
+
+* [geerlingguy/packer-boxes](https://github.com/geerlingguy/packer-boxes)
