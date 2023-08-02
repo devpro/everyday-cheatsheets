@@ -41,6 +41,9 @@
   * [GitHub](./docs/microsoft/github.md)
     * [GitHub Actions](./docs/microsoft/github-actions.md)
   * [GitLab](./docs/gitlab.md)
+    * [Gitlab Pages](./docs/gitlab/gitlab-pages.md)
+    * [Gitlab Pipelines](./docs/gitlab/gitlab-pipelines.md)
+    * [Gitlab Runners](./docs/gitlab/gitlab-runners.md)
   * Nexus
   * [Promyze](./docs/promyze.md)
   * RunDeck
