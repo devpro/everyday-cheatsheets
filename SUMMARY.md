@@ -20,7 +20,7 @@
     * [Stripe](./docs/stripe.md)
   * [Testing](./docs/architecture/testing.md)
 * Code lifecycle (ALM)
-  * Artifactory
+  * [Artifactory](./docs/jfrog/artifactory.md)
   * [Automation Pipelines](./docs/automation-pipelines.md)
     * [Argo CD](./docs/cncf/argo-cd.md)
     * [CircleCI](./docs/circleci.md)
