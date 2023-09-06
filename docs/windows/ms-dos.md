@@ -15,5 +15,6 @@ mklink /D existing_path new_path
 
 ## Recipes
 
+- Delete subversion files: `FOR /F "tokens=*" %G IN ('DIR /B /AD /S *.svn*') DO RMDIR /S /Q "%G"`
 - Rename files by adding a prefix: `FOR %v IN (*.*) DO REN %v prefix%v`
 - [Scott Hanselman - Enjoy some DOS Games this Christmas with DOSBox](https://www.hanselman.com/blog/EnjoySomeDOSGamesThisChristmasWithDOSBox.aspx)
