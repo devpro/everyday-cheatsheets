@@ -227,7 +227,7 @@
     * [eBPF](./docs/ebpf.md)
     * [Linux Kernel](./docs/linux/linux-kernel.md)
     * [openSUSE](./docs/suse/opensuse.md)
-    * [Rocky](./docs/linux/rocky.md)   
+    * [Rocky](./docs/linux/rocky.md)
     * [SLES](./docs/suse/sles.md)
     * [Ubuntu](./docs/linux/ubuntu.md)
   * [Windows Server](./docs/windows/windows-server.md)
@@ -245,5 +245,7 @@
 ## Join
 
 * [Companies](./docs/companies.md)
+  * [HashiCorp](docs/hashicorp/hashicorp.md)
+  * [Red Hat](docs/redhat/redhat.md)
   * [SUSE](./docs/suse/suse.md)
     * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)

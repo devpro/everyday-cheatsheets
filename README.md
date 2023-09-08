@@ -137,7 +137,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [Puppet](./docs/puppet.md)
 * [Python](./docs/python/python.md)
 * [QGIS](./docs/qgis.md)
-* Red Hat
+* [Red Hat](docs/redhat/redhat.md)
   * [Ansible](./docs/redhat/ansible.md)
 * [RabbitMQ](./docs/rabbitmq.md)
 * [Redis](./docs/redis.md)
