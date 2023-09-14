@@ -7,3 +7,7 @@
 ## News
 
 * [November 2021 update](https://fluxcd.io/blog/2021/11/november-2021-update/) - October 29, 2021
+
+## Additional content
+
+* [onedr0p/flux-cluster-template](https://github.com/onedr0p/flux-cluster-template)
