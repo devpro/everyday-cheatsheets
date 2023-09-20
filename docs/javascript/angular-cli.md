@@ -4,10 +4,10 @@
 
 ## Releases
 
-Version | Date | More
-------- | ---- | ----
-`13.0` | | [blog.ninja-squad.com](https://blog.ninja-squad.com/2021/11/03/angular-cli-13.0/)
-`12.0` | | [blog.ninja-squad.com](https://blog.ninja-squad.com/2021/05/12/angular-cli-12.0/)
+Version | Date | Links
+--------|------|----------------------------------------------------------------------------------
+`13.0`  |      | [blog.ninja-squad.com](https://blog.ninja-squad.com/2021/11/03/angular-cli-13.0/)
+`12.0`  |      | [blog.ninja-squad.com](https://blog.ninja-squad.com/2021/05/12/angular-cli-12.0/)
 
 ### Setup
 
@@ -15,6 +15,12 @@ Version | Date | More
 # install the CLI globally
 npm install -g @angular/cli
 ```
+
+### Cheat sheet
+
+Command  | Action
+---------|------------------------------------------------------------
+`ng new` | Create a new Angular application with interactive questions
 
 ## Recipes
 
