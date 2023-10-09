@@ -102,6 +102,10 @@ Readings:
 
 * [BenchmarkDotNet](https://benchmarkdotnet.org) ([GitHub](https://github.com/dotnet/BenchmarkDotNet))
 
+### Local debugging
+
+* Certificate management: [Stackoverflow questions](https://stackoverflow.com/questions/56409580/trouble-trusting-local-https-certificate-in-asp-net-core)
+
 ### Others
 
 * [App Metrics](https://www.app-metrics.io/)
