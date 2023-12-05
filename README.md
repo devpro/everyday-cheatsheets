@@ -36,7 +36,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [cri-o](./docs/cncf/cri-o.md)
   * [Dapr](./docs/cncf/dapr.md)
   * [Envoy](./docs/cncf/envoy.md)
-  * [Falco](./docs/cncf/falco.md)
   * [Fluentd](./docs/cncf/fluentd.md)
   * [Flux](./docs/cncf/flux.md)
   * [Keptn](./docs/cncf/keptn.md)

@@ -16,7 +16,6 @@
 * [Containerd](./containerd.md)
 * [cri-o](./cri-o.md)
 * [Envoy](./envoy.md)
-* [Falco](./falco.md)
 * [Fluentd](./fluentd.md)
 * [Keptn](./keptd.md)
 * [Kubernetes](./kubernetes.md)
