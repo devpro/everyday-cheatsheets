@@ -27,7 +27,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Testing](./docs/architecture/testing.md)
 * [CircleCI](./docs/circleci.md)
 * [Companies](./docs/companies.md)
-* [Concourse](./docs/concourse/concourse.md)
 * [Cloud Native Application Bundle (CNAB)](./docs/cnab.md)
 * [Cloud Native Computing Foundation (CNCF)](./docs/cncf/cncf.md)
   * [Argo CD](./docs/cncf/argo-cd.md)

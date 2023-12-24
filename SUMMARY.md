@@ -24,8 +24,6 @@
   * [Automation Pipelines](./docs/automation-pipelines.md)
     * [Argo CD](./docs/cncf/argo-cd.md)
     * [CircleCI](./docs/circleci.md)
-    * [Concourse](./docs/concourse/concourse.md)
-      * [fly](./docs/concourse/fly.md)
     * [Flux](./docs/cncf/flux.md)
     * [Harness](./docs/harness/harness.md)
     * [Jenkins](./docs/cd-foundation/jenkins.md)
