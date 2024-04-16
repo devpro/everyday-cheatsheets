@@ -12,7 +12,7 @@
 
 Name | Type | Technology | Archi | Cloud? | Components
 ---- | ---- | ---------- | ----- | ------ | ----------
-[Ansible](../redhat/ansible.md) | Configuration Management | Yaml | Agentless | All | Modules, Playbooks
+Ansible | Configuration Management | Yaml | Agentless | All | Modules, Playbooks
 [Bicep](https://github.com/Azure/bicep) | | Bicep | | Azure |
 [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/) | | Json | | Azure |
 Chef | | | | |

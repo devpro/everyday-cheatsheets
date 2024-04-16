@@ -76,7 +76,6 @@
     * [RKE](./docs/suse/rke.md)
   * [Open Application Model (OAM)](./docs/oam.md)
   * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
-  * [Quay](./docs/redhat/quay.md)
   * [Unleash](./docs/unleash.md)
 * Data storage
   * [Elasticsearch](./docs/elastic/elasticsearch.md)
@@ -185,14 +184,6 @@
     * [Odroid](./docs/odroid.md)
     * [Raspberry Pi](./docs/raspberrypi.md)
 * Infrastructure automation
-  * [Ansible](./docs/redhat/ansible.md)
-    * [Ansible CLI](./docs/redhat/ansible-cli.md)
-    * [Ansible Modules](./docs/redhat/ansible-modules.md)
-    * [Ansible Playbooks](./docs/redhat/ansible-playbooks.md)
-    * [Ansible Inventory](./docs/redhat/ansible-inventory.md)
-    * [Ansible Roles](./docs/redhat/ansible-roles.md)
-    * [Ansible Galaxy](./docs/redhat/ansible-galaxy.md)
-    * [Ansible Collections](./docs/redhat/ansible-collections.md)
   * Azure Resource Manager
   * [Packer](./docs/packer.md)
   * [Pulumi](./docs/pulumi.md)
@@ -236,13 +227,10 @@
 ## Optimize
 
 * [DevOps](./docs/devops.md)
-* Engineering
-  * [Best practices](./docs/engineering/best-practices.md)
 
 ## Join
 
 * [Companies](./docs/companies.md)
   * [HashiCorp](docs/hashicorp/hashicorp.md)
-  * [Red Hat](docs/redhat/redhat.md)
   * [SUSE](./docs/suse/suse.md)
     * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)
