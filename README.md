@@ -98,9 +98,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [webpack](./docs/javascript/webpack.md)
   * [Yarn](./docs/javascript/yarn.md)
 * [Jekyll](./docs/jekyll.md)
-* JetBrains
-  * [PhpStorm](./docs/jetbrains/phpstorm.md)
-  * [TeamCity](./docs/jetbrains/teamcity.md)
 * [k3d](./docs/k3d.md)
 * [Keycloak](./docs/keycloak.md)
 * [Knative](./docs/knative.md)
