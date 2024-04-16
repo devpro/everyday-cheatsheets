@@ -139,7 +139,6 @@
   * [TypeScript](./docs/javascript/typescript.md)
 * Messaging
   * [Azure Service Bus](./docs/microsoft/azureservicebus.md)
-  * [Kafka](./docs/apache/kafka.md)
   * [RabbitMQ](./docs/rabbitmq.md)
 * [Testing](./docs/architecture/testing.md)
   * [Cypress](./docs/javascript/cypress.md)

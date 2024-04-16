@@ -10,8 +10,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 
 ## Topics
 
-* Apache Software Foundation
-  * [Kafka](./docs/apache/kafka.md)
 * Architecture
   * [API Management](./docs/architecture/api-management.md)
   * [Automation Pipelines](./docs/automation-pipelines.md)
