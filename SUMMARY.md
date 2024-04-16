@@ -76,7 +76,6 @@
   * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
   * [Unleash](./docs/unleash.md)
 * Data storage
-  * [Elasticsearch](./docs/elastic/elasticsearch.md)
   * MySQL
   * [MongoDB](./docs/mongodb/mongodb.md)
     * [Atlas](./docs/mongodb/atlas.md)
@@ -193,10 +192,6 @@
   * [HAProxy](./docs/haproxy.md)
   * [nginx](./docs/nginx.md)
 * Observability
-  * [Elastic Stack](./docs/elastic/elastic-stack.md)
-    * [Elasticsearch](./docs/elastic/elasticsearch.md)
-    * [Kibana](./docs/elastic/kibana)
-    * [Logstash](./docs/elastic/logstash.md)
   * [Grafana Labs](./docs/grafana/grafana-labs.md)
     * [Grafana](./docs/grafana/grafana.md)
     * [Loki](./docs/grafana/loki.md)

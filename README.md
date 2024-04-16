@@ -64,11 +64,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [NuGet](./docs/dotnet/nuget.md)
   * [WPF](./docs/dotnet/wpf.md)
 * [eBPF](./docs/ebpf.md)
-* Elastic
-  * [Elastic Stack](./docs/elastic/elastic-stack.md)
-  * [Elasticsearch](./docs/elastic/elasticsearch.md)
-  * [Kibana](./docs/elastic/kibana)
-  * [Logstash](./docs/elastic/logstash.md)
 * [Firebase](./docs/firebase.md)
 * [GitLab](./docs/gitlab.md)
 * [Go](./docs/go.md)
