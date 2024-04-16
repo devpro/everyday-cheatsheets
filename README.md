@@ -64,7 +64,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [eBPF](./docs/ebpf.md)
 * [Firebase](./docs/firebase.md)
 * [GitLab](./docs/gitlab.md)
-* [Go](./docs/go.md)
 * [Grafana Labs](./docs/grafana/grafana-labs.md)
 * [GraphQL](./docs/graphql.md)
 * Google

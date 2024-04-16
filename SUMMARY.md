@@ -126,7 +126,6 @@
   * [C#](./docs/dotnet/csharp.md)
     * [C# 8.0](./docs/dotnet/csharp80.md)
   * [ECMAScript](./docs/javascript/ecmascript.md)
-  * [Go](./docs/go.md)
   * [GraphQL](./docs/graphql.md)
   * [JavaScript](./docs/javascript/javascript.md)
     * [webpack](./docs/javascript/webpack.md)
