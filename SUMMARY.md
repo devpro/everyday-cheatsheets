@@ -35,7 +35,6 @@
   * [Azure DevOps](./docs/microsoft/azure-devops.md)
     * [Azure Pipelines](./docs/microsoft/azure-pipelines.md)
   * Chef
-  * [Git](./docs/git.md)
   * [GitHub](./docs/microsoft/github.md)
     * [GitHub Actions](./docs/microsoft/github-actions.md)
   * [GitLab](./docs/gitlab.md)
