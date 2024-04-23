@@ -121,7 +121,6 @@
   * [Symfony](./docs/php/symfony.md)
 * IDE
   * [Visual Studio 2022](./docs/microsoft/vs2022.md)
-  * [Visual Studio Code](./docs/microsoft/vscode.md)
 * Languages
   * [C#](./docs/dotnet/csharp.md)
     * [C# 8.0](./docs/dotnet/csharp80.md)
@@ -145,7 +144,6 @@
 * [Workstation](./docs/workstation.md)
   * [QGIS](./docs/qgis.md)
   * [Visual Studio 2019](./docs/dotnet/vs2019.md)
-  * [Visual Studio Code](./docs/microsoft/vscode.md)
   * [Windows 10](./docs/windows/windows10.md)
   * [Windows Subsystem for Linux](./docs/windows/wsl.md)
 

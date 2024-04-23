@@ -106,7 +106,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Microsoft Graph](./docs/microsoft/microsoft-graph.md)
   * [SharePoint Framework](./docs/microsoft/spfx.md)
   * [Visual Studio 2022](./docs/microsoft/vs2022.md)
-  * [Visual Studio Code](./docs/microsoft/vscode.md)
 * [MongoDB](./docs/mongodb/mongodb.md)
   * [Atlas](./docs/mongodb/atlas.md)
   * [Compass](./docs/mongodb/compass.md)
