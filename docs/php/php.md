@@ -174,10 +174,6 @@ foreach ($result as $entry) {
 
 Reference: [Using the PHP Library for MongoDB (PHPLIB)](http://php.net/manual/en/mongodb.tutorial.library.php).
 
-## Frameworks
-
-* [Symfony](./symfony.md)
-
 ### Libraries
 
 - [Pimple](https://pimple.symfony.com/): A simple PHP Dependency Injection Container

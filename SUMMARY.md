@@ -24,7 +24,6 @@
     * [Argo CD](./docs/cncf/argo-cd.md)
     * [CircleCI](./docs/circleci.md)
     * [Flux](./docs/cncf/flux.md)
-    * [Harness](./docs/harness/harness.md)
     * [Jenkins](./docs/cd-foundation/jenkins.md)
     * [Keptn](./docs/cncf/keptn.md)
     * [Spinnaker](./docs/cd-foundation/spinnaker.md)
@@ -118,7 +117,6 @@
   * [React](./docs/javascript/reactjs.md)
     * [React Native](./docs/javascript/react-native.md)
   * [Redux](./docs/javascript/redux.md)
-  * [Symfony](./docs/php/symfony.md)
 * IDE
   * [Visual Studio 2022](./docs/microsoft/vs2022.md)
 * Languages
@@ -210,7 +208,6 @@
 * Virtualization
   * [Hyper-V](./docs/windows/hyper-v.md)
   * [Vagrant](./docs/hashicorp/vagrant.md)
-  * [VirtualBox](./docs/oracle/virtualbox.md)
 
 ## Optimize
 

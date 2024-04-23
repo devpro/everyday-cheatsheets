@@ -70,7 +70,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Google Cloud](./docs/google/google-cloud.md)
 * [gRPC](./docs/grpc.md)
 * [HAProxy](./docs/haproxy.md)
-* [Harness](./docs/harness/harness.md)
 * [HashiCorp](./docs/hashicorp.md)
   * [Packer](./docs/packer.md)
   * [Terraform](./docs/hashicorp/terraform.md)
@@ -111,10 +110,7 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
   * [Compass](./docs/mongodb/compass.md)
 * [nginx](./docs/nginx.md)
 * [Open Application Model (OAM)](./docs/oam.md)
-* Oracle
-  * [VirtualBox](./docs/oracle/virtualbox.md)
 * [PHP](./docs/php/php.md)
-  * [Symfony](./docs/php/symfony.md)
 * [PostgreSQL](./docs/postgresql.md)
 * [Pulumi](./docs/pulumi.md)
 * [Puppet](./docs/puppet.md)
