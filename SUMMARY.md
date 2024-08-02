@@ -165,9 +165,7 @@
     * [Azure Container Registry](./docs/microsoft/azure-container-registry.md)
     * [Azure Portal](./docs/microsoft/azure-portal.md)
     * [Azure Service Bus](./docs/microsoft/azure-service-bus.md)
-  * [Google Cloud](./docs/google/google-cloud.md)
-    * [Firebase](./docs/firebase.md)
-    * [gcloud CLI](./docs/google/gcloud-cli.md)
+  * [Firebase](./docs/firebase.md)
   * OVH
 * Hardware
   * Single-board computers

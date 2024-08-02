@@ -66,8 +66,6 @@ The online version is available at [everyday-cheatsheets.docs.devpro.fr](https:/
 * [GitLab](./docs/gitlab.md)
 * [Grafana Labs](./docs/grafana/grafana-labs.md)
 * [GraphQL](./docs/graphql.md)
-* Google
-  * [Google Cloud](./docs/google/google-cloud.md)
 * [gRPC](./docs/grpc.md)
 * [HAProxy](./docs/haproxy.md)
 * [HashiCorp](./docs/hashicorp.md)
