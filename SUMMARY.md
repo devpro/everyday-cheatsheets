@@ -24,20 +24,13 @@
     * [Argo CD](./docs/cncf/argo-cd.md)
     * [CircleCI](./docs/circleci.md)
     * [Flux](./docs/cncf/flux.md)
-    * [Jenkins](./docs/cd-foundation/jenkins.md)
     * [Keptn](./docs/cncf/keptn.md)
-    * [Spinnaker](./docs/cd-foundation/spinnaker.md)
-    * [Tekton](./docs/cd-foundation/tekton.md)
     * [Travis](./docs/travis.md)
   * [Azure DevOps](./docs/microsoft/azure-devops.md)
     * [Azure Pipelines](./docs/microsoft/azure-pipelines.md)
   * Chef
   * [GitHub](./docs/microsoft/github.md)
     * [GitHub Actions](./docs/microsoft/github-actions.md)
-  * [GitLab](./docs/gitlab.md)
-    * [Gitlab Pages](./docs/gitlab/gitlab-pages.md)
-    * [Gitlab Pipelines](./docs/gitlab/gitlab-pipelines.md)
-    * [Gitlab Runners](./docs/gitlab/gitlab-runners.md)
   * Nexus
   * [Promyze](./docs/promyze.md)
   * RunDeck
@@ -51,8 +44,6 @@
       * [Docker CLI](./docs/docker/docker-cli.md)
     * [containerd](./docs/cncf/containerd.md)
     * [cri-o](./docs/cncf/cri-o.md)
-  * [Cloud Foundry](./docs/cf-foundation/cloudfoundry.md)
-    * [Buildpacks](docs/cf-foundation/buildpacks.md)
   * [CNAB](./docs/cnab.md)
   * [Dapr](./docs/cncf/dapr.md)
   * [Envoy](./docs/cncf/envoy.md)
@@ -63,16 +54,11 @@
     * [etcd](./docs/cncf/etcd.md)
     * [Helm](./docs/cncf/helm.md)
     * [k3d](./docs/k3d.md)
-    * [K3s](./docs/suse/k3s.md)
     * [kind](./docs/cncf/kind.md)
     * [Kubectl](./docs/cncf/kubectl.md)
     * [MetalLB](./docs/cncf/metallb.md)
     * [Minikube](./docs/cncf/minikube.md)
-    * [Rancher](./docs/suse/rancher.md)
-    * [Rancher Desktop](./docs/suse/rancher-desktop.md)
-    * [RKE](./docs/suse/rke.md)
   * [Open Application Model (OAM)](./docs/oam.md)
-  * [Open Service Broker Api](./docs/cf-foundation/openservicebrokerapi.md)
   * [Unleash](./docs/unleash.md)
 * Data storage
   * MySQL
@@ -198,9 +184,7 @@
     * [CentOS](./docs/linux/centos.md)
     * [eBPF](./docs/ebpf.md)
     * [Linux Kernel](./docs/linux/linux-kernel.md)
-    * [openSUSE](./docs/suse/opensuse.md)
     * [Rocky](./docs/linux/rocky.md)
-    * [SLES](./docs/suse/sles.md)
     * [Ubuntu](./docs/linux/ubuntu.md)
   * [Windows Server](./docs/windows/windows-server.md)
 * Virtualization
@@ -215,5 +199,3 @@
 
 * [Companies](./docs/companies.md)
   * [HashiCorp](docs/hashicorp/hashicorp.md)
-  * [SUSE](./docs/suse/suse.md)
-    * [SUSE Linux Enterprise](./docs/suse/suse-linux-enterprise.md)
